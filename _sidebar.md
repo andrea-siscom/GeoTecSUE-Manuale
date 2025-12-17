@@ -1,2 +1,0 @@
-- [Home](README.md)
-- [Testo](testo.md)
