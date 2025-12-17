@@ -1,7 +1,4 @@
 {
   "name": "Manuale GeoTecSUE",
-  "repo": "andrea-siscom/GeoTecSUE-Manuale",
-  "loadSidebar": true,
-  "subMaxLevel": 2,
-  "coverpage": true
+  "loadSidebar": true
 }
