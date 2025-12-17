@@ -1,7 +1,13 @@
-# Benvenuto in GeoTecSUE
+# Manuale utente GeoTecSUE
 
-Questo manuale descrive le funzionalità e l'utilizzo del progetto GeoTecSUE.
+Benvenuto nel manuale online di **GeoTecSUE**.
 
-- [Introduzione](#introduzione)
-- [Installazione](#installazione)
-- [Funzionalità](#funzionalità)
+Questo manuale ti accompagna passo dopo passo nell’utilizzo del portale per la presentazione e la gestione delle pratiche edilizie verso lo Sportello Unico per l’Edilizia.
+
+## Argomenti principali
+- [Accesso e profilo utente](#accesso-e-profilo)
+- [Nozioni di base](#nozioni-di-base)
+- [Inviare una nuova istanza](#invio-istanza)
+- [Allegati e firma digitale](#allegati-e-firma-digitale)
+- [Monitoraggio e stato della pratica](#monitoraggio-pratica)
+- [Ricerca delle pratiche](#ricerca-pratiche)
