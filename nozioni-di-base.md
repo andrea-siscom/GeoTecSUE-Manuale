@@ -36,3 +36,5 @@ Un esempio di **comunicazione** è la *Fine Lavori*.
 ### Integrazione
 
 L'**integrazione** (spontanea oppure richiesta) è simile alla comunicazione: può essere avviata solo in presenza di una pratica esistente. Non vive di "luce propria", ma è contenuta all'interno di una pratica.
+
+Gli enti possono decidere di inibire o consentire la trasmissione di integrazioni libere (o volontarie): pertanto il comportamento del **GeoTecSUE** è condizionato da quanto previsto dall'Ente stesso.
