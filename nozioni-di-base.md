@@ -2,6 +2,8 @@
 
 Questo capitolo introduce i concetti fondamentali e l'organizzazione generale del portale **GeoTecSUE**.
 
+---
+
 ## Cos'è GeoTecSUE
 
 **GeoTecSUE** è una piattaforma web che consente la trasmissione telematica delle pratiche edilizie alla *Pubblica Amministrazione*. Non è un sistema per la *conservazione* dei dati, ma un meccanismo di *transito* dal professionista verso l'Ente.
