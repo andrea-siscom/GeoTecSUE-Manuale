@@ -31,6 +31,6 @@ Un esempio di **pratica** è il *Permesso di Costruire*.
 La **comunicazione** è un'istanza che può essere avviata solo in presenza di una pratica già esistente: non vive di "luce propria", ma è "contenuta" all'interno di una pratica, andandone a definire un preciso comportamente.
 Un esempio di **comunicazione** è la *Fine Lavori*.
 
-## Integrazione
+### Integrazione
 
 L'**integrazione** (spontanea oppure richiesta) è simile alla comunicazione: può essere avviata solo in presenza di una pratica esistente. Non vive di "luce propria", ma è contenuta all'interno di una pratica.
