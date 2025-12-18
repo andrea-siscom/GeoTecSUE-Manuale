@@ -110,13 +110,13 @@ Questo stato può essere raggiunto solo da **Inviata SPRESALWEB (via MUDE)** e c
 
 ## Ciclo di vita di un'istanza: stati non utilizzati (o sconsigliati)
 
-## Rifiutata
+### Rifiutata
 
 Questo stato può essere raggiunto solo nel caso in cui l'Ente abbia ancora attiva la protocollazione manuale delle istanze e, prima della protocollazione della stessa, decida di optarre per un **rifiuto**.
 L'uso di questo stato è *sconsigliato*: meglio procedere con la protocollazione, la successiva registrazione e quindi con un'**archiviazione** oppure un **diniego**.
 Nel caso di **pratica rifiutata** non vengono associati numeri di protocollo e/o registrazione (nei sistemi dell'Ente non c'è traccia dell'istanza).
 
-## Verificata
+### Verificata
 
 La **verifica** di una pratica viene fatta dall'Ente per tutte le pratiche *asseverate* dal professionista: S.C.I.A., C.I.L.A., ecc...
 Tale **verifica** può essere fatta puntualmente oppure *a campione*, rispettando l'obbligo di un controllo in misura minima pari ad una determinata percentuale delle pratiche (ancora presente in alcune regioni).
