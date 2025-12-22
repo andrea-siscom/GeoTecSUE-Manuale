@@ -1,6 +1,6 @@
 ---
 title: Creazione di una nuova istanza
-permalink: /docs/non-presenti-geotecsue/
+permalink: /docs/nuova-istanza/
 ---
 
 # Creazione di una nuova istanza
