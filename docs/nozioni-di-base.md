@@ -19,11 +19,11 @@ Attraverso **GeoTecSUE** è possibile
 ## 1.2.2 Istanza, Pratica, Comunicazione e Integrazione
 
 Nel **GeoTecSUE** ci sono tre elementi fondamentali che possono essere ricondotti al concetto di **istanza**:
-- [Pratica]{#pratica}
+- [Pratica](#1-2-2-1-pratica)
 - [Comunicazione](#comunicazione)
 - [Integrazione](#integrazione)
 
-### 1.2.2.1 Pratica {#pratica}
+### 1.2.2.1 Pratica <a id="pratica"></a>
 
 La **pratica** è un'istanza che può essere avviata *indipendentemente*: vive di "luce propria", ha il suo *iter* e viene riconosciuta dalla *Pubblica Amministrazione* come un procedimento a sè stante.
 Un esempio di **pratica** è il *Permesso di Costruire*.
