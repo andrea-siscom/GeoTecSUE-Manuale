@@ -19,7 +19,7 @@ I motivi per cui non è possibile l'associazione sono fondamentalmente due:
 
 #### Pratica non presente sul gestionale
 
-Per poter *sanare* questa situazione, l'unico modo è un inserimento della pratica da parte dell'Ente.
+Per poter *sanare* questa situazione, l'unico modo è un inserimento della pratica sul gestionale da parte dell'Ente.
 
 #### Professionista non presente o associato ad altra figura
 
