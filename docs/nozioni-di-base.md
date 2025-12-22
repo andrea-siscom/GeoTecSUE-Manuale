@@ -19,7 +19,7 @@ Attraverso **GeoTecSUE** è possibile
 ## 1.2.2 Istanza, Pratica, Comunicazione e Integrazione
 
 Nel **GeoTecSUE** ci sono tre elementi fondamentali che possono essere ricondotti al concetto di **istanza**:
-- [Pratica](#pratica)
+- [Pratica]{#pratica}
 - [Comunicazione](#comunicazione)
 - [Integrazione](#integrazione)
 
