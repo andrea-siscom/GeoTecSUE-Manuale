@@ -8,3 +8,4 @@
 
 ### 2. Gestione delle pratiche
 - [Creazione di una nuova istanza](nuova-istanza.md)
+- [Gestione Istanze non presenti su GeoTecSUE](non-presenti-geotecsue.md)
