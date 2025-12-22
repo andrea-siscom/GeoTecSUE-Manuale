@@ -1,6 +1,6 @@
 # Invio di una nuova istanza
 
-Questo capitolo descrive le modalità di accesso al **GeoTecSUE** e le principali funzionalità disponibili per la gestione del proprio profilo
+Questo capitolo descrive come è possibile ini
 
 ---
 
