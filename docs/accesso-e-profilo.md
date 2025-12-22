@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Accesso al portale
 permalink: /docs/accesso-e-profilo
 ---
