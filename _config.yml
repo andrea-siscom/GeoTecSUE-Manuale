@@ -1,25 +1,46 @@
+# Site settings
 title: Manuale GeoTecSUE
-description: Guida utente per la presentazione delle pratiche edilizie
-remote_theme: just-the-docs/just-the-docs
+tagline: Guida operativa per professionisti
+description: >-
+  Manuale utente completo per l'utilizzo del portale GeoTecSUE 
+  dedicato alla presentazione delle pratiche edilizie.
 
-# Configurazione Just the Docs
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
+url: "https://andrea-siscom.github.io"
+baseurl: "/GeoTecSUE-Manuale"
 
-# Navigazione
-nav_enabled: true
-nav_sort: case_sensitive
+# Theme
+theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
 
-# Footer
-footer_content: "© 2025 GeoTecSUE - Manuale Utente"
+# Author
+social:
+  name: GeoTecSUE
+  links: []
 
-# Colori professionali per PA
-color_scheme: light
+# Timezone
+timezone: Europe/Rome
 
-# Plugin GitHub Pages
+# Language
+lang: it-IT
+
+# Avatar (opzionale - aggiungi un logo se vuoi)
+avatar: /assets/img/avatar.png
+
+# Sidebar
+sidebar:
+  nav: "docs"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
