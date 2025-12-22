@@ -1,0 +1,14 @@
+docs:
+  - title: Introduzione
+    children:
+      - title: Accesso al portale
+        url: /docs/accesso-e-profilo
+      - title: Nozioni di base
+        url: /docs/nozioni-di-base
+  
+  - title: Gestione delle pratiche
+    children:
+      - title: Creazione nuova istanza
+        url: /docs/nuova-istanza
+      - title: Istanze non presenti
+        url: /docs/non-presenti-geotecsue
