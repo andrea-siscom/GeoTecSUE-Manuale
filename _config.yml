@@ -1,0 +1,12 @@
+title: Manuale GeoTecSUE
+description: Documentazione GeoTecSUE
+theme: jekyll-theme-cayman
+markdown: kramdown
+
+# Impostazioni per GitHub Pages
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
