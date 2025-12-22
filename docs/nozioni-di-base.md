@@ -23,17 +23,17 @@ Nel **GeoTecSUE** ci sono tre elementi fondamentali che possono essere ricondott
 - [Comunicazione](#comunicazione)
 - [Integrazione](#integrazione)
 
-### Pratica
+### Pratica {#pratica}
 
 La **pratica** è un'istanza che può essere avviata *indipendentemente*: vive di "luce propria", ha il suo *iter* e viene riconosciuta dalla *Pubblica Amministrazione* come un procedimento a sè stante.
 Un esempio di **pratica** è il *Permesso di Costruire*.
 
-### Comunicazione
+### Comunicazione {#comunicazione}
 
 La **comunicazione** è un'istanza che può essere avviata solo in presenza di una pratica già esistente: non vive di "luce propria", ma è "contenuta" all'interno di una pratica, andandone a definire un preciso comportamente.
 Un esempio di **comunicazione** è la *Fine Lavori*.
 
-### Integrazione
+### Integrazione {#integrazione}
 
 L'**integrazione** (spontanea oppure richiesta) è simile alla comunicazione: può essere avviata solo in presenza di una pratica esistente. Non vive di "luce propria", ma è contenuta all'interno di una pratica.
 
