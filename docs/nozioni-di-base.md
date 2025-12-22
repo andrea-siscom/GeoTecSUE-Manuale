@@ -1,3 +1,9 @@
+---
+layout: page
+title: Nozioni di base
+permalink: /docs/nozioni-di-base
+---
+
 # Nozioni di base
 
 Questo capitolo introduce i concetti fondamentali e l'organizzazione generale del portale **GeoTecSUE**.
