@@ -1,16 +1,20 @@
+---
+layout: home
+title: Home
+nav_order: 1
+---
+
 # Manuale utente GeoTecSUE
 
 Manuale operativo per l'utilizzo del portale **GeoTecSUE** dedicato ai professionisti.
 
 ---
 
- ## Informazioni sul manuale
+## Informazioni sul manuale
 
-**Versione corrente:** 1.0.0
-
-**Ultimo aggiornamento:** 22/12/2025
-
-[Cronologia completa delle modifiche](CHANGELOG.html)
+**Versione corrente:** 1.0.0  
+**Ultimo aggiornamento:** 22/12/2025  
+[Cronologia completa delle modifiche](CHANGELOG.md)
 
 ---
 
@@ -29,19 +33,18 @@ Puoi:
 ## Indice dei contenuti
 
 ### Introduzione
--  [Accesso al portale e gestione del profilo](docs/accesso-e-profilo.html)
--  [Nozioni di base](docs/nozioni-di-base.html)
+- [Accesso al portale e gestione del profilo](docs/accesso-e-profilo.md)
+- [Nozioni di base](docs/nozioni-di-base.md)
 
 ### Gestione delle pratiche
-- [Creazione di una nuova istanza](docs/nuova-istanza.html)
-- [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.html)
+- [Creazione di una nuova istanza](docs/nuova-istanza.md)
+- [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.md)
 
 ---
 
 ## Hai bisogno di aiuto?
 
 Se durante l'utilizzo del portale non trovi ciò che cerchi:
-
 - verifica di consultare **l'ultima versione del manuale**
 - utilizza la **guida in linea** disponibile nelle pagine del portale
 - contatta l'assistenza tecnica
@@ -51,5 +54,4 @@ Se durante l'utilizzo del portale non trovi ciò che cerchi:
 ## Note finali
 
 Il presente manuale è soggetto ad aggiornamenti periodici in funzione dell'evoluzione del portale **GeoTecSUE**.
-
 Le immagini e gli esempi riportati hanno scopo illustrativo.
