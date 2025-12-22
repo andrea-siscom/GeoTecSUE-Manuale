@@ -1,3 +1,8 @@
+---
+title: Gestione istanze non presenti su GeoTecSUE
+permalink: /docs/non-presenti-geotecsue/
+---
+
 # Gestione istanze non presenti su GeoTecSUE
 
 Questo capitolo descrive in che modo è possibile *importare* un'istanza non presente su **GeoTecSUE**.
