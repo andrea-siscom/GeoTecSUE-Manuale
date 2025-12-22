@@ -7,4 +7,4 @@
 -  [Nozioni di base](nozioni-di-base.md)
 
 ### 2. Gestione delle pratiche
-- [Invio di una nuova istanza](invio-istanza.md)
+- [Creazione di una nuova istanza](nuova-istanza.md)
