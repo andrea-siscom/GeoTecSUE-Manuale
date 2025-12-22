@@ -1,4 +1,4 @@
-# Invio di una nuova istanza
+# Creazione di una nuova istanza
 
 Questo capitolo descrive come è possibile ini
 
