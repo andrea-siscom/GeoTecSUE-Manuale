@@ -100,11 +100,13 @@ Questo stato è simile al precedente (**Archiviazione**) con la differenza che p
 
 Questo stato viene raggiunto nel caso in cui ci sia una contestazione da parte del titolare nei confronti del professionista originale della pratica e che quindi decida di *revocare* l'incarico. Come nei due casi precedenti (**archiviazione** e **diniego**) il professionista può vederla sulla sua scrivania del **GeoTecSUE** ma non può operare (non può inviare comunicazioni, integrazioni...).
 
-### Inviata SPRESALWEB (via MUDE)
+### Solo per Enti del Piemonte con Notifica Preliminare attivata
 
-Solo per gli Enti del Piemonte che hanno attivato la **Notifica Preliminare** con il **GeoTecSUE**: lo stato indica che la pratica è stata trasmessa al *MUDE* ed è in attesa di essere *protocollata*.
+#### Inviata SPRESALWEB (via MUDE)
 
-### Protocollata SPRESALWEB
+Lo stato indica che la **Notifica Preliminare** è stata trasmessa al *MUDE* ed è in attesa di essere *protocollata*.
+
+#### Protocollata SPRESALWEB
 
 Questo stato può essere raggiunto solo da **Inviata SPRESALWEB (via MUDE)** e conclude il procedimento di trasmissione della **Notifica Preliminare**. Nessun altro stato può essere raggiunto da questo.
 
