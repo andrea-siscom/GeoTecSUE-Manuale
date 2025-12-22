@@ -1,6 +1,7 @@
 # Site settings
 title: Manuale GeoTecSUE
-tagline: Guida operativa per professionisti
+title_separator: "|"
+subtitle: Guida operativa per professionisti
 description: >-
   Manuale utente completo per l'utilizzo del portale GeoTecSUE 
   dedicato alla presentazione delle pratiche edilizie.
@@ -9,38 +10,46 @@ url: "https://andrea-siscom.github.io"
 baseurl: "/GeoTecSUE-Manuale"
 
 # Theme
-theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Author
-social:
-  name: GeoTecSUE
-  links: []
+# Site Author
+author:
+  name: "GeoTecSUE"
+  bio: "Portale per pratiche edilizie"
 
-# Timezone
-timezone: Europe/Rome
-
-# Language
-lang: it-IT
-
-# Avatar (opzionale - aggiungi un logo se vuoi)
-avatar: /assets/img/avatar.png
-
-# Sidebar
-sidebar:
-  nav: "docs"
+# Reading Files
+include:
+  - _pages
 
 # Defaults
 defaults:
+  # _pages
   - scope:
-      path: ""
+      path: "_pages"
+      type: pages
     values:
-      layout: page
+      layout: single
+      author_profile: false
+  # _docs
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      sidebar:
+        nav: "docs"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
 
 plugins:
+  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Locale
+locale: "it-IT"
+timezone: Europe/Rome
