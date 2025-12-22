@@ -1,3 +1,8 @@
+---
+title: Creazione di una nuova istanza
+permalink: /docs/non-presenti-geotecsue/
+---
+
 # Creazione di una nuova istanza
 
 Questo capitolo descrive in che modo è possibile *creare* una nuova istanza.
