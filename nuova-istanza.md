@@ -1,22 +1,31 @@
 # Creazione di una nuova istanza
 
-Questo capitolo descrive come è possibile ini
+Questo capitolo descrive in che modo è possibile *creare* una nuova istanza.
 
 ---
 
-## Accesso al portale
+## Nuova Istanza
 
-L'accesso a **GeoTecSUE**, come previsto dal Decreto Legge "semplificazione e innovazione digitale" (link qui: https://innovazione.gov.it/dipartimento/focus/linee-guida-decreto-semplificazione/), è possibile mediante **SPID** e **CIE** (Carta di identità elettronica). 
-Queste due modalità rappresentano l'unico sistema di identificazione previsto per l'accesso ai servizi digitali.
-Se all'atto dell'accesso uno di questi sistemi (o entrambi) non fosse disponibile, è necessario contattare l'Ente e far attivare il sistema di accesso.
+Nel *menu principale*, alla voce **Le mie istanze** è possibile trovare la voce di sottomenu **Nuova Istanza**. 
+Cliccando su questa voce, il sistema consente la selezione della pratica dall'apposita tendina (*Selezione il tipo di Pratica*).
+Il fatto che una pratica possa (o meno) essere presente in questa tendina dipende esclusivamente dall'Ente: se, ad esempio, in un Comune non è presente alcun *Vincolo Idrogeologico* è corretto che in questa tendina non sia presente la pratica di **Autorizzazione al Vincolo Idrogeologico**.
+Una volta selezionata la tipologia di pratica è necessario (se previsto dall'Ente) selezionare anche il *tipo di intervento* dall'apposita tendina (*Tipo Intervento*).
+Nella parte sottostante è presente la *descrizione della pratica* e la lista degli *allegati obbligatori richiesti*.
 
-## Gestione del profilo
+Cliccando il bottone **Nuova** il sistema avvia una nuova istanza.
 
-Una volta effettuato il primo accesso, il sistema completa (parzialmente) il profilo con i dati provenienti dal sistema di accesso (**SPID** oppure **CIE**).
-Per poter modificare i propri dati, dopo aver effettuato l'accesso, è sufficiente andare nel *menu personale* in alto a destra (dove si trova il messaggio di benvenuto: "Bentornato, **Cognome Nome**) e cliccare la voce *Il mio profilo*.
-Il sistema aprirà la propria *Anagrafica* con la possibilità di modificare/integrare (quasi) tutti i dati (non è consentito modificare il proprio Cognome, Nome e Codice Fiscale).
+## Duplica Istanza
 
-## Durata della sessione
+Nel *menu principale*, alla voce **Le mie istanze** è possibile trovare la voce di sottomenu **Duplica Istanza**.
+Cliccando su questa voce, il sistema consente la selezione di una pratica dalla lista di tutte le pratiche già create dal professionista (anche mediante un'apposita *form* di ricerca).
+Una volta selezionata la pratica che si vuole *duplicare* (viene evidenziata con sfondo verde dal sistema) è possibile selezionare il *tipo di pratica* dall'apposita tendina (*Selezione il tipo di Pratica*) e l'eventuale *tipo di intervento* (sempre meiante tendina *Tipo Intervento*).
 
-Una volta effettuato l'accesso a **GeoTecSUE** il sistema mantiene *loggato* l'utente fino ad un esplicito *Logout* (che può essere fatto sempre dal *menu personale*) oppure fino a quando non viene chiusa la pagina del *browser*.
-Questo concetto verrà approfondito anche nella sezione relativa alla compilazione dell'istanza.
+Cliccando il bottone **Nuova** il sistema avvia una nuova istanza con i campi comuni già precompilati.
+
+### È possibile duplicare un tipo pratica in una pratica di tipo differete?
+
+Assolutamente si: è possibile (ad esempio) *duplicare* una **S.C.I.A.** in un'**Autorizzazione Paesaggistica**: chiaramente il sistema non potrà compilare i campi che sono prerogativa dell'**Autorizzazione Paesaggistica** ma solo quelli in comune tra le due pratiche (ad esempio: dati del titolare, descrizione dell'intervento, localizzazione dell'intervento...)
+
+### Cosa non viene MAI duplicato
+
+Tutti gli allegati per una questione di *validità della firma*. Supponiamo che la duplicazione della pratica venga effettuata 6 mesi dopo la pratica originale: gli allegati presenti nella pratica originale potrebbero avere delle firme *scadute*.
