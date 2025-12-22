@@ -10,7 +10,7 @@
 
 ### 1. Introduzione
 -  [Accesso al portale e gestione del profilo](docs/accesso-e-profilo.md)
--  [Nozioni di base](nozioni-di-base.md)
+-  [Nozioni di base](docs/nozioni-di-base.md)
 
 ### 2. Gestione delle pratiche
 - [Creazione di una nuova istanza](nuova-istanza.md)
