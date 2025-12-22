@@ -31,3 +31,5 @@ Assolutamente si: è possibile (ad esempio) *duplicare* una **S.C.I.A.** in un'*
 ### Cosa non viene MAI duplicato
 
 Tutti gli allegati per una questione di *validità della firma*. Supponiamo che la duplicazione della pratica venga effettuata 6 mesi dopo la pratica originale: gli allegati presenti nella pratica originale potrebbero avere delle firme *scadute*.
+
+[Introduzione](docs/accesso-e-rpofilo.html) | [Indice](../README.md) | [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.md)
