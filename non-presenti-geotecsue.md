@@ -24,3 +24,4 @@ Per poter *sanare* questa situazione, l'unico modo è un inserimento della prati
 #### Professionista non presente o associato ad altra figura
 
 Per poter *sanare* questa situazione, l'Ente deve innanzitutto verificare la pratica originale ed eventualmente andare ad inserire/ricollocare i professionisti sul gestionale.
+Nel caso in cui il professionista stia chiedendo di entrare in possesso di una pratica non appartenente a se stesso, l'Ente potrà richiedere una **voltura** del professionista per poter *sanare* la pratica.
