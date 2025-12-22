@@ -13,5 +13,5 @@
 -  [Nozioni di base](docs/nozioni-di-base.md)
 
 ### 2. Gestione delle pratiche
-- [Creazione di una nuova istanza](nuova-istanza.md)
-- [Gestione Istanze non presenti su GeoTecSUE](non-presenti-geotecsue.md)
+- [Creazione di una nuova istanza](docs/nuova-istanza.md)
+- [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.md)
