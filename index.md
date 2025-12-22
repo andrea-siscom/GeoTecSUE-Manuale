@@ -1,26 +1,6 @@
 ---
-layout: splash
-permalink: /
-header:
-  overlay_color: "#0066cc"
-  overlay_filter: "0.5"
-excerpt: "Guida operativa per l'utilizzo del portale dedicato ai professionisti"
-feature_row:
-  - title: "Accesso al portale"
-    excerpt: "Gestione profilo e accesso"
-    url: "/docs/accesso-e-profilo/"
-    btn_label: "Leggi"
-    btn_class: "btn--primary"
-  - title: "Nozioni di base"
-    excerpt: "Concetti fondamentali"
-    url: "/docs/nozioni-di-base/"
-    btn_label: "Leggi"
-    btn_class: "btn--primary"
-  - title: "Nuova istanza"
-    excerpt: "Creare una pratica"
-    url: "/docs/nuova-istanza/"
-    btn_label: "Leggi"
-    btn_class: "btn--primary"
+layout: default
+title: Manuale GeoTecSUE
 ---
 
 # Manuale utente GeoTecSUE
