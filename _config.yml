@@ -1,55 +1,14 @@
-# Site settings
 title: Manuale GeoTecSUE
-title_separator: "|"
-subtitle: Guida operativa per professionisti
-description: >-
-  Manuale utente completo per l'utilizzo del portale GeoTecSUE 
-  dedicato alla presentazione delle pratiche edilizie.
+description: >
+  Guida operativa per professionisti all'utilizzo del portale GeoTecSUE.
 
 url: "https://andrea-siscom.github.io"
 baseurl: "/GeoTecSUE-Manuale"
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Author
-author:
-  name: "GeoTecSUE"
-  bio: "Portale per pratiche edilizie"
-
-# Reading Files
-include:
-  - _pages
-
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-  # _docs
-  - scope:
-      path: "docs"
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-      sidebar:
-        nav: "docs"
-
-# Build settings
-markdown: kramdown
-permalink: /:title/
+remote_theme: klaudiosinani/re
 
 plugins:
-  - jekyll-include-cache
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-remote-theme
 
-# Locale
-locale: "it-IT"
+locale: it-IT
 timezone: Europe/Rome
