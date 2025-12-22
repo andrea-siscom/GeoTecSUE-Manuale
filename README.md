@@ -1,5 +1,10 @@
 # Manuale utente GeoTecSUE
 
+**Versione corrente:** 1.0.0
+**Ultimo aggiornamento:** 22/12/2025
+
+[Cronologia completa delle modifiche](CHANGELOG.md)
+
 ## Indice dei contenuti
 
 ### 1. Introduzione
