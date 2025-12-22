@@ -37,7 +37,7 @@ Puoi:
 
 ### Gestione delle pratiche
 - [Creazione nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
-- [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue.md)
+- [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
 
 ---
 
