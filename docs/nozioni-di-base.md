@@ -1,7 +1,6 @@
 ---
-layout: page
 title: Nozioni di base
-permalink: /docs/nozioni-di-base
+permalink: /docs/nozioni-di-base/
 ---
 
 # Nozioni di base
