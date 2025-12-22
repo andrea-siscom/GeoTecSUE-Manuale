@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Home
-nav_order: 1
 ---
 
 # Manuale utente GeoTecSUE
@@ -33,12 +32,12 @@ Puoi:
 ## Indice dei contenuti
 
 ### Introduzione
-- [Accesso al portale e gestione del profilo](docs/accesso-e-profilo.md)
-- [Nozioni di base](docs/nozioni-di-base.md)
+- [Accesso al portale](/GeoTecSUE-Manuale/docs/accesso-e-profilo)
+- [Nozioni di base](/GeoTecSUE-Manuale/docs/nozioni-di-base)
 
 ### Gestione delle pratiche
-- [Creazione di una nuova istanza](docs/nuova-istanza.md)
-- [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.md)
+- [Creazione nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
+- [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue.md)
 
 ---
 
