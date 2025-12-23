@@ -1,6 +1,6 @@
 ---
 title: Nozioni di base
-permalink: /docs/nozioni-di-base/
+nav_order: 20
 ---
 
 # Nozioni di base
