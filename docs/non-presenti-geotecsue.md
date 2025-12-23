@@ -1,7 +1,7 @@
 ---
 title: Gestione istanze non presenti su GeoTecSUE
 nav_order: 20
-parent: Elenco istanze
+parent: Le mie istanze
 ---
 
 # Gestione istanze non presenti su GeoTecSUE
