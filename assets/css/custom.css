@@ -1,92 +1,60 @@
-/* =======================================
-   Font Titillium e base colori
-   ======================================= */
+/* Import font Titillium da Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
 
-body, .site-title, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Titillium Web', sans-serif !important;
-  color: #e0e0e0 !important;
-  line-height: 1.6 !important;
-  background-color: #1e1e1e !important; /* Dark meno intenso */
+/* Font e colori generali */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #1e1e1e; /* sfondo dark meno estremo */
+  color: #e0e0e0;
 }
 
-/* =======================================
-   Link e hover
-   ======================================= */
+/* Link */
 a {
-  color: #4aa3df !important;
-  text-decoration: none !important;
+  color: #4aa3df;
+}
+a:hover {
+  color: #6ec0ff;
 }
 
-a:hover, a:focus {
-  color: #6ec0ff !important;
-  text-decoration: underline !important;
-}
-
-/* =======================================
-   Contenuto principale
-   ======================================= */
+/* Contenuto principale */
 .main-content {
-  margin-left: 220px !important; /* lascia spazio alla sidebar */
-  font-size: 16px !important;
-  line-height: 1.7 !important;
-  padding: 1rem 2rem !important;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-left: 220px; /* sidebar più stretta */
 }
 
-h1, h2, h3 {
-  font-weight: 600 !important;
+/* Titoli più “manuale” */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-weight: 600;
 }
 
-/* =======================================
-   Sidebar
-   ======================================= */
+/* Sidebar */
 .site-nav {
-  width: 220px !important;
-  background-color: #2c2c2c !important;
-  color: #ccc !important;
-  font-size: 14px !important;
+  font-size: 14px;
+  width: 220px;
+  background-color: #2c2c2c;
+  color: #ccc;
 }
 
-.site-nav a {
-  color: #ccc !important;
-}
-
-.site-nav a:hover, .site-nav a:focus {
-  color: #fff !important;
-}
-
+/* Voce attiva evidenziata */
 .site-nav a.active {
-  font-weight: 700 !important;
-  color: #fff !important;
-  background-color: #3a3a3a !important;
+  font-weight: 700;
+  color: #fff;
 }
 
-/* =======================================
-   Nascondo elementi inutili
-   ======================================= */
+/* Nascondi eventuali nav ausiliarie */
 .aux-nav {
-  display: none !important;
+  display: none;
 }
 
-/* =======================================
-   Responsivo
-   ======================================= */
+/* Responsivo */
 @media (max-width: 992px) {
   .site-nav {
-    width: 180px !important;
+    width: 180px;
   }
   .main-content {
-    margin-left: 0 !important;
-    padding: 1rem !important;
+    margin-left: 0;
   }
-}
-
-/* =======================================
-   Footer
-   ======================================= */
-.site-footer {
-  background-color: #2c2c2c !important;
-  color: #ccc !important;
-  font-size: 14px !important;
-  padding: 1rem !important;
 }
