@@ -20,3 +20,7 @@
 .site-nav a.active {
   font-weight: 600;
 }
+
+.aux-nav {
+  display: none;
+}
