@@ -1,6 +1,6 @@
 ---
 title: Gestione istanze non presenti su GeoTecSUE
-permalink: /docs/non-presenti-geotecsue
+nav_order: 40
 ---
 
 # Gestione istanze non presenti su GeoTecSUE
