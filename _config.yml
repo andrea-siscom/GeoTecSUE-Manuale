@@ -21,8 +21,8 @@ footer_content: "© GeoTecSUE"
 
 # Custom CSS (senza / iniziale!)
 just_the_docs:
-  custom_css:
-    - assets/css/custom.css
-
+  custom_sass:
+    - _sass/custom.scss
+    
 locale: it-IT
 timezone: Europe/Rome
