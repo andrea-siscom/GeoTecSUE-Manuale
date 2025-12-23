@@ -1,7 +1,7 @@
 ---
 title: Gestione istanze non presenti su GeoTecSUE
 nav_order: 40
-parent: Manuale utente GeoTecSUE
+parent: Gestione delle pratiche
 ---
 
 # Gestione istanze non presenti su GeoTecSUE
