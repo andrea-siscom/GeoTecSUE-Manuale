@@ -1,7 +1,7 @@
 ---
 title: Creazione di una nuova istanza
 nav_order: 10
-parent: Elenco istanze
+parent: Le mie istanze
 ---
 
 # Creazione di una nuova istanza
