@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Manuale GeoTecSUE
+layout: home
+title: Manuale utente GeoTecSUE
+nav_order: 1
 ---
 
 # Manuale utente GeoTecSUE
