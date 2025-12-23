@@ -1,6 +1,6 @@
 ---
 title: Creazione di una nuova istanza
-permalink: /docs/nuova-istanza
+nav_order: 30
 ---
 
 # Creazione di una nuova istanza
