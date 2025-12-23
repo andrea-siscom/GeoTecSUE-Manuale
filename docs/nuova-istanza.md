@@ -1,7 +1,7 @@
 ---
 title: Creazione di una nuova istanza
 nav_order: 30
-parent: Manuale utente GeoTecSUE
+parent: Gestione delle pratiche
 ---
 
 # Creazione di una nuova istanza
