@@ -19,5 +19,10 @@ nav_sort: case_sensitive
 # Footer
 footer_content: "© GeoTecSUE"
 
+# Custom CSS
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
+
 locale: it-IT
 timezone: Europe/Rome
