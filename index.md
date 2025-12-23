@@ -36,7 +36,7 @@ Puoi:
 - [Accesso al portale](/GeoTecSUE-Manuale/docs/accesso-e-profilo)
 - [Nozioni di base](/GeoTecSUE-Manuale/docs/nozioni-di-base)
 
-### Gestione delle pratiche
+### Le mie istanze
 - [Creazione nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
 - [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
 
