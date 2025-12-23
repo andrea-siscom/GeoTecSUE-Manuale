@@ -1,5 +1,5 @@
 ---
-title: Gestione delle pratiche
+title: Le mie istanze
 nav_order: 20
 has_children: true
 ---
