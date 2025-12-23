@@ -1,0 +1,22 @@
+/* Testo più leggibile */
+.main-content {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Titoli più “manuale” */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-weight: 600;
+}
+
+/* Sidebar meno schiacciata */
+.site-nav {
+  font-size: 14px;
+}
+
+/* Evidenzia meglio la voce attiva */
+.site-nav a.active {
+  font-weight: 600;
+}
