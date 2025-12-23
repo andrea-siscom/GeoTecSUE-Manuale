@@ -1,7 +1,5 @@
 ---
-layout: home
-title: Home
-nav_order: 1
+nav_exclude: true
 ---
 
 # Manuale utente GeoTecSUE
