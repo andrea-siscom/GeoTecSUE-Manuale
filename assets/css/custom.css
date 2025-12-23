@@ -1,60 +1,47 @@
-/* Import font Titillium da Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
-
-/* Font e colori generali */
-body {
+/* 1. Font globale */
+body, p, li {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #1e1e1e; /* sfondo dark meno estremo */
-  color: #e0e0e0;
-}
-
-/* Link */
-a {
-  color: #4aa3df;
-}
-a:hover {
-  color: #6ec0ff;
-}
-
-/* Contenuto principale */
-.main-content {
   font-size: 16px;
-  line-height: 1.7;
-  margin-left: 220px; /* sidebar più stretta */
+  line-height: 1.6;
 }
 
-/* Titoli più “manuale” */
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  font-weight: 600;
-}
-
-/* Sidebar */
+/* 2. Sidebar più stretta e pulita */
 .site-nav {
+  width: 220px;           /* meno larga */
   font-size: 14px;
-  width: 220px;
   background-color: #2c2c2c;
   color: #ccc;
 }
 
-/* Voce attiva evidenziata */
+/* 3. Colore link e hover */
+a {
+  color: #4aa3df;
+  text-decoration: none;
+}
+a:hover {
+  color: #6ec0ff;
+  text-decoration: underline;
+}
+
+/* 4. Icone di link troppo grandi */
+.icon-link {
+  font-size: 0.8em;      /* riduci dimensione */
+  vertical-align: middle;
+}
+
+/* 5. Evidenzia voce attiva nella sidebar */
 .site-nav a.active {
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
-/* Nascondi eventuali nav ausiliarie */
-.aux-nav {
-  display: none;
+/* 6. Contenuto principale */
+.main-content {
+  margin-left: 230px;   /* attenzione a responsive */
 }
 
-/* Responsivo */
+/* 7. Responsive */
 @media (max-width: 992px) {
-  .site-nav {
-    width: 180px;
-  }
-  .main-content {
-    margin-left: 0;
-  }
+  .site-nav { width: 180px; }
+  .main-content { margin-left: 0; }
 }
