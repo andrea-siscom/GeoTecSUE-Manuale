@@ -1,6 +1,6 @@
 ---
 title: Creazione di una nuova istanza
-nav_order: 30
+nav_order: 10
 parent: Gestione delle pratiche
 ---
 
