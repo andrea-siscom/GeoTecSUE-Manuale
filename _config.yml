@@ -1,14 +1,23 @@
 title: Manuale GeoTecSUE
-description: >
-  Guida operativa per professionisti all'utilizzo del portale GeoTecSUE.
+description: Guida operativa per professionisti all'utilizzo del portale GeoTecSUE
 
 url: "https://andrea-siscom.github.io"
 baseurl: "/GeoTecSUE-Manuale"
 
-remote_theme: klaudiosinani/re
+remote_theme: pmarsceill/just-the-docs
 
 plugins:
   - jekyll-remote-theme
+
+# Just the Docs settings
+color_scheme: light
+search_enabled: true
+
+# Sidebar
+nav_sort: case_sensitive
+
+# Footer
+footer_content: "© GeoTecSUE"
 
 locale: it-IT
 timezone: Europe/Rome
