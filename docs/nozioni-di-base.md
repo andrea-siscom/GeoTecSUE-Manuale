@@ -130,3 +130,21 @@ La **verifica** di una pratica viene fatta dall'Ente per tutte le pratiche *asse
 Tale **verifica** può essere fatta puntualmente oppure *a campione*, rispettando l'obbligo di un controllo in misura minima pari ad una determinata percentuale delle pratiche (ancora presente in alcune regioni).
 Il concetto di **verifica** è però maggiormente *interno* all'Ente e pertanto non viene trasmesso alla **pratica** su **GeoTecSUE**.
 
+## Convenzioni grafiche
+
+Il portale **GeoTecSUE** utilizza icone e colori per rappresentare in modo immediato le **azioni disponibili** e il **livello di impatto** delle operazioni eseguibili.
+
+Il presente manuale descrive tali convenzioni per facilitarne la comprensione durante l'utilizzo dell'applicazione.
+
+### Pulsanti e colori
+
+I pulsanti (*bottoni*) presenti nel portale sono identificati da un'icona e da un colore, che consentono di riconoscere rapidamente il tipo di azione associata.
+
+| Icona | Colore | Azione | Descrizione | Note |
+|------|--------|--------|-------------|-----|
+| ✏️ | 🟡 Giallo | Modifica | Consente la modifica dei dati | |
+| 🗑️ | 🔴 Rosso | Cancellazione | Elimina definitivamente dei dati | Normalmente è richiesta la conferma |
+
+
+
+
