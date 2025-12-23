@@ -1,7 +1,7 @@
 ---
 title: Accesso al portale
 nav_order: 10
-parent: Manuale utente GeoTecSUE
+parent: Introduzione
 ---
 
 # Accesso al portale e gestione del profilo
