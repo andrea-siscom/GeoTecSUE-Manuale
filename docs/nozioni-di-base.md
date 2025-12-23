@@ -1,6 +1,7 @@
 ---
 title: Nozioni di base
 nav_order: 20
+parent: Manuale utente GeoTecSUE
 ---
 
 # Nozioni di base
