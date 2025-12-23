@@ -18,11 +18,6 @@ nav_sort: case_sensitive
 
 # Footer
 footer_content: "© GeoTecSUE"
-
-# Custom CSS (senza / iniziale!)
-just_the_docs:
-  custom_sass:
-    - _sass/custom.scss
-    
+   
 locale: it-IT
 timezone: Europe/Rome
