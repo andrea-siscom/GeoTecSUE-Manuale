@@ -19,7 +19,7 @@ La sezione **Lista Pratiche in fase di compilazione** mostra tutte le istanze an
 
 ### Colonne dell'elenco
 
-1. **Modifica**: contiene il pulsante ✏️ (*giallo*) per accedere alla pratica e proseguirne la compilazione [vedi](interfaccia-e-convenzioni#modifica-pulsante-giallo)
+1. **Modifica**: contiene il pulsante ✏️ (*giallo*) per accedere alla pratica e proseguirne la compilazione [vedi](interfaccia-e-convenzioni#%EF%B8%8F-modifica-pulsante-giallo)
 2. 
 
 
