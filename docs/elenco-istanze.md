@@ -15,8 +15,11 @@ In questo capitolo vengono messe in evidenza le tre possibili sezioni che posson
 
 ## Pratiche in fase di compilazione
 
-In questa lista sono presenti tutte le istanze che sono state create ma che non sono ancora state trasmesse all'Ente.
-La tabella si presenta con le seguenti 12 colonne:
-- Colonna 1 pulsante modifica
+La sezione **Lista Pratiche in fase di compilazione** mostra tutte le istanze ancora modificabili. Ogni riga rappresenta una pratica e le colonne hanno la seguente funzione:
+
+### Colonne dell'elenco
+
+1. **Modifica**: contiene il pulsante ✏️ (*giallo*) per accedere alla pratica e proseguirne la compilazione (come in 
+2. 
 
 
