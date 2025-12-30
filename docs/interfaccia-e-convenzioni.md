@@ -27,7 +27,9 @@ I pulsanti (*bottoni*) presenti nel portale sono identificati da un'icona e da u
 | 👤    | 🔵 Blu / 🟢 Verde | Gestione soggetti |
 | 🔍 | 🟢 Verde / 🟡 Giallo | Visualizza / Dettaglio |
 
-#### ✏️ Modifica (pulsante giallo)
+#### Modifica (pulsante giallo)
+
+✏️
 
 ##### Descrizione
 
@@ -44,7 +46,9 @@ Nella sezione dell'*Elenco istanze* consente di accedere al dettaglio della prat
 - Nel dettaglio della pratica, nella sezione delle comunicazioni in fase di compilazione (se presenti)
 - All'interno della *compilazione* dell'istanza nella sezione della *Localizzazione dell'intervento* (per la modifica di un mappale inserito) e nei *Soggetti coinvolti* (per la modifica di un *titolare*, di un *tecnico incaricato* o di un'*impresa esecutrice*)
 
-#### 🗑️ Cancellazione (pulsante rosso)
+#### Cancellazione (pulsante rosso)
+
+🗑️
 
 ##### Descrizione
 
@@ -61,7 +65,9 @@ Consente di eliminare **definitivamente** una pratica (o una comunicazione), un 
 - Nel dettaglio della pratica, nella sezione delle comunicazioni in fase di compilazione (se presenti)
 - All'interno della *compilazione* dell'istanza nella sezione della *Localizzazione dell'intervento* (per la cancellazione di un mappale inserito), nei *Soggetti coinvolti* (per la cancellazione di un *titolare*, di un *tecnico incaricato* o di un'*impresa esecutrice*), nella sezione *PagoPA* (per la cancellazione di un pagamento ancora non effettuato) e nella sezione degli *Allegati* obbligatori, liberi e facoltativi (per la cancellazione di un allegato caricato)
 
-#### 👤 Gestione soggetti (pulsante blu oppure verde)
+#### Gestione soggetti (pulsante blu oppure verde)
+
+👤
 
 ##### Descrizione
 
@@ -78,7 +84,9 @@ Consente di gestire i **Soggetti Compilatori** della pratica (per maggiori detta
 - Nell'elenco delle istanze, nella sezione delle pratiche in compilazione (se presenti)
 - Nel dettaglio della pratica (in alto a destra) accompagnando all'icona anche il testo *Gestione Soggetti*
 
-#### 🔍 Visualizza / Dettaglio (pulsante verde oppure giallo)
+####  Visualizza / Dettaglio (pulsante verde oppure giallo)
+
+🔍
 
 ##### Descrizione
 
