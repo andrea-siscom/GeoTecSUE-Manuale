@@ -130,6 +130,17 @@ La **verifica** di una pratica viene fatta dall'Ente per tutte le pratiche *asse
 Tale **verifica** può essere fatta puntualmente oppure *a campione*, rispettando l'obbligo di un controllo in misura minima pari ad una determinata percentuale delle pratiche (ancora presente in alcune regioni).
 Il concetto di **verifica** è però maggiormente *interno* all'Ente e pertanto non viene trasmesso alla **pratica** su **GeoTecSUE**.
 
+## Professionista principale ed altri soggetti compilatori
+
+Quando il professionista effettua l'accesso al portale ed avvia la compilazione di una pratica, ne diventa il *professionista principale* e lo resterà fino ad una (eventuale) **voltura**.
+All'interno della pratica (nella sezione dei *Soggetti Coinvolti*) il professionista potrà indicare anche altri professionisti ed escludersi completamente dalla pratica stessa: all'Ente risultaerà solo come *compilatore* e *professionista principale* ma non come professionista coinvolto all'interno della pratica.
+
+### Altri soggetti compilatori
+
+Il *professionista principale* può definire altri *soggetti compilatori della pratica* condividendo la stessa sia in fase di *compilazione* che nelle fasi successive, per consentire ad altro professionista di poter intervenire sulla pratica.
+Il *professionista principale* potrà definire due *tipologie di ruolo* per il soggetto compilatore:
+- *Amministratore*: in questo caso il *soggetto compilatore* ha il **controllo completo** sulla pratica, potendo modificare i dati, aggiungere ed eliminare allegati, effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, cancellare un'istanza in compilazione e inviare un'istanza all'Ente. L'unica cosa che **non può** fare è gestire i soggetti di una pratica
+- *Utente Modifica*: in questo caso il *soggetto compilatore* ha un **controllo parziale** della pratica, potendo modificare i dati ed aggiungere allegati ad una pratica in corso (ed eventualmente eliminare allegati caricati da se stesso ma non quelli caricati dal professionista principale o da altri soggetti), effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, ma non può cancellare un'istanza in compilazione né inviare un'istanza all'Ente. Non può gestire i soggetti di una pratica
 
 
 
