@@ -20,6 +20,6 @@ La sezione **Lista Pratiche in fase di compilazione** mostra tutte le istanze an
 ### Colonne dell'elenco
 
 1. **Modifica**: contiene il pulsante ✏️ (*giallo*) per accedere alla pratica e proseguirne la compilazione [vedi](interfaccia-e-convenzioni#modifica-pulsante-giallo)
-2. **Cancella**: contiene il pulsante 🗑️ (*rosso*) per eliminare la pratica. Prima dell'eliminazione definitiva, il sistema richiederà una *conferma* [vedi](interfaccia-e-convenzioni#cancellazione-pulsante-rosso)
+2. **Cancella**: contiene il pulsante 🗑️ (*rosso*) per eliminare la pratica. Prima dell'eliminazione definitiva, il sistema richiederà una *conferma* [vedi](interfaccia-e-convenzioni#cancellazione-pulsante-rosso) 
 
 
