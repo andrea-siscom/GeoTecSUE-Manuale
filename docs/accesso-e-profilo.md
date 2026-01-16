@@ -12,7 +12,7 @@ Questo capitolo descrive le modalità di accesso al **GeoTecSUE** e le principal
 
 ## Accesso al portale
 
-L'accesso a **GeoTecSUE**, come previsto dal Decreto Legge "semplificazione e innovazione digitale" (<a href="https://innovazione.gov.it/dipartimento/focus/linee-guida-decreto-semplificazione/" target="_blank" rel="noopener noreferrer">link qui</a>), è possibile mediante **SPID** e **CIE** (Carta di identità elettronica). 
+L'accesso a **GeoTecSUE**, come previsto dal Decreto Legge "semplificazione e innovazione digitale" (link <a href="https://innovazione.gov.it/dipartimento/focus/linee-guida-decreto-semplificazione/" target="_blank" rel="noopener noreferrer">qui</a>), è possibile mediante **SPID** e **CIE** (Carta di identità elettronica). 
 Queste due modalità rappresentano l'unico sistema di identificazione previsto per l'accesso ai servizi digitali.
 Se all'atto dell'accesso uno di questi sistemi (o entrambi) non fosse disponibile, è necessario contattare l'Ente e far attivare il sistema di accesso.
 
