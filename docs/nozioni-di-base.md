@@ -149,3 +149,8 @@ Nella pagina di Dettaglio della pratica, in alto a destra, è presente il botton
 Per poter individuare un nuovo soggetto compilatore, è necessario avere a disposizione il *codice fiscale* del soggetto, che sarà oggetto di ricerca da parte del sistema sull'Ente.
 Se il sistema non rileva alcun professionista, significa che quel professionista non ha mai effettuato accesso al portale **GeoTecSUE** dell'Ente (non è necessario aver trasmesso una pratica: è sufficiente un singolo accesso).
 
+### Effetti della definizione di uno (o più) soggetti compilatori
+
+Aver definito uno (o più) *soggetti compilatori* non modifica nulla "agli occhi" dell'Ente a cui verrà inviata la pratica: il concetto di *soggetto compilatore* è confinato al rapporto con il *professionista principale* che rimane l'unico soggetto che l'Ente individua come responsabile della compilazione e trasmissione della pratica.
+Anche nel caso in cui la pratica venga compilata in toto da un altro soggetto (con ruolo **Amministratore**) e venga trasmessa all'Ente risulterà comunque il solo *professionista principale*.
+Stessa identica situazione per un soggetto (con ruolo **Amministratore**) che crea una comunicazione e la trasmette: all'Ente risulterà comunque il solo *professionista principale*.
