@@ -18,10 +18,9 @@ Nel caso in cui coincida, la pratica sarà quindi *importabile* su **GeoTecSUE**
 
 ### Perchè il sistema non trova la mia pratica?
 
-Il motivo principale per cui il sistema non associa una pratica è dato dal fatto che sul gestionale quella pratica non ha il codice fiscale proposto come quello del *professionista principale*. 
-I motivi per cui non è possibile l'associazione sono fondamentalmente due:
+I motivi principali per cui il sistema non trova la mia pratica sono fondamentalmente due:
 - pratica non presente sul gestionale
-- errore in fase di registrazione della pratica da parte dell'Ente: non inserito il professionista principale oppure inserito come altra figura (ad esempio diretto dei lavori)
+- pratica associata ad altro *professionista principale* oppure non associata ad alcun *professionista principale*
 
 #### Pratica non presente sul gestionale
 
