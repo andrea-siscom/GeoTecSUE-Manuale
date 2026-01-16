@@ -133,7 +133,7 @@ Il concetto di **verifica** è però maggiormente *interno* all'Ente e pertanto 
 ## Professionista principale ed altri soggetti compilatori
 
 Quando il professionista effettua l'accesso al portale ed avvia la compilazione di una pratica, ne diventa il *professionista principale* e lo resterà fino ad una (eventuale) **voltura**.
-All'interno della pratica (nella sezione dei *Soggetti Coinvolti*) il professionista potrà indicare anche altri professionisti ed escludersi completamente dalla pratica stessa: all'Ente risultaerà solo come *compilatore* e *professionista principale* ma non come professionista coinvolto all'interno della pratica.
+All'interno della pratica (nella sezione dei *Soggetti Coinvolti*) il professionista potrà indicare anche altri professionisti ed escludersi completamente dalla pratica stessa: all'Ente risulterà solo come *compilatore* e *professionista principale* ma non come professionista coinvolto all'interno della pratica.
 
 ### Altri soggetti compilatori
 
@@ -142,5 +142,10 @@ Il *professionista principale* potrà definire due *tipologie di ruolo* per il s
 - *Amministratore*: in questo caso il *soggetto compilatore* ha il **controllo completo** sulla pratica, potendo modificare i dati, aggiungere ed eliminare allegati, effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, cancellare un'istanza in compilazione e inviare un'istanza all'Ente. L'unica cosa che **non può** fare è gestire i soggetti di una pratica
 - *Utente Modifica*: in questo caso il *soggetto compilatore* ha un **controllo parziale** della pratica, potendo modificare i dati ed aggiungere allegati ad una pratica in corso (ed eventualmente eliminare allegati caricati da se stesso ma non quelli caricati dal professionista principale o da altri soggetti), effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, ma non può cancellare un'istanza in compilazione né inviare un'istanza all'Ente. Non può gestire i soggetti di una pratica
 
+### Come definire un altro soggetto compilatore
 
+Nella pagina dell'Elenco delle istanze (nella sezione *Lista Pratiche in fase di compilazione**) se presente un'istanza, è possibile cliccare sul bottone dei soggetti ([vedi]interfaccia-e-convenzioni#gestione-soggetti-pulsante-blu-oppure-verde) ed accedere alla schermata di selezione del soggetto compilatore.
+Nella pagina di Dettaglio della pratica, in alto a destra, è presente il bottone **Gestione Soggetti**: cliccandolo è possibile accedere alla schermata di selezione del soggetto compilatore. 
+Per poter individuare un nuovo soggetto compilatore, è necessario avere a disposizione il *codice fiscale* del soggetto, che sarà oggetto di ricerca da parte del sistema sull'Ente.
+Se il sistema non rileva alcun professionista, significa che quel professionista non ha mai effettuato accesso al portale **GeoTecSUE** dell'Ente (non è necessario aver trasmesso una pratica: è sufficiente un singolo accesso).
 
