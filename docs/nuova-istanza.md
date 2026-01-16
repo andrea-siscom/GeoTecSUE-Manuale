@@ -30,7 +30,7 @@ All'avvio della pagina di **Duplica Istanza** il sistema propone le pratiche del
 
 Cliccando il bottone **Nuova** il sistema avvia una nuova istanza con i campi comuni già precompilati.
 
-### È possibile duplicare un tipo pratica in una pratica di tipo differete?
+### È possibile duplicare un tipo pratica in una pratica di tipo differente?
 
 Assolutamente si: è possibile (ad esempio) *duplicare* una **S.C.I.A.** in un'**Autorizzazione Paesaggistica**: chiaramente il sistema non potrà compilare i campi che sono prerogativa dell'**Autorizzazione Paesaggistica** ma solo quelli in comune tra le due pratiche (ad esempio: dati del titolare, descrizione dell'intervento, localizzazione dell'intervento...)
 
