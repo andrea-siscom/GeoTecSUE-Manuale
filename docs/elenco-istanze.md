@@ -43,6 +43,6 @@ La sezione **Lista Pratiche inviate** mostra tutte le istanze che sono già stat
 5.  **Titolare**: contiene cognome e nome del titolare dell'istanza (se è già stato indicato)
 6. **Stato Pratica**: contiene lo stato della pratica [vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)
 7. **Descrizione Intervento**: contiene l'oggetto dell'intervento inserito dal professionista. Se supera una certa lunghezza, è possibile vedere il testo completo passando sopra con il *mouse* (con un effetto *tooltip*)
-8. **Dettaglio**: 
+8. **Dettaglio**: contiene il pulsante 🔍 (*verde*) che consente di vedere il dettaglio della pratica [vedi](interfaccia-e-convenzioni#visualizza-dettaglio-pulsante-verde-oppure-giallo)
 
 
