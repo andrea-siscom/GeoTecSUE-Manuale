@@ -2,6 +2,7 @@
 layout: home
 title: Manuale utente GeoTecSUE
 nav_order: 1
+toc: false
 ---
 
 # Manuale utente GeoTecSUE
