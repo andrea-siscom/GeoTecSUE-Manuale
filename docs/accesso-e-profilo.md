@@ -19,7 +19,7 @@ Se all'atto dell'accesso uno di questi sistemi (o entrambi) non fosse disponibil
 ## Gestione del profilo
 
 Una volta effettuato il primo accesso, il sistema completa (parzialmente) il profilo con i dati provenienti dal sistema di accesso (**SPID** oppure **CIE**).
-Per poter modificare i propri dati, dopo aver effettuato l'accesso, è sufficiente andare nel *menu personale* in alto a destra (dove si trova il messaggio di benvenuto: "Bentornato, **Cognome Nome**) e cliccare la voce *Il mio profilo*.
+Per poter modificare i propri dati, dopo aver effettuato l'accesso, è sufficiente andare nel *menu personale* in alto a destra (dove si trova il messaggio di benvenuto: "Bentornato, **Cognome Nome**") e cliccare la voce *Il mio profilo*.
 Il sistema aprirà la propria *Anagrafica* con la possibilità di modificare/integrare (quasi) tutti i dati (non è consentito modificare il proprio Cognome, Nome e Codice Fiscale).
 
 ## Durata della sessione
