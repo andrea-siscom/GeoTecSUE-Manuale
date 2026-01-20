@@ -30,4 +30,19 @@ La sezione **Lista Pratiche in fase di compilazione** mostra tutte le istanze an
 9. **Stato Pratica**: contiene lo stato della pratica [vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)
 10. **PDF**: se la pratica si trova in stato *Completata*, contiene il bottone *Genera* per consentire al sistema la generazione del *PDF* dell'istanza. Una volta cliccato il bottone, comparirà nella quarta colonna l'icona del *PDF* appena generato.
 
+## Pratiche inviate
+
+La sezione **Lista Pratiche inviate** mostra tutte le istanze che sono già state trasmesse all'ente (dallo stato *inviata* in poi). Ogni riga rappresenta una pratica e le colonne hanno la seguente funzione:
+
+### Colonne dell'elenco
+
+1. **Nascondi** o **Mostra**: può contenere il pulsante 👁️ (*rosso*) oppure 🚫 (*azzurro*). Cliccando il pulsante *rosso* la pratica, originariamente nascosta, viene mostrata nella lista. Cliccando il pulsante *azzurro* la pratica viene nascosta dalla lista (l'operazione è sempre reversibile)
+2. **Ricevuta di invio**: contiene il pulsante 🎟️ (*verde*) e consente di scaricare immediatamente la ricevuta di invio della pratica. Nel caso in cui la ricevuta di invio non sia (ancora) disponibile, allora al posto del pulsante 🎟️ (*verde*) ci sarà l'icona della clessidra (⏳, senza colore)
+3.  **Tipo**: contiene la tipologia della pratica in compilazione (S.C.I.A., Permesso di Costruire...)
+4.  **Data Invio**: contiene la data in cui è stata inviata l'istanza
+5.  **Titolare**: contiene cognome e nome del titolare dell'istanza (se è già stato indicato)
+6. **Stato Pratica**: contiene lo stato della pratica [vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)
+7. **Descrizione Intervento**: contiene l'oggetto dell'intervento inserito dal professionista. Se supera una certa lunghezza, è possibile vedere il testo completo passando sopra con il *mouse* (con un effetto *tooltip*)
+8. **Dettaglio**: 
+
 
