@@ -12,5 +12,8 @@ Ci sono tre tipologie di dettaglio:
 - Dettaglio della *Notifica Preliminare* (solo per i Comuni di Regione Piemonte)
 - Dettaglio di una pratica *importata*
 
+---
+
+## Dettaglio classico
 
 
