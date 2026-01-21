@@ -29,6 +29,8 @@ Nel **GeoTecSUE** ci sono tre elementi fondamentali che possono essere ricondott
 - [Comunicazione](#comunicazione)
 - [Integrazione](#integrazione)
 
+Un'istanza (che sia **pratica**, **comunicazione** o **integrazione**) è sempre univocamente identificata da un numero (**chiave**) di 19 cifre che viene assegnato in fase di creazione dell'istanza e che non verrà mai modificato durante tutto il ciclo di vita. La **chiave** è univoca e non possono esistere due istanze con medesima chiave.
+
 ### Pratica
 
 La **pratica** è un'istanza che può essere avviata *indipendentemente*: vive di "luce propria", ha il suo *iter* e viene riconosciuta dalla *Pubblica Amministrazione* come un procedimento a sè stante.
