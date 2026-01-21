@@ -9,7 +9,7 @@ parent: Le mie istanze
 In questo capitolo vengono messe in evidenza le tre possibili sezioni che possono essere presenti:
 - [Pratiche in fase di compilazione](#pratiche-in-fase-di-compilazione)
 - [Pratiche inviate](#pratiche-inviate)
-- Pratiche importate
+- [Pratiche importate](#pratiche-importate)
 
 ---
 
@@ -74,3 +74,16 @@ La sezione **Lista Pratiche importate** mostra tutte le istanze che sono state i
 5.  **Stato Pratica**: contiene lo stato della pratica [vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)
 6. **Descrizione Intervento**: contiene l'oggetto dell'intervento inserito dal professionista. Se supera una certa lunghezza, è possibile vedere il testo completo passando sopra con il *mouse* (con un effetto *tooltip*)
 7. **Dettaglio**: contiene il pulsante 🔍 (*verde*) che consente di vedere il dettaglio della pratica [vedi](interfaccia-e-convenzioni#visualizza-dettaglio-pulsante-verde-oppure-giallo)
+
+### Sezione filtri
+
+È possibile filtrare la ricerca delle pratiche importate utilizzando i seguenti parametri contenuti nel pannello:
+
+* **Dalla data di protocollo**: si può inserire una data di protocollo dalla quale far partire la pricerca
+* **Alla data di protocollo**: si può inserire una data di protocollo alla quale concludere la ricerca
+* **Dalla data di importazione**: si può inserire una data di importazione dalla quale far partire la pricerca
+* **Alla data di importazione**: si può inserire una data di importazione alla quale concludere la ricerca
+* **Tipo di pratica**: nella tendina sono presenti *solo* le tipologie di pratica che sono state importate dal gestionale (non è detto che siano le stesse tipologie presenti su **GeoTecSUE**). È possibile quindi selezionare una di queste
+* **Stato della pratica**: nella tendina sono presenti tutti gli stati della pratica ([vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)) a partire da *registrata*
+* **Titolare**: si può inserire (liberamente) il nominativo del soggetto che si vuole ricercare
+
