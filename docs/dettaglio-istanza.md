@@ -43,5 +43,7 @@ Cliccando questo bottone, il **GeoTecSUE** predispone la pratica di **Richiesta 
 
 #### Bottone Scarica l'archivio della pratica
 
-Il bottone è sempre attivo e consente di scaricare (sottoforma di archivio *.zip*) 
+Il bottone è sempre attivo e consente di scaricare (come file *.zip*) l'archivio della pratica. In particolare i file che vengono inseriti all'interno dell'archivio sono:
+- Istanza (in formato *pdf* e, se previsto, anche la versione *firmata digitalmente*)
+- Tutti gli allegati *principali* della pratica se non ancora scaduti
 
