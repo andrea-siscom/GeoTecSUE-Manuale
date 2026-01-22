@@ -70,15 +70,18 @@ Successivamente alla validazione, è stato *generato* e *scaricato* il PDF dell'
 ### Inviata
 
 L'istanza (**pratica** oppure **comunicazione**) è stata trasmessa all'Ente. A questo punto il proseguio del ciclo di vita dipenderà dalle azioni svolte dall'Ente.
+All'atto della trasmissione dell'istanza all'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di invio* (per le pratiche, le comunicazioni e le integrazioni).
 
 ### Protocollata
 
 L'istanza (**pratica** oppure **comunicazione**) è stata protocollata dall'Ente: è stato quindi attribuito il numero di protocollo e la data di protollo all'istanza. Il professionista non può ancora operare sulla sua pratica inviando comunicazioni o integrazioni.
+All'atto della protocollazione dell'istanza da parte dell'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di protocollazione* (per le pratiche, le comunicazioni e le integrazioni).
 
 ### Registrata
 
 L'istanza (in questo caso solo più la **pratica**) è stata presa in carico dall'Ufficio di competenza (normalmente l'Ufficio Tecnico) ed è stato assegnato un numero di registrazione ed una data di registrazione. In questa fase può anche essere stato individuato un *responsabile del procedimento* (e del *servizio*).
 Quando la **pratica** si trova in stato **registrata** il professionista può nuovamente *interagire* con essa inviando *comunicazioni* e/o (se previsto) *integrazioni*.
+All'atto della registrazione dell'istanza da parte dell'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di registrazione* (esclusivamente per le pratiche).
 
 ### Richiesta Integrazioni
 
