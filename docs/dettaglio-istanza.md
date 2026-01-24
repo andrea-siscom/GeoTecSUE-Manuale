@@ -92,6 +92,6 @@ Nel caso in cui uno (o più) pagamenti siano già stati creati (oppure generati 
 - *Importo (€)*: l'importo da versare (può essere valorizzato oppure *da valorizzare*)
 - *Stato*: indica lo stato in cui si trova il pagamento
 - Pulsante *dettaglio* (colore azzurro): consente di visualizzare i dati relativi allo *IUV* emesso (nel caso sia *scaduto*, ne viene data evidenza)
-- Pulsante *aggiorna* (colore arancione): nel caso in cui lo *IUV* non sia scaduto, 
+- Pulsante *aggiorna* (colore arancione): nel caso in cui lo *IUV* non sia scaduto, è possibile, mediante questo pulsante, aggiornarne lo stato del pagamento
 
 
