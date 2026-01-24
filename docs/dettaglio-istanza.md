@@ -67,7 +67,7 @@ Nel caso in cui la pratica si trovi in stato *inviata*, *protocollata* o *invio 
 
 Nel caso in cui la pratica sia stata *archiviata*, il sistema presenta questa sezione contenente anche il motivo dell'archiviazione (prodotto dall'Ente).
 
-### Richiesta di integrazioni attiva
+### Richiesta integrazioni attiva
 
 Se è presente una *richiesta integrazioni attiva* da parte dell'Ente allora verrà mostrata questa sezione in cui vengono evidenziati i seguenti dati:
 - *Data Richiesta*: data in cui l'Ente ha effettuato la richiesta di integrazione
@@ -108,4 +108,9 @@ Selezionata la comunicazione di interesse, cliccando sul bottone *Nuova* è poss
 
 #### Lista Comunicazioni in fase di compilazione
 
-La tabella rispecchia quella vista per le pratiche in compilazione ([vedi](elenco-istanze.html#pratiche-in-fase-di-compilazione))
+La tabella rispecchia quella vista per le pratiche in compilazione ([vedi](elenco-istanze.html#pratiche-in-fase-di-compilazione)) ed ha le medesime funzionalità.
+
+### Invio documentazione all'Ente (integrazioni spontanee)
+
+Se l'Ente consente la trasmissione delle integrazioni spontanee, questa sezione viene mostrata nel caso in cui l'Ente non sia variato e lo stato della pratica non si trovi in **archiviata**, **diniego**, **inviata**, **protocollata**, **rifiutata**, **richiesta archiviazione** oppure in **revoca delegato**. Se la pratica si trova in **richiesta integrazioni** o **invio integrazioni** la possibilità di inviare una comunicazione dipende da una configurazione dell'Ente (che consentirebbe la trasmissione della comunicazione anche in fase di richiesta integrazioni).
+Quando viene attivato un *Nuovo Invio* il sistema si predispone per caricare uno (o più) file, che devono rispettare le caratteristiche previste (se necessitano di firma, dimensione massima, così come visto per la [*richiesta di integrazioni*](#richiesta-integrazioni-attiva))
