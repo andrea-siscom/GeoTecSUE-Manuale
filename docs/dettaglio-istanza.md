@@ -113,4 +113,9 @@ La tabella rispecchia quella vista per le pratiche in compilazione ([vedi](elenc
 ### Invio documentazione all'Ente (integrazioni spontanee)
 
 Se l'Ente consente la trasmissione delle integrazioni spontanee, questa sezione viene mostrata nel caso in cui l'Ente non sia variato e lo stato della pratica non si trovi in **archiviata**, **diniego**, **inviata**, **protocollata**, **rifiutata**, **richiesta archiviazione** oppure in **revoca delegato**. Se la pratica si trova in **richiesta integrazioni** o **invio integrazioni** la possibilità di inviare una comunicazione dipende da una configurazione dell'Ente (che consentirebbe la trasmissione della comunicazione anche in fase di richiesta integrazioni).
-Quando viene attivato un *Nuovo Invio* il sistema si predispone per caricare uno (o più) file, che devono rispettare le caratteristiche previste (se necessitano di firma, dimensione massima, così come visto per la [*richiesta di integrazioni*](#richiesta-integrazioni-attiva))
+Quando viene attivato un *Nuovo Invio* il sistema si predispone per caricare uno (o più) file, che devono rispettare le caratteristiche previste (se necessitano di firma, dimensione massima, così come visto per la [*richiesta di integrazioni*](#richiesta-integrazioni-attiva)).
+All'atto del caricamento viene sempre richiesta obbligatoriamente una *descrizione file* ed ovviamente il file da caricare.
+Una volta caricato il file, viene mostrata una tabella in cui vengono riepilogati i dati del file caricato con la possibilità di *eliminarlo* (🗑️ rosso) e *scaricarlo* (🔍 verde).
+Se il caricamento del file è andato a buon fine, il sistema proporrà il pulsante *Invia documenti*. Cliccando questo pulsante l'integrazione spontanea verrà inviata all'Ente.
+
+
