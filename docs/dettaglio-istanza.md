@@ -94,4 +94,18 @@ Nel caso in cui uno (o più) pagamenti siano già stati creati (oppure generati 
 - Pulsante *dettaglio* (colore azzurro): consente di visualizzare i dati relativi allo *IUV* emesso (nel caso sia *scaduto*, ne viene data evidenza)
 - Pulsante *aggiorna* (colore arancione): nel caso in cui lo *IUV* non sia scaduto, è possibile, mediante questo pulsante, aggiornarne lo stato del pagamento
 
+### Comunicazioni verso l'ente
 
+Si suddivide in due sezioni:
+- *Nuova Comunicazione*: è possibile trasmettere una nuova comunicazione collegata alla pratica nel caso in cui la pratica non si trovi in stato **archiviata**, **diniego**, **inviata**, **protocollata**, **rifiutata**, **richiesta archiviazione** oppure in **revoca delegato**. Se la pratica si trova in **richiesta integrazioni** o **invio integrazioni** la possibilità di inviare una comunicazione dipende da una configurazione dell'Ente (che consentirebbe la trasmissione della comunicazione anche in fase di richiesta integrazioni). Non è possibile inoltre creare una nuova comunicazione nel caso in cui l'Ente sia *variato* (quindi sia passato ad un'unione ecc...)
+- *Lista Comunicazioni in fase di compilazione*: nel caso in cui si sia precedentemente avviata una nuova comunicazione, viene inserita in questa lista. Se nel frattempo la pratica cambiasse il suo stato, questa sezione segue le regole della *Nuova Comunicazione* in termini di visibilità. Nel caso in cui il professionista avvii una comunicazione e successivamente l'Ente richieda delle integrazioni (supponendo che l'Ente non consenta la trasmissione delle comunicazioni in fase di richiesta integrazioni), la comunicazione verrà *sospesa* (non visibile) fino a che lo stato della pratica ne consetirà nuovamente la visibilità.
+
+#### Nuova Comunicazione
+
+In base alla regione e alle impostazioni dell'Ente è possibile selezionare una comunicazione associata alla pratica dalla tendina *Seleziona il tipo di Comunicazione*.
+Nel caso in cui una comunicazione che il professionista ritiene necessaria per la pratica non sia presente nella tendina è opportuno fare segnalazione all'Ente che, nel caso in cui la segnalazione fosse corretta, può intervenire aggiungendo la comunicazione alla lista delle possibili per quella pratica.
+Selezionata la comunicazione di interesse, cliccando sul bottone *Nuova* è possibile avviarne la compilazione-
+
+#### Lista Comunicazioni in fase di compilazione
+
+La tabella rispecchia quella vista per le pratiche in compilazione ([vedi](elenco-istanze.html#pratiche-in-fase-di-compilazione))
