@@ -40,6 +40,9 @@ Puoi:
 - [Creazione nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
 - [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
 
+### Appendici
+- [Stati dei pagamenti PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
+
 ---
 
 ## Hai bisogno di aiuto?
