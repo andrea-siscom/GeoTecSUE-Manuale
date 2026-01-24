@@ -41,7 +41,7 @@ Puoi:
 - [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
 
 ### Appendici
-- [Stati dei pagamenti PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
+- [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
 
 ---
 
