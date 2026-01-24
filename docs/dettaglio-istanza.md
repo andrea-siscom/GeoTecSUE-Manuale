@@ -90,7 +90,7 @@ Nel caso in cui uno (o più) pagamenti siano già stati creati (oppure generati 
 - *Rata*: se il pagamento è da effettuarsi in un'unica soluzione, sarà valorizzato con 1. Se invece il pagamento è suddiviso in più rate, allora ci sarà il progressivo
 - *Scadenza*: indica la data di scadenza dello *IUV*
 - *Importo (€)*: l'importo da versare (può essere valorizzato oppure *da valorizzare*)
-- *Stato*: indica lo stato in cui si trova il pagamento (vedere l'appendice degli [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati))
+- *Stato*: indica lo stato in cui si trova il pagamento (vedere l'appendice degli [Stati PagoPA](appendici/pagopa-stati))
 - Pulsante *dettaglio* (colore azzurro): consente di visualizzare i dati relativi allo *IUV* emesso (nel caso sia *scaduto*, ne viene data evidenza)
 - Pulsante *aggiorna* (colore arancione): nel caso in cui lo *IUV* non sia scaduto, è possibile, mediante questo pulsante, aggiornarne lo stato del pagamento
 
