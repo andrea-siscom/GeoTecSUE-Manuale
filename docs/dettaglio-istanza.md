@@ -118,4 +118,29 @@ All'atto del caricamento viene sempre richiesta obbligatoriamente una *descrizio
 Una volta caricato il file, viene mostrata una tabella in cui vengono riepilogati i dati del file caricato con la possibilità di *eliminarlo* (🗑️ rosso) e *scaricarlo* (🔍 verde).
 Se il caricamento del file è andato a buon fine, il sistema proporrà il pulsante *Invia documenti*. Cliccando questo pulsante l'integrazione spontanea verrà inviata all'Ente.
 
+## Dati Generali della Pratica
+
+In questa sezione vengono riepilogati tutti i dati generali della pratica, così come sono stati inseriti dal professionista. In particolare:
+- *Numero pratica*: chiave univoca della pratica (19 numeri)
+- *Anno*: anno in cui è stata **creata** la pratica sul portale
+- *Stato*: indica lo stato della pratica ([vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza))
+- *Tipo*: indica la tipologia di pratica
+- *Descrizione Intervento*: viene mostrata la descrizione dell'intervento così come indicato all'interno dell'istanza. Se nell'istanza non è prevista una sezione per la descrizione/oggetto dell'intervento, il campo risulterà vuoto
+- *Data Registrazione*: indica data e ora in cui la pratica è stata creata. Questa informazione è utile per sapere se una certa istanza è stata creata prima di un aggiornamento normativo
+- *Data Ultima Modifica*: indica data e ora di ultima modifica prima della trasmissione
+- *Data Invio": indica data e ora della trasmissione dell'istanza all'Ente
+- *Documento istanza (non firmato)*: consente di scaricare il file *pdf* dell'istanza
+- *Documento istanza (firmato digitalmente)*: consente di scaricare il file *firmato digitalmente* dell'istanza (se previsto)
+
+Sono poi presenti altre tre sezioni:
+- *Dati Titolare Originale*
+- *Localizzazione dell'intervento*
+- *Documentazione allegata alla pratica*
+
+### Dati Titolare Originale
+
+In questa sezione vengono riepilogati i dati (principali) del titolare originale: *cognome*, *nome*, *codice fiscale*, *data di nascita*, *luogo di nascita* e *residenza*.
+Nel caso in cui al titolare sia stata associata una *ditta*, *società*, *ente*... allora verrà mostrata un'apposita sezione (*Dati della Ditta/Società/Ente/Altro*) contenente: *denominazione* (ragione sociale), *Partita IVA*, *Sede*, *E-mail* e *PEC*.
+Nel caso in cui siano stati indicati dei *co-intestatari* allora verrà mostrata la sezione *Altri Titolari* contenente una tabella in cui ogni riga corrisponderà ad un co-intestatario. I dati presenti in tabella sono: *cognome*, *nome*, *codice fiscale* e *data di nascita*.
+Nel caso sia stata operata una *voltura* del titolare principale, allora verrà mostrata la sezione *Dati Titolari (dopo voltura)* contenente una tabella in cui ogni riga corrisponderà ad un nuovo soggetto. I dati presenti in tabella sono *cognome*, *nome*, *codice fiscale*, *Data Richiesta* (della voltura), *Data Conferma* (della voltura) e *Ref. PagoPA*, contenente un bottone (attivo oppure disattivo) che servirà a definire oppure rimuovere il soggetto come **referente dei pagamenti PagoPA**.
 
