@@ -173,34 +173,9 @@ Si verifica quando il titolare della pratica contesta l'operato del professionis
 
 ## Diagramma del ciclo di vita
 
-```mermaid
-graph TD
-    A[In Compilazione] --> B[Completata]
-    B --> C[Firmata]
-    C --> D[Inviata]
-    D --> E[Protocollata]
-    E --> F[Registrata]
-    F --> G{Richiesta<br/>Integrazioni?}
-    G -->|Sì| H[Invio Integrazioni]
-    H --> F
-    G -->|No| I{Esito<br/>Istruttoria}
-    I -->|Positivo| J[Esecutiva]
-    I -->|Negativo| K[Diniego]
-    I -->|Archiviazione| L[Archiviata]
-    
-    style A fill:#e1f5ff
-    style B fill:#e1f5ff
-    style C fill:#e1f5ff
-    style D fill:#fff4e1
-    style E fill:#fff4e1
-    style F fill:#fff4e1
-    style H fill:#fff4e1
-    style J fill:#e8f5e9
-    style K fill:#ffebee
-    style L fill:#ffebee
-```
+![Ciclo di vita di un'istanza GeoTecSUE](../../assets/images/ciclo-vita-geotecsue.svg)
 
-*Stati del professionista in azzurro, stati dell'Ente in arancione, stati finali in verde (positivo) o rosso (negativo).*
+*Il diagramma mostra il percorso completo di un'istanza dalla creazione alla chiusura. Gli stati in azzurro sono gestiti dal professionista, quelli in arancione dall'Ente.*
 
 ## Professionista principale
 
