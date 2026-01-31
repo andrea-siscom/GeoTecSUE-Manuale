@@ -2,160 +2,330 @@
 title: Nozioni di base
 nav_order: 20
 parent: Introduzione
+description: Concetti fondamentali di GeoTecSUE - tipologie di istanze, ciclo di vita e gestione dei professionisti
+keywords: [istanza, pratica, comunicazione, integrazione, ciclo di vita, stati, professionista principale, soggetti compilatori, retention]
 ---
 
 # Nozioni di base
 
-Questo capitolo introduce i concetti fondamentali e l'organizzazione generale del portale **GeoTecSUE**.
-
----
+Questa sezione introduce i concetti fondamentali per utilizzare **GeoTecSUE** in modo efficace.
 
 ## Cos'è GeoTecSUE
 
-**GeoTecSUE** è una piattaforma web che consente la trasmissione telematica delle pratiche edilizie alla *Pubblica Amministrazione*. Non è un sistema per la *conservazione* dei dati, ma un meccanismo di *transito* dal professionista verso l'Ente: tutti gli allegati che il professionista *trasmette* sono disponibili sulla piattaforma **GeoTecSUE** fino a 6 mesi dalla data di *registrazione* dell'istanza, dopodiche vengono eliminati.
+**GeoTecSUE** è la piattaforma web per la trasmissione telematica delle pratiche edilizie alla Pubblica Amministrazione.
 
-Attraverso **GeoTecSUE** è possibile
-- compilare e inviare istanze
-- rispondere ad eventuali richieste di integrazione
-- integrare la pratica con le comunicazioni associate
-- monitorare lo stato delle proprie pratiche
-- consultare lo storico delle pratiche trasmesse all'Ente
-- gestire una propria *anagrafica* di richiedenti, professionisti ed imprese
+### Un sistema di transito, non di archiviazione
 
-## Istanza, Pratica, Comunicazione e Integrazione
+**Importante**: GeoTecSUE è un sistema di **transito**, non di conservazione documentale. 
 
-Nel **GeoTecSUE** ci sono tre elementi fondamentali che possono essere ricondotti al concetto di **istanza**:
-- [Pratica](#pratica)
-- [Comunicazione](#comunicazione)
-- [Integrazione](#integrazione)
+I documenti trasmessi rimangono disponibili sulla piattaforma per **6 mesi dalla data di registrazione** dell'istanza, dopodiché vengono automaticamente eliminati. È responsabilità del professionista conservare localmente copia della documentazione inviata.
 
-Un'istanza (che sia **pratica**, **comunicazione** o **integrazione**) è sempre univocamente identificata da un numero (**chiave**) di 19 cifre che viene assegnato in fase di creazione dell'istanza e che non verrà mai modificato durante tutto il ciclo di vita. La **chiave** è univoca e non possono esistere due istanze con medesima chiave.
+{: .warning }
+> **Retention documentale**: Tutti gli allegati caricati saranno eliminati dopo 6 mesi dalla registrazione. Conserva sempre una copia locale dei tuoi documenti.
+
+### Funzionalità principali
+
+Con GeoTecSUE puoi:
+
+- **Compilare e trasmettere** istanze edilizie
+- **Rispondere** a richieste di integrazione documentale
+- **Inviare comunicazioni** associate alle pratiche (es. inizio lavori, fine lavori)
+- **Monitorare** in tempo reale lo stato delle tue pratiche
+- **Consultare** lo storico delle istanze trasmesse
+- **Gestire anagrafiche** di richiedenti, professionisti e imprese
+
+## Tipologie di istanze
+
+Nel portale esistono tre tipologie di istanze. Ogni istanza è identificata da un **codice univoco di 19 cifre** (la "chiave") assegnato automaticamente al momento della creazione e mai modificato durante il ciclo di vita.
 
 ### Pratica
 
-La **pratica** è un'istanza che può essere avviata *indipendentemente*: vive di "luce propria", ha il suo *iter* e viene riconosciuta dalla *Pubblica Amministrazione* come un procedimento a sè stante.
-Un esempio di **pratica** è il *Permesso di Costruire*.
+La **pratica** è un'istanza autonoma che avvia un procedimento amministrativo indipendente.
+
+**Esempi**: Permesso di Costruire, SCIA, CILA, Autorizzazione Paesaggistica.
+
+**Caratteristiche**:
+- Vive di "luce propria" senza dipendere da altre istanze
+- Ha un proprio iter amministrativo completo
+- Viene protocollata e registrata autonomamente dall'Ente
+- Può contenere comunicazioni e integrazioni collegate
 
 ### Comunicazione
 
-La **comunicazione** è un'istanza che può essere avviata solo in presenza di una pratica già esistente: non vive di "luce propria", ma è "contenuta" all'interno di una pratica, andandone a definire un preciso comportamente.
-Un esempio di **comunicazione** è la *Fine Lavori*.
+La **comunicazione** è un'istanza collegata a una pratica già esistente e ne definisce eventi specifici del ciclo edilizio.
+
+**Esempi**: Inizio Lavori, Fine Lavori, Variante in Corso d'Opera, Sospensione Lavori.
+
+**Caratteristiche**:
+- Richiede sempre una pratica "genitore" già esistente
+- Non può essere creata in modo autonomo
+- Non ha protocollo o registrazione indipendenti
+- Segue il ciclo di vita della pratica principale
+
+{: .note }
+> Una comunicazione non può esistere senza una pratica di riferimento. Prima di creare una comunicazione, assicurati che la pratica principale sia stata almeno registrata dall'Ente.
 
 ### Integrazione
 
-L'**integrazione** (spontanea oppure richiesta) è simile alla comunicazione: può essere avviata solo in presenza di una pratica esistente. Non vive di "luce propria", ma è contenuta all'interno di una pratica.
+L'**integrazione** fornisce documentazione aggiuntiva richiesta dall'Ente o inviata spontaneamente dal professionista durante l'istruttoria.
 
-Gli enti possono decidere di inibire o consentire la trasmissione di integrazioni libere (o volontarie): pertanto il comportamento del **GeoTecSUE** è condizionato da quanto previsto dall'Ente stesso.
+**Tipologie**:
+- **Integrazione richiesta**: l'Ente ha aperto formalmente una richiesta di integrazione documentale
+- **Integrazione spontanea**: il professionista aggiunge documenti di propria iniziativa per completare la pratica
 
-## Il ciclo di vita di un'istanza
+**Caratteristiche**:
+- Come la comunicazione, richiede una pratica esistente
+- Può essere inviata solo se la pratica è in stato "Registrata" o successivi
+- La possibilità di inviare integrazioni spontanee dipende dalle impostazioni dell'Ente
 
-Su **GeoTecSUE**, nel suo ciclo di vita, l'istanza passa attraverso diversi stati.
+{: .warning }
+> **Verifica con il tuo Ente**: Alcuni Enti disabilitano le integrazioni spontanee. Controlla le impostazioni specifiche o contatta l'ufficio competente prima di procedere.
 
-### In Creazione
+## Ciclo di vita di un'istanza
 
-L'istanza (**pratica** oppure **comunicazione**) è stata appena creata e non ancora salvata.
+Ogni istanza attraversa diversi stati durante il suo percorso, dalla creazione alla chiusura. Di seguito gli stati principali che incontrerai più frequentemente.
 
-### In Compilazione
+### Stati di lavorazione del professionista
 
-L'istanza (**pratica** oppure **comunicazione**) è stata creata e salvata, ma ancora non è stata completata (campi incompleti, documenti obbligatori mancanti, pagamenti obbligatori non effettuati...)
+**In Creazione**  
+L'istanza è appena stata creata ma non ancora salvata per la prima volta. Questo stato dura pochi istanti.
 
-### Completata
+**In Compilazione**  
+L'istanza è stata salvata ma risulta ancora incompleta. Possono mancare:
+- Campi obbligatori non compilati
+- Documenti obbligatori non caricati
+- Pagamenti obbligatori non effettuati
 
-L'istanza (**pratica** oppure **comunicazione**) è stata validata con successo: tutti i campi correttamente completati, i documenti obbligatori correttamente inseriti ed i pagamenti obbligatori effettuati.
+Puoi salvare e riprendere la compilazione in qualsiasi momento.
 
-### Firmata
+**Completata**  
+Tutti i dati, documenti e pagamenti obbligatori sono stati inseriti correttamente. Il sistema ha validato l'istanza con successo.
 
-Successivamente alla validazione, è stato *generato* e *scaricato* il PDF dell'istanza, **firmato digitalmente** e caricato. Questo è l'ultimo stato in cui si può trovare l'istanza prima dell'effettivo invio all'Ente.
+**Firmata**  
+Hai generato il PDF dell'istanza, lo hai firmato digitalmente con il tuo dispositivo di firma e lo hai ricaricato sulla piattaforma. L'istanza è pronta per essere trasmessa all'Ente.
 
-### Inviata
+{: .note }
+> La firma digitale è obbligatoria per tutte le istanze. Assicurati di avere a disposizione un dispositivo di firma valido (smart card, token USB, firma remota).
 
-L'istanza (**pratica** oppure **comunicazione**) è stata trasmessa all'Ente. A questo punto il proseguio del ciclo di vita dipenderà dalle azioni svolte dall'Ente.
-All'atto della trasmissione dell'istanza all'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di invio* (per le pratiche, le comunicazioni e le integrazioni).
+### Stati di lavorazione dell'Ente
 
-### Protocollata
+**Inviata**  
+L'istanza è stata trasmessa all'Ente ed è uscita dalla tua responsabilità diretta. Da questo momento il ciclo di vita dipende dalle azioni dell'Ente.
 
-L'istanza (**pratica** oppure **comunicazione**) è stata protocollata dall'Ente: è stato quindi attribuito il numero di protocollo e la data di protollo all'istanza. Il professionista non può ancora operare sulla sua pratica inviando comunicazioni o integrazioni.
-All'atto della protocollazione dell'istanza da parte dell'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di protocollazione* (per le pratiche, le comunicazioni e le integrazioni).
+All'atto della trasmissione, GeoTecSUE genera automaticamente la **ricevuta di invio** scaricabile dal dettaglio dell'istanza.
 
-### Registrata
+**Protocollata**  
+L'Ente ha assegnato numero e data di protocollo all'istanza, inserendola formalmente nel proprio sistema documentale.
 
-L'istanza (in questo caso solo più la **pratica**) è stata presa in carico dall'Ufficio di competenza (normalmente l'Ufficio Tecnico) ed è stato assegnato un numero di registrazione ed una data di registrazione. In questa fase può anche essere stato individuato un *responsabile del procedimento* (e del *servizio*).
-Quando la **pratica** si trova in stato **registrata** il professionista può nuovamente *interagire* con essa inviando *comunicazioni* e/o (se previsto) *integrazioni*.
-All'atto della registrazione dell'istanza da parte dell'Ente, **GeoTecSUE** produrrà automaticamente la *ricevuta di registrazione* (esclusivamente per le pratiche).
+GeoTecSUE genera automaticamente la **ricevuta di protocollazione**. In questa fase non puoi ancora inviare comunicazioni o integrazioni.
 
-### Richiesta Integrazioni
+**Registrata** (solo per pratiche)  
+L'Ufficio competente (tipicamente l'Ufficio Tecnico) ha preso in carico la pratica, assegnando:
+- Numero di registrazione
+- Data di registrazione
+- Eventualmente un responsabile del procedimento
 
-L'Ente ha *registrato* la **pratica** trasmessa e, in fase istruttoria, ha aperto una **richiesta di integrazioni**. Il professionista deve pertanto intervenire sulla pratica (andando nel dettaglio) e caricando i documenti richiesti dall'Ente nell'apposita sezione.
+**Da questo momento puoi nuovamente interagire con la pratica** inviando comunicazioni e, se previsto dall'Ente, integrazioni spontanee.
 
-### Invio Integrazioni
+GeoTecSUE genera automaticamente la **ricevuta di registrazione** (disponibile solo per le pratiche, non per comunicazioni o integrazioni).
 
-Questo stato può essere *successivo* alla sola **richiesta di integrazioni** e viene raggiunto quando il professionista ha caricato i documenti richiesti e li ha trasmessi verso l'Ente.
+{: .note }
+> Lo stato "Registrata" è fondamentale: solo da questo momento in poi puoi inviare comunicazioni come Inizio Lavori o Fine Lavori.
 
-### Esecutiva
+### Stati di integrazione documentale
 
-L'Ente, dopo aver effettuato l'istruttoria, rilascia il *provvedimento* collegato alla **pratica** che pertanto diventa **esecutiva**. Alla pratica è stato associato anche un numero provvedimento ed una data del provvedimento (tipicamente per *Permesso di Costruire*, *Autorizzazioni Paesaggistiche*...).
+**Richiesta Integrazioni**  
+L'Ente ha aperto formalmente una richiesta di integrazione durante l'istruttoria della pratica. 
 
-### Richiesta Archiviazione
+Devi:
+1. Accedere al dettaglio della pratica
+2. Consultare la richiesta dell'Ente nell'apposita sezione
+3. Caricare i documenti richiesti
+4. Trasmettere l'integrazione
 
-Il professionista richiede all'Ente l'**archiviazione** della **pratica** mediante opportuna istanza che viene trasmessa a mezzo portale.
+**Invio Integrazioni**  
+Hai caricato e trasmesso all'Ente i documenti richiesti. La pratica torna in istruttoria.
 
-### Archiviazione
+### Stati finali
 
-Questo stato può essere raggiunto *successivamente* ad una **richiesta di archiviazione** (da parte del professionista) oppure direttamente dall'Ente, che pone in **archiviazione** una pratica (presenta errori non conformabili con una richiesta di integrazione, presenta una pratica con tipologia errata, presenta una pratica *SUAP* sullo sportello *SUE*...). Quando la pratica si trova in stato **archiviata** il professionista può vederla sulla sua scrivania del **GeoTecSUE** ma non può operare (non può inviare comunicazioni, integrazioni...).
+**Esecutiva**  
+L'Ente ha completato l'istruttoria e rilasciato il provvedimento favorevole. Alla pratica sono associati:
+- Numero del provvedimento
+- Data del provvedimento
 
-### Diniego
+**Esempi**: Rilascio Permesso di Costruire, Autorizzazione Paesaggistica approvata.
 
-Questo stato è simile al precedente (**Archiviazione**) con la differenza che può essere raggiunto esclusivamente dall'Ente dopo l'istruttoria. Come nel caso dell'**archiviazione**, il professionista può vederla sulla sua scrivania del **GeoTecSUE** ma non può operare (non può inviare comunicazioni, integrazioni...).
+**Archiviata**  
+La pratica è stata archiviata. Questo può avvenire in due modi:
+- Su richiesta del professionista (tramite apposita istanza)
+- Per decisione diretta dell'Ente (es. pratica errata, non conforme, presentata allo sportello sbagliato)
 
-### Revoca Delegato
+In questo stato puoi visualizzare la pratica ma non puoi più operare (niente comunicazioni, integrazioni o modifiche).
 
-Questo stato viene raggiunto nel caso in cui ci sia una contestazione da parte del titolare nei confronti del professionista originale della pratica e che quindi decida di *revocare* l'incarico. Come nei due casi precedenti (**archiviazione** e **diniego**) il professionista può vederla sulla sua scrivania del **GeoTecSUE** ma non può operare (non può inviare comunicazioni, integrazioni...).
+**Diniego**  
+L'Ente ha espresso parere negativo dopo l'istruttoria. Come per l'archiviazione, puoi visualizzare la pratica ma non puoi più operare su di essa.
 
-### Solo per Enti del Piemonte con Notifica Preliminare attivata
+**Revoca Delegato**  
+Si verifica quando il titolare della pratica contesta l'operato del professionista originale e revoca formalmente l'incarico. Il professionista può visualizzare la pratica ma non può più operare.
 
-#### Inviata SPRESALWEB (via MUDE)
+{: .warning }
+> Per stati meno frequenti o specifici di alcune Regioni (es. stati SPRESALWEB per il Piemonte, stato "Verificata", "Rifiutata"), consulta la sezione [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html).
 
-Lo stato indica che la **Notifica Preliminare** è stata trasmessa al *MUDE* ed è in attesa di essere *protocollata*.
+## Diagramma del ciclo di vita
 
-#### Protocollata SPRESALWEB
+```mermaid
+graph TD
+    A[In Compilazione] --> B[Completata]
+    B --> C[Firmata]
+    C --> D[Inviata]
+    D --> E[Protocollata]
+    E --> F[Registrata]
+    F --> G{Richiesta<br/>Integrazioni?}
+    G -->|Sì| H[Invio Integrazioni]
+    H --> F
+    G -->|No| I{Esito<br/>Istruttoria}
+    I -->|Positivo| J[Esecutiva]
+    I -->|Negativo| K[Diniego]
+    I -->|Archiviazione| L[Archiviata]
+    
+    style A fill:#e1f5ff
+    style B fill:#e1f5ff
+    style C fill:#e1f5ff
+    style D fill:#fff4e1
+    style E fill:#fff4e1
+    style F fill:#fff4e1
+    style H fill:#fff4e1
+    style J fill:#e8f5e9
+    style K fill:#ffebee
+    style L fill:#ffebee
+```
 
-Questo stato può essere raggiunto solo da **Inviata SPRESALWEB (via MUDE)** e conclude il procedimento di trasmissione della **Notifica Preliminare**. Nessun altro stato può essere raggiunto da questo.
+*Stati del professionista in azzurro, stati dell'Ente in arancione, stati finali in verde (positivo) o rosso (negativo).*
 
-## Ciclo di vita di un'istanza: stati non utilizzati (o sconsigliati)
+## Professionista principale
 
-### Rifiutata
+Chi crea un'istanza diventa automaticamente il **professionista principale** e mantiene questo ruolo per tutta la vita dell'istanza, fino a un'eventuale voltura formale.
 
-Questo stato può essere raggiunto solo nel caso in cui l'Ente abbia ancora attiva la protocollazione manuale delle istanze e, prima della protocollazione della stessa, decida di optarre per un **rifiuto**.
-L'uso di questo stato è *sconsigliato*: meglio procedere con la protocollazione, la successiva registrazione e quindi con un'**archiviazione** oppure un **diniego**.
-Nel caso di **pratica rifiutata** non vengono associati numeri di protocollo e/o registrazione (nei sistemi dell'Ente non c'è traccia dell'istanza).
+### Visibilità verso l'Ente
 
-### Verificata
+Agli occhi dell'Ente, il professionista principale è:
+- Il **compilatore** dell'istanza
+- Il **responsabile** della trasmissione
+- L'**unico interlocutore ufficiale** per la pratica
 
-La **verifica** di una pratica viene fatta dall'Ente per tutte le pratiche *asseverate* dal professionista: S.C.I.A., C.I.L.A., ecc...
-Tale **verifica** può essere fatta puntualmente oppure *a campione*, rispettando l'obbligo di un controllo in misura minima pari ad una determinata percentuale delle pratiche (ancora presente in alcune regioni).
-Il concetto di **verifica** è però maggiormente *interno* all'Ente e pertanto non viene trasmesso alla **pratica** su **GeoTecSUE**.
+Questo rimane vero anche se altre persone collaborano alla compilazione tramite il sistema dei soggetti compilatori (vedi sezione successiva).
 
-## Professionista principale ed altri soggetti compilatori
+### Esclusione dai soggetti coinvolti
 
-Quando il professionista effettua l'accesso al portale ed avvia la compilazione di una pratica, ne diventa il *professionista principale* e lo resterà fino ad una (eventuale) **voltura**.
-All'interno della pratica (nella sezione dei *Soggetti Coinvolti*) il professionista potrà indicare anche altri professionisti ed escludersi completamente dalla pratica stessa: all'Ente risulterà solo come *compilatore* e *professionista principale* ma non come professionista coinvolto all'interno della pratica.
+Il professionista principale può anche scegliere di non comparire tra i professionisti coinvolti nella pratica (es. progettista, direttore lavori). In questo caso:
+- All'Ente risulterà solo come "compilatore" e "professionista principale"
+- Non apparirà nella lista dei tecnici incaricati (progettisti, direttori lavori, ecc.)
 
-### Altri soggetti compilatori
+Questa scelta è utile quando il professionista principale agisce solo come intermediario per la compilazione, ma non ha ruoli tecnici nella pratica.
 
-Il *professionista principale* può definire altri *soggetti compilatori della pratica* condividendo la stessa sia in fase di *compilazione* che nelle fasi successive, per consentire ad altro professionista di poter intervenire sulla pratica.
-Il *professionista principale* potrà definire due *tipologie di ruolo* per il soggetto compilatore:
-- *Amministratore*: in questo caso il *soggetto compilatore* ha il **controllo completo** sulla pratica, potendo modificare i dati, aggiungere ed eliminare allegati, effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, cancellare un'istanza in compilazione e inviare un'istanza all'Ente. L'unica cosa che **non può** fare è gestire i soggetti di una pratica
-- *Utente Modifica*: in questo caso il *soggetto compilatore* ha un **controllo parziale** della pratica, potendo modificare i dati ed aggiungere allegati ad una pratica in corso (ed eventualmente eliminare allegati caricati da se stesso ma non quelli caricati dal professionista principale o da altri soggetti), effettuare pagamenti con *PagoPA*, creare una comunicazione all'interno di una pratica già trasmessa, ma non può cancellare un'istanza in compilazione né inviare un'istanza all'Ente. Non può gestire i soggetti di una pratica
+## Soggetti compilatori aggiuntivi
 
-### Come definire un altro soggetto compilatore
+Il professionista principale può condividere la pratica con altri professionisti per collaborare alla compilazione, sia durante la fase di compilazione iniziale che nelle fasi successive.
 
-Nella pagina dell'Elenco delle istanze (nella sezione *Lista Pratiche in fase di compilazione**) se presente un'istanza, è possibile cliccare sul bottone dei soggetti ([vedi]interfaccia-e-convenzioni#gestione-soggetti-pulsante-blu-oppure-verde) ed accedere alla schermata di selezione del soggetto compilatore.
-Nella pagina di Dettaglio della pratica, in alto a destra, è presente il bottone **Gestione Soggetti**: cliccandolo è possibile accedere alla schermata di selezione del soggetto compilatore. 
-Per poter individuare un nuovo soggetto compilatore, è necessario avere a disposizione il *codice fiscale* del soggetto, che sarà oggetto di ricerca da parte del sistema sull'Ente.
-Se il sistema non rileva alcun professionista, significa che quel professionista non ha mai effettuato accesso al portale **GeoTecSUE** dell'Ente (non è necessario aver trasmesso una pratica: è sufficiente un singolo accesso).
+### Ruoli disponibili
 
-### Effetti della definizione di uno (o più) soggetti compilatori
+**Amministratore**  
+Ha controllo quasi completo sulla pratica:
 
-Aver definito uno (o più) *soggetti compilatori* non modifica nulla "agli occhi" dell'Ente a cui verrà inviata la pratica: il concetto di *soggetto compilatore* è confinato al rapporto con il *professionista principale* che rimane l'unico soggetto che l'Ente individua come responsabile della compilazione e trasmissione della pratica.
-Anche nel caso in cui la pratica venga compilata in toto da un altro soggetto (con ruolo **Amministratore**) e venga trasmessa all'Ente risulterà comunque il solo *professionista principale*.
-Stessa identica situazione per un soggetto (con ruolo **Amministratore**) che crea una comunicazione e la trasmette: all'Ente risulterà comunque il solo *professionista principale*.
+✅ **Può**:
+- Modificare dati e allegati
+- Aggiungere ed eliminare documenti
+- Effettuare pagamenti PagoPA
+- Creare comunicazioni all'interno di pratiche già trasmesse
+- Trasmettere istanze all'Ente
+- Cancellare istanze in compilazione
+
+❌ **Non può**:
+- Gestire i soggetti della pratica (aggiungere/rimuovere altri compilatori)
+
+**Utente Modifica**  
+Ha controllo parziale sulla pratica:
+
+✅ **Può**:
+- Modificare i dati della pratica
+- Aggiungere allegati
+- Eliminare solo gli allegati caricati da lui stesso
+- Effettuare pagamenti PagoPA
+- Creare comunicazioni all'interno di pratiche già trasmesse
+
+❌ **Non può**:
+- Trasmettere istanze all'Ente
+- Cancellare istanze in compilazione
+- Eliminare allegati caricati da altri
+- Gestire i soggetti della pratica
+
+{: .note }
+> La differenza principale tra i due ruoli è che solo l'Amministratore può trasmettere istanze e cancellare pratiche in compilazione. L'Utente Modifica è ideale per collaboratori che devono solo inserire dati senza responsabilità di invio.
+
+### Come aggiungere un soggetto compilatore
+
+**Metodo 1 - Dalla lista pratiche**:
+1. Nella sezione "Lista Pratiche in fase di compilazione"
+2. Clicca sul bottone "Soggetti" (icona blu o verde) accanto alla pratica
+3. Inserisci il **codice fiscale** del professionista da aggiungere
+4. Seleziona il ruolo (Amministratore o Utente Modifica)
+5. Conferma l'operazione
+
+**Metodo 2 - Dal dettaglio pratica**:
+1. Apri il dettaglio della pratica
+2. Clicca su **Gestione Soggetti** (pulsante in alto a destra)
+3. Inserisci il **codice fiscale** del professionista
+4. Seleziona il ruolo
+5. Conferma l'operazione
+
+Per approfondire l'interfaccia, consulta [Interfaccia e convenzioni](interfaccia-e-convenzioni.html#gestione-soggetti).
+
+### Prerequisiti per aggiungere un soggetto
+
+Il professionista che vuoi aggiungere deve aver effettuato **almeno un accesso** a GeoTecSUE dell'Ente di riferimento.
+
+{: .warning }
+> Se il sistema non trova il professionista cercato, significa che questa persona non ha mai effettuato il login su GeoTecSUE di quell'Ente. Non è necessario che abbia mai trasmesso pratiche, basta un singolo accesso al portale.
+
+Chiedi al collega di:
+1. Accedere a GeoTecSUE con SPID o CIE
+2. Completare eventualmente il proprio profilo
+3. Confermarti l'accesso avvenuto
+
+Dopodiché potrai aggiungerlo come soggetto compilatore.
+
+### Trasparenza per l'Ente
+
+**Importante**: L'aggiunta di soggetti compilatori è completamente trasparente e invisibile all'Ente.
+
+Anche se:
+- Un Amministratore compila interamente la pratica
+- Un Amministratore trasmette l'istanza all'Ente
+- Un Amministratore crea e invia comunicazioni (es. Inizio Lavori)
+- Più persone collaborano alla compilazione
+
+All'Ente risulterà sempre e comunque il **professionista principale** come unico responsabile della compilazione e della trasmissione.
+
+Il concetto di "soggetto compilatore" esiste esclusivamente nel rapporto interno tra professionisti e non ha alcun valore o visibilità verso la Pubblica Amministrazione.
+
+{: .note }
+> Questo sistema è ideale per studi associati, società di ingegneria o collaborazioni tra professionisti, permettendo una gestione flessibile delle pratiche senza complicare i rapporti con l'Ente.
+
+## Riepilogo dei concetti chiave
+
+Prima di procedere con l'uso operativo di GeoTecSUE, assicurati di aver compreso questi concetti fondamentali:
+
+1. **Retention**: I documenti sono disponibili solo per 6 mesi dalla registrazione
+2. **Chiave univoca**: Ogni istanza ha un codice di 19 cifre mai modificato
+3. **Tre tipologie**: Pratica (autonoma), Comunicazione (collegata), Integrazione (aggiuntiva)
+4. **Stati critici**: Registrata (per inviare comunicazioni), Richiesta Integrazioni (azione richiesta)
+5. **Professionista principale**: Rimane il solo responsabile agli occhi dell'Ente
+6. **Collaborazione**: Puoi condividere pratiche con colleghi mantenendo il controllo
+
+---
+
+**Prossimi passi**: 
+
+- Consulta [Interfaccia e convenzioni](interfaccia-e-convenzioni.html) per familiarizzare con l'interfaccia
+- Leggi [Creazione di una nuova istanza](nuova-istanza.html) per iniziare a lavorare
+- Per stati particolari, vedi [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html)
