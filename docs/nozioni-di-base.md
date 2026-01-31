@@ -173,7 +173,7 @@ Si verifica quando il titolare della pratica contesta l'operato del professionis
 
 ## Diagramma del ciclo di vita
 
-![Ciclo di vita di un'istanza GeoTecSUE](../assets/images/ciclo-vita-geotecsue.svg)
+![Ciclo di vita di un'istanza GeoTecSUE](../assets/images/ciclo-vita-geotecsue-v2.svg)
 
 *Il diagramma mostra il percorso completo di un'istanza dalla creazione alla chiusura. Gli stati in azzurro sono gestiti dal professionista, quelli in arancione dall'Ente.*
 
