@@ -290,10 +290,10 @@ Il concetto di "soggetto compilatore" esiste esclusivamente nel rapporto interno
 
 Prima di procedere con l'uso operativo di GeoTecSUE, assicurati di aver compreso questi concetti fondamentali:
 
-1. **Retention**: I documenti sono disponibili solo per 6 mesi dalla registrazione
+1. **Conservazione temporanea**: I documenti sono disponibili solo per 6 mesi dalla registrazione
 2. **Chiave univoca**: Ogni istanza ha un codice di 19 cifre mai modificato
 3. **Tre tipologie**: Pratica (autonoma), Comunicazione (collegata), Integrazione (aggiuntiva)
-4. **Stati critici**: Registrata (per inviare comunicazioni), Richiesta Integrazioni (azione richiesta)
+4. **Stati critici**: Registrata (per consentire di inviare comunicazioni e/o integrazioni), Richiesta Integrazioni (azione richiesta)
 5. **Professionista principale**: Rimane il solo responsabile agli occhi dell'Ente
 6. **Collaborazione**: Puoi condividere pratiche con colleghi mantenendo il controllo
 
