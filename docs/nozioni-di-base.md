@@ -59,7 +59,7 @@ La **comunicazione** è un'istanza collegata a una pratica già esistente e ne d
 **Caratteristiche**:
 - Richiede sempre una pratica "genitore" già esistente
 - Non può essere creata in modo autonomo
-- Non ha protocollo o registrazione indipendenti
+- Non ha una registrazione indipendente
 - Segue il ciclo di vita della pratica principale
 
 {: .note }
