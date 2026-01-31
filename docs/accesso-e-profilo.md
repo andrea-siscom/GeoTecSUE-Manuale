@@ -58,5 +58,5 @@ Questi dati provengono direttamente dal sistema di autenticazione e non sono edi
 
 Una volta autenticato, rimani connesso a **GeoTecSUE** fino a quando:
 
-- Esegui il **logout** manualmente (dal menu personale → "Esci")
+- Esegui il **logout** manualmente (dal menu personale → "Logout")
 - Chiudi la finestra/tab del browser
