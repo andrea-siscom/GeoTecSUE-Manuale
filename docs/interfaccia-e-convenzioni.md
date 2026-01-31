@@ -2,13 +2,13 @@
 title: Interfaccia e convenzioni
 nav_order: 30
 parent: Introduzione
+description: Guida alle icone, colori e convenzioni grafiche dell'interfaccia GeoTecSUE
+keywords: [interfaccia, pulsanti, icone, colori, convenzioni, modifica, cancellazione, visualizza, soggetti]
 ---
 
 # Interfaccia e convenzioni
 
 Questo capitolo descrive gli elementi grafici e le convenzioni utilizzate nell'interfaccia del portale **GeoTecSUE**, al fine di facilitarne l'utilizzo.
-
----
 
 ## Convenzioni grafiche
 
