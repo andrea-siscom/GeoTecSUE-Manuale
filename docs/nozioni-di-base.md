@@ -21,7 +21,7 @@ Questa sezione introduce i concetti fondamentali per utilizzare **GeoTecSUE** in
 I documenti trasmessi rimangono disponibili sulla piattaforma per **6 mesi dalla data di registrazione** dell'istanza, dopodiché vengono automaticamente eliminati. È responsabilità del professionista conservare localmente copia della documentazione inviata.
 
 {: .warning }
-> **Retention documentale**: Tutti gli allegati caricati saranno eliminati dopo 6 mesi dalla registrazione. Conserva sempre una copia locale dei tuoi documenti.
+> **Conservazione temporanea**: Tutti gli allegati caricati saranno eliminati dopo 6 mesi dalla registrazione. Conserva sempre una copia locale dei tuoi documenti.
 
 ### Funzionalità principali
 
