@@ -54,7 +54,7 @@ La **pratica** è un'istanza autonoma che avvia un procedimento amministrativo i
 
 La **comunicazione** è un'istanza collegata a una pratica già esistente e ne definisce eventi specifici del ciclo edilizio.
 
-**Esempi**: Inizio Lavori, Fine Lavori, Variante in Corso d'Opera, Sospensione Lavori.
+**Esempi**: Inizio Lavori, Fine Lavori.
 
 **Caratteristiche**:
 - Richiede sempre una pratica "genitore" già esistente
