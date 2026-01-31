@@ -63,7 +63,7 @@ La **comunicazione** è un'istanza collegata a una pratica già esistente e ne d
 - Segue il ciclo di vita della pratica principale
 
 {: .note }
-> Una comunicazione non può esistere senza una pratica di riferimento. Prima di creare una comunicazione, assicurati che la pratica principale sia stata almeno registrata dall'Ente.
+> Una comunicazione non può esistere senza una pratica di riferimento. Una comunicazione non può essere creata fino a che la pratica principale non è stata almeno registrata dall'Ente.
 
 ### Integrazione
 
