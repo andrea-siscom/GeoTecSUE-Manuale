@@ -84,4 +84,18 @@ Dopo un'esplicita richiesta di archiviazione da parte del professionista oppure 
 
 ## Diniego
 
-Lo stato è molto simile ad *Archiviata* (stesso effetto) ma può raggiungere questo stato esclusivamente per una scelta dell'Ente.
+Lo stato è molto simile ad *Archiviata* (stesso effetto) ma può raggiungere questo stato esclusivamente per una scelta dell'Ente. Quando la pratica raggiunge questo stato non è più possibile operare anche se è visibile sulla propria scriviania.
+
+## Revoca Delegato
+
+La pratica raggiunge questo stato quando il **titolare** della pratica richiede all'Ente (non attraverso il portale) di revocare il delegato. Non è quindi possibile operare sulla pratica (è analoga ad *Archiviata* o *Diniego*) ma lo stato è transitorio, in attesa di essere assegnata ad un nuovo professionista
+
+# Stati non utilizzati (o deprecati)
+
+## Rifiutata
+
+Prima che la pratica possa raggiungere lo stato *Protocollata* da *Inviata* potrebbe essere "intercettata" dall'Ente che la rifiuta (con motivazione) senza che la pratica venga inserita sui sistemi gestionali dell'Ente (protocollo e Ufficio Tecnico). Questo stato è ormai praticamente in disuso in quanto sulla maggior parte degli Enti è presente la *protocollazione automatica* che non consente più un *rifiuto* dell'istanza. È inoltre deprecato l'uso nei casi in cui non sia presente la protocollazione automatica in quanto con il rifiuto non si tiene in alcun modo traccia della pratica (anche per ricerche future)
+
+## Verificata
+
+Sui gestionali in uso dell'Ente molto spesso è possibile indicare che una pratica che non prevede il rilascio di un titolo (ad esempio SCIA o CILA) possa essere *verificata* da parte dell'Ente. Visto che si tratta di tipologie di pratica che non prevedono un coinvolgimento dell'Ente, il concetto di *verifica* è puramente interno ed è sconsigliata la propagazione sul portale.
