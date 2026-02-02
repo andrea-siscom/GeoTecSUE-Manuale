@@ -39,7 +39,7 @@ Puoi:
 
 ### Le mie istanze
 - [Creazione di una nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
-- [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
+- [Importazione pratiche pregresse](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
 - [Elenco istanze](/GeoTecSUE-Manuale/elenco-istanze)
 - [Dettaglio istanza](/GeoTecSUE-Manuale/elenco-istanze)
 
