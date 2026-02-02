@@ -2,102 +2,214 @@
 title: Interfaccia e convenzioni
 nav_order: 30
 parent: Introduzione
-description: Guida alle icone, colori e convenzioni grafiche dell'interfaccia GeoTecSUE
-keywords: [interfaccia, pulsanti, icone, colori, convenzioni, modifica, cancellazione, visualizza, soggetti]
+description: Guida alle icone, colori e convenzioni grafiche dell'interfaccia GeoTecSUE per navigare il portale in modo efficace
+keywords: [interfaccia, pulsanti, icone, colori, convenzioni, modifica, cancellazione, visualizza, soggetti, azioni]
 ---
 
 # Interfaccia e convenzioni
 
-Questo capitolo descrive gli elementi grafici e le convenzioni utilizzate nell'interfaccia del portale **GeoTecSUE**, al fine di facilitarne l'utilizzo.
+Questa sezione descrive gli elementi grafici e le convenzioni utilizzate nell'interfaccia di **GeoTecSUE** per aiutarti a riconoscere rapidamente le azioni disponibili.
 
-## Convenzioni grafiche
+## Sistema di identificazione visiva
 
-Il portale **GeoTecSUE** utilizza icone e colori per rappresentare in modo immediato le **azioni disponibili** e il **livello di impatto** delle operazioni eseguibili.
+**GeoTecSUE** utilizza un sistema coerente di **icone** e **colori** per rappresentare le azioni disponibili e il loro livello di impatto. Conoscere queste convenzioni ti permetterà di navigare il portale in modo più rapido ed efficace.
 
-La presente sezione descrive tali convenzioni per facilitarne la comprensione durante l'utilizzo dell'applicazione.
+## Panoramica dei pulsanti
 
-### Pulsanti principali e colori
+Ogni pulsante nel portale è identificato da:
+- Un'**icona** che rappresenta il tipo di azione
+- Un **colore** che indica l'impatto dell'operazione
 
-I pulsanti (*bottoni*) presenti nel portale sono identificati da un'icona e da un colore, che consentono di riconoscere rapidamente il tipo di azione associata.
+### Tabella riepilogativa
 
-| Icona | Colore    | Azione            |
-| ----- | --------- | ----------------- |
-| ✏️    | 🟡 Giallo | Modifica          |
-| 🗑️   | 🔴 Rosso  | Cancellazione     |
-| 👤    | 🔵 Blu / 🟢 Verde | Gestione soggetti |
-| 🔍 | 🟢 Verde / 🟡 Giallo | Visualizza / Dettaglio |
+| Icona | Colore | Azione | Impatto |
+|-------|--------|--------|---------|
+| Matita | Giallo | Modifica dati o accesso al dettaglio | Reversibile |
+| Cestino | Rosso | Cancellazione definitiva | **Non reversibile** |
+| Persona | Blu / Verde | Gestione soggetti compilatori | Reversibile |
+| Lente | Verde / Giallo | Visualizzazione dettaglio | Solo lettura |
 
-#### Modifica (pulsante giallo)
+{: .note }
+> Il colore di alcuni pulsanti può variare in base allo stato dell'elemento (es. blu se vuoto, verde se popolato).
 
-✏️
+## Azioni di modifica (giallo)
 
-##### Descrizione
+### Cosa fa
 
-Consente la modifica di un dato inserito.
-Nella sezione dell'*Elenco istanze* consente di accedere al dettaglio della pratica (o della comunicazione) per proseguirne la compilazione o modificarne i dati inseriti.
+Il pulsante di modifica consente di:
+- Modificare dati già inseriti
+- Accedere al dettaglio di un'istanza per proseguirne la compilazione
+- Correggere informazioni precedentemente salvate
 
-##### Note
+### Comportamento
 
-- Una volta cliccato il pulsante, la sua azione è *sempre reversibile* (propone la modifica ma non la effettua fino a conferma)
+L'azione è **sempre reversibile**: cliccando il pulsante si accede alla schermata di modifica, ma le modifiche non vengono salvate finché non confermi esplicitamente.
 
-##### Dove si trova
+### Dove si trova
 
-- Nell'elenco delle istanze, nella sezione delle pratiche in compilazione (se presenti)
-- Nel dettaglio della pratica, nella sezione delle comunicazioni in fase di compilazione (se presenti)
-- All'interno della *compilazione* dell'istanza nella sezione della *Localizzazione dell'intervento* (per la modifica di un mappale inserito) e nei *Soggetti coinvolti* (per la modifica di un *titolare*, di un *tecnico incaricato* o di un'*impresa esecutrice*)
+- **Elenco istanze**: Accanto a pratiche e comunicazioni in compilazione
+- **Dettaglio pratica**: Nella sezione delle comunicazioni in fase di compilazione
+- **Compilazione istanza**:
+  - Sezione "Localizzazione intervento" (modifica mappali)
+  - Sezione "Soggetti coinvolti" (modifica titolari, tecnici, imprese)
 
-#### Cancellazione (pulsante rosso)
+{: .note }
+> Quando vedi il pulsante giallo, puoi sempre modificare il dato senza rischi: le modifiche richiedono conferma esplicita.
 
-🗑️
+## Azioni di cancellazione (rosso)
 
-##### Descrizione
+### Cosa fa
 
-Consente di eliminare **definitivamente** una pratica (o una comunicazione), un allegato caricato nell'istanza, un **codice IUV** legato ad un **PagoPA** non ancora pagato, un soggetto caricato all'interno dell'istanza (*titolare*, *professionista*, *impresa*)
+Il pulsante di cancellazione consente di eliminare **definitivamente**:
+- Pratiche o comunicazioni in compilazione
+- Allegati caricati
+- Codici IUV di pagamenti PagoPA non ancora effettuati
+- Soggetti inseriti nell'istanza (titolari, professionisti, imprese)
 
-##### Note
+### Comportamento
 
-- Prima dell'eliminazione è possibile la richiesta di una conferma esplicita (nel caso di cancellazione di un'istanza in compilazione)
-- L'operazione *non è reversibile*
+{: .warning }
+> **Attenzione**: L'operazione di cancellazione è **irreversibile**. Una volta confermata, non sarà possibile recuperare i dati eliminati.
 
-##### Dove si trova
+Per le cancellazioni critiche (come l'eliminazione di un'intera istanza), il sistema richiede una conferma esplicita prima di procedere.
 
-- Nell'elenco delle istanze, nella sezione delle pratiche in compilazione (se presenti)
-- Nel dettaglio della pratica, nella sezione delle comunicazioni in fase di compilazione (se presenti)
-- All'interno della *compilazione* dell'istanza nella sezione della *Localizzazione dell'intervento* (per la cancellazione di un mappale inserito), nei *Soggetti coinvolti* (per la cancellazione di un *titolare*, di un *tecnico incaricato* o di un'*impresa esecutrice*), nella sezione *PagoPA* (per la cancellazione di un pagamento ancora non effettuato) e nella sezione degli *Allegati* obbligatori, liberi e facoltativi (per la cancellazione di un allegato caricato)
+### Dove si trova
 
-#### Gestione soggetti (pulsante blu oppure verde)
+- **Elenco istanze**: Accanto a pratiche e comunicazioni in compilazione
+- **Dettaglio pratica**: Nella sezione delle comunicazioni in fase di compilazione
+- **Compilazione istanza**:
+  - Sezione "Localizzazione intervento" (cancellazione mappali)
+  - Sezione "Soggetti coinvolti" (rimozione titolari, tecnici, imprese)
+  - Sezione "PagoPA" (cancellazione pagamenti non effettuati)
+  - Sezione "Allegati" (rimozione file caricati)
 
-👤
+{: .warning }
+> Usa il pulsante rosso con cautela: assicurati sempre di voler eliminare definitivamente l'elemento prima di confermare.
 
-##### Descrizione
+## Gestione soggetti compilatori (blu/verde)
 
-Consente di gestire i **Soggetti Compilatori** della pratica (per maggiori dettagli vedere la sezione apposita). Il pulsante consente di aggiungere un professionista alla compilazione della pratica oppure a rimuoverlo.
+### Cosa fa
 
-##### Note
+Questo pulsante consente di gestire i [soggetti compilatori](nozioni-di-base.html#soggetti-compilatori-aggiuntivi) della pratica:
+- Aggiungere professionisti che possono collaborare alla compilazione
+- Rimuovere collaboratori precedentemente aggiunti
+- Modificare i ruoli assegnati (Amministratore o Utente Modifica)
 
-- Una volta cliccato il pulsante, la sua azione è *sempre reversibile* (propone la modifica ma non la effettua fino a conferma)
-- Il pulsante è di colore blu quando ancora nessun soggetto è stato aggiunto
-- Il pulsante è di colore verde quando *almeno* un soggetto è stato aggiunto
+### Comportamento
 
-##### Dove si trova
+L'azione è **reversibile**: cliccando il pulsante si accede alla schermata di gestione, ma le modifiche richiedono conferma esplicita prima di essere salvate.
 
-- Nell'elenco delle istanze, nella sezione delle pratiche in compilazione (se presenti)
-- Nel dettaglio della pratica (in alto a destra) accompagnando all'icona anche il testo *Gestione Soggetti*
+### Indicatore visivo dello stato
 
-####  Visualizza / Dettaglio (pulsante verde oppure giallo)
+Il colore del pulsante comunica lo stato attuale:
 
-🔍
+- **Blu**: Nessun soggetto compilatore aggiunto alla pratica
+- **Verde**: Almeno un soggetto compilatore è già presente
 
-##### Descrizione
+Questo ti permette di vedere a colpo d'occhio se la pratica è condivisa con altri professionisti.
 
-Consente di visualizzare il dettaglio un dato (un'istanza, un allegato, un soggetto).
+### Dove si trova
 
-##### Note
+- **Elenco istanze**: Accanto alle pratiche in compilazione
+- **Dettaglio pratica**: In alto a destra, con etichetta "Gestione Soggetti"
 
-- Il pulsante è di colore verde quando si visualizza un dato *consolidato* (ad esempio, si entra nel dettaglio di una pratica)
-- Il pulsante è di colore giallo quando si visualizza un dato modificabile (ad esempio, un allegato oppure un soggetto all'interno di un'istanza in compilazione)
+{: .note }
+> Per maggiori dettagli sul sistema di collaborazione tra professionisti, consulta la sezione [Soggetti compilatori aggiuntivi](nozioni-di-base.html#soggetti-compilatori-aggiuntivi).
 
-##### Dove si trova
+## Visualizzazione dettaglio (verde/giallo)
 
-- Nell'elenco delle istanza, nella sezione delle pratiche inviate o importate
-- All'interno della *compilazione* dell'istanza nella sezione degli *Allegati* obbligatori, liberi e facoltativi (per la visualizzazione di un allegato caricato: da lì sarà possibile *eliminarlo* se presente oppure *caricarne* un altro)
+### Cosa fa
+
+Il pulsante di visualizzazione consente di:
+- Accedere al dettaglio completo di un'istanza
+- Visualizzare un allegato caricato
+- Consultare i dati di un soggetto
+
+### Comportamento
+
+L'azione apre una schermata di **sola visualizzazione** o, nel caso di istanze, di accesso al dettaglio completo con ulteriori azioni disponibili.
+
+### Indicatore visivo del contesto
+
+Il colore del pulsante indica il tipo di visualizzazione:
+
+- **Verde**: Dato consolidato o istanza già trasmessa (sola lettura)
+- **Giallo**: Dato modificabile o istanza in compilazione
+
+**Esempi**:
+- Visualizzare una pratica inviata → **Verde** (dati consolidati)
+- Visualizzare un allegato in un'istanza in compilazione → **Giallo** (puoi ancora eliminarlo o sostituirlo)
+
+### Dove si trova
+
+- **Elenco istanze**: Accanto a pratiche inviate, protocollate, registrate o importate
+- **Compilazione istanza**:
+  - Sezione "Allegati" (visualizzazione file caricati)
+  - Sezione "Soggetti coinvolti" (dettaglio anagrafiche)
+
+## Altre convenzioni dell'interfaccia
+
+### Messaggi e notifiche
+
+Il portale utilizza messaggi colorati per comunicare lo stato delle operazioni:
+
+- **Verde**: Operazione completata con successo
+- **Giallo**: Attenzione o informazione importante
+- **Rosso**: Errore o operazione non riuscita
+
+### Campi obbligatori
+
+I campi obbligatori sono contrassegnati da un **asterisco rosso (*)** accanto all'etichetta. Tutti i campi obbligatori devono essere compilati prima di poter salvare o trasmettere l'istanza.
+
+### Validazione in tempo reale
+
+Alcuni campi vengono validati mentre compili:
+- **Bordo rosso**: Il valore inserito non è valido
+- **Messaggio sotto il campo**: Spiegazione dell'errore e come correggerlo
+
+### Badge di stato
+
+Le istanze nell'elenco mostrano un badge colorato che indica lo stato attuale:
+- **Grigio**: In compilazione
+- **Blu**: Inviata/Protocollata
+- **Verde**: Registrata/Esecutiva
+- **Arancione**: Richiesta integrazioni
+- **Rosso**: Archiviata/Diniego
+
+## Consigli per l'utilizzo
+
+### Prima di cancellare
+
+Prima di usare il pulsante rosso di cancellazione:
+1. Verifica di aver selezionato l'elemento corretto
+2. Assicurati di non averne più bisogno
+3. Considera di scaricare una copia (per allegati) prima di eliminare
+
+### Quando modificare
+
+Usa il pulsante giallo di modifica quando:
+- Devi correggere un errore di compilazione
+- Vuoi aggiornare informazioni prima dell'invio
+- Devi completare campi lasciati vuoti
+
+### Condivisione pratiche
+
+Usa il pulsante blu/verde di gestione soggetti quando:
+- Lavori in team e vuoi condividere la compilazione
+- Hai bisogno che un collega completi alcune sezioni
+- Vuoi delegare l'invio a un altro professionista
+
+{: .note }
+> Ricorda: anche se condividi la pratica, tu rimani il [professionista principale](nozioni-di-base.html#professionista-principale) agli occhi dell'Ente.
+
+## Accessibilità
+
+Tutte le icone sono accompagnate da etichette testuali (tooltip) che appaiono passando il mouse sopra il pulsante. Questo garantisce che l'interfaccia sia utilizzabile anche senza distinguere i colori.
+
+Se hai difficoltà a distinguere i colori, concentrati sulle icone e sui tooltip testuali per identificare le azioni disponibili.
+
+---
+
+**Prossimi passi**: 
+- Consulta [Creazione di una nuova istanza](nuova-istanza.html) per vedere queste convenzioni in azione
+- Torna a [Nozioni di base](nozioni-di-base.html) per ripassare i concetti fondamentali
