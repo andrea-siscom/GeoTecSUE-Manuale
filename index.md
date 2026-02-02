@@ -33,14 +33,18 @@ Puoi:
 ## Indice dei contenuti
 
 ### Introduzione
-- [Accesso al portale](/GeoTecSUE-Manuale/docs/accesso-e-profilo)
+- [Accesso al portale e gestione del profilo](/GeoTecSUE-Manuale/docs/accesso-e-profilo)
 - [Nozioni di base](/GeoTecSUE-Manuale/docs/nozioni-di-base)
+- [Interfaccia e convenzioni](/GeoTecSUE-Manuale/docs/interfaccia-e-convenzioni)
 
 ### Le mie istanze
-- [Creazione nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
+- [Creazione di una nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
 - [Gestione Istanze non presenti su GeoTecSUE](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
+- [Elenco istanze](/GeoTecSUE-Manuale/elenco-istanze)
+- [Dettaglio istanza](/GeoTecSUE-Manuale/elenco-istanze)
 
 ### Appendici
+- [Ciclo di vita dettagliato](/GeoTecSUE-Manuale/docs/appendici/ciclo-vita-dettagliato)
 - [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
 
 ---
