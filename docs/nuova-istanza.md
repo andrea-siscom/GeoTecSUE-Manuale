@@ -22,12 +22,12 @@ Parti da una pratica vuota e compili tutti i campi manualmente. Ideale quando:
 
 ### Metodo 2: Duplicazione da pratica esistente
 Parti da una pratica già creata in passato e riutilizzi i dati comuni (titolare, professionisti, localizzazione). Ideale quando:
-- Hai già presentato pratiche simili
-- Il titolare è lo stesso di una pratica precedente
-- L'intervento è nella stessa area di un lavoro già presentato
+- Devi presentare una variante ad una pratica già trasmessa con GeoTecSUE
+- Devi presentare una pratica ambientale (Autorizzazione Paesaggistica, Autorizzazione al Vincolo Idrogeologico...) di una pratica edilizia (S.C.I.A., Permesso di Costruire...) già trasmessa con GeoTecSUE
+- La pratica è molto simile ad una già precedentemente trasmessa
 
 {: .note }
-> La duplicazione fa risparmiare tempo evitando di reinserire dati anagrafici e informazioni ricorrenti. I dati specifici della nuova pratica dovranno comunque essere compilati.
+> La duplicazione fa risparmiare tempo evitando di reinserire dati anagrafici e informazioni ricorrenti. I dati specifici della nuova pratica dovranno comunque essere compilati. Gli allegati (per via della validità della firma apposta) non vengono duplicati
 
 ## Prerequisiti
 
@@ -61,10 +61,14 @@ Alcuni tipi di pratica richiedono di specificare anche il **tipo di intervento**
 Se previsto dall'Ente, seleziona la tipologia appropriata dal menu a discesa **"Tipo Intervento"**.
 
 **Esempi di tipi di intervento**:
-- Nuova costruzione
-- Ristrutturazione
-- Ampliamento
-- Cambio destinazione d'uso
+- Manutenzione Ordinaria
+- Manutenzione Straordinaria
+- Restauro
+- Risanamento Conservativo
+- Ristrutturazione Edilizia
+- Nuova Costruzione
+- Ristrutturazione Urbanistica
+- Altro
 
 {: .note }
 > Non tutte le pratiche richiedono la selezione del tipo di intervento. Se il campo non appare, procedi direttamente al passo successivo.
@@ -80,7 +84,10 @@ Una breve spiegazione del procedimento amministrativo selezionato e delle sue ca
 L'elenco completo dei documenti che dovrai obbligatoriamente caricare per questa pratica. Prendi nota di questi allegati per prepararli in anticipo.
 
 {: .warning }
-> **Importante**: Senza tutti gli allegati obbligatori non potrai completare e trasmettere la pratica. Assicurati di avere già pronti i documenti richiesti prima di procedere.
+> **Importante**: Senza tutti gli allegati obbligatori non potrai completare e trasmettere la pratica
+
+**Pagamenti obbligatori**
+L'elenco di tutti i pagamenti obbligatori da effettuare con *PagoPA*. All'interno del dettaglio della pratica in compilazione sarà ppossibile creare il **Codice IUV**.
 
 ### Passo 5: Avviare la nuova pratica
 
@@ -100,10 +107,9 @@ La duplicazione ti permette di riutilizzare i dati di una pratica già presentat
 ### Quando è utile duplicare
 
 La duplicazione è particolarmente vantaggiosa quando:
-- Presenti più pratiche per lo stesso titolare
-- Gli interventi sono nella stessa area geografica
-- I professionisti incaricati sono gli stessi
-- Le imprese esecutrici sono le stesse
+- Devi presentare una variante ad una pratica già trasmessa con GeoTecSUE
+- Devi presentare una pratica ambientale (Autorizzazione Paesaggistica, Autorizzazione al Vincolo Idrogeologico...) di una pratica edilizia (S.C.I.A., Permesso di Costruire...) già trasmessa con GeoTecSUE
+- La pratica è molto simile ad una già precedentemente trasmessa (ad esempio: stessi titolari, professionisti o imprese)
 
 ### Passo 1: Accedere al menu di duplicazione
 
@@ -179,8 +185,6 @@ Quando duplichi una pratica, il sistema copia automaticamente:
 
 ❌ **Altri elementi non duplicati**:
 - Pagamenti effettuati (ogni pratica genera nuovi codici IUV)
-- Ricevute e documenti generati dal sistema
-- Comunicazioni e integrazioni associate alla pratica originale
 - Codice dell'istanza (ogni pratica ha un codice univoco)
 
 ### Dopo la duplicazione
@@ -201,12 +205,8 @@ Una volta creata la pratica duplicata:
 Ad esempio, puoi duplicare:
 - Una **SCIA** in un'**Autorizzazione Paesaggistica**
 - Un **Permesso di Costruire** in una **CILA**
-- Una **Comunicazione di Agibilità** in una **SCIA**
 
 Il sistema copierà automaticamente solo i campi comuni tra le due tipologie (titolare, localizzazione, descrizione base). I campi specifici della nuova tipologia rimarranno vuoti e dovrai compilarli.
-
-{: .note }
-> Questa funzionalità è utile quando presenti più pratiche diverse per lo stesso intervento o quando una pratica deve essere "convertita" in un altro tipo di procedimento.
 
 ### Cosa succede dopo aver creato l'istanza?
 
@@ -242,7 +242,6 @@ Se il tipo di pratica che devi presentare non appare nel menu a discesa, signifi
 In questo caso:
 1. Contatta l'ufficio competente dell'Ente per verificare
 2. Chiedi se la pratica deve essere presentata in altro modo (sportello fisico, PEC, altro portale)
-3. Verifica di avere le abilitazioni necessarie (alcuni procedimenti potrebbero richiedere iscrizioni specifiche)
 
 ### Quanto tempo ho per completare una pratica in compilazione?
 
