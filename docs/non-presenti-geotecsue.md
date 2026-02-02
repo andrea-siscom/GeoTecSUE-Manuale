@@ -25,15 +25,15 @@ Queste pratiche non sono presenti su GeoTecSUE perché sono state protocollate e
 
 ## Quando importare una pratica pregressa
 
-L'importazione è necessaria quando:
+Se l'Ente ha attivato la possibilità di importare le pratiche pregresse, l'importazione è necessaria quando:
 
 ✅ Hai una **pratica in corso** presentata prima di GeoTecSUE  
-✅ Devi inviare una **comunicazione** (es. Inizio Lavori, Fine Lavori, Variante)  
-✅ Devi rispondere a una **richiesta di integrazione** dell'Ente  
-✅ Devi effettuare un **pagamento** tramite PagoPA collegato alla pratica  
-✅ Vuoi avere tutte le tue pratiche **centralizzate** su GeoTecSUE
+✅ Devi inviare una **comunicazione** (es. Inizio Lavori, Fine Lavori...)  
+✅ Vuoi consetire una **richiesta di integrazione** dell'Ente  e rispondere a mezzo GeoTecSUE
+✅ Vuoi effettuare un **pagamento** tramite PagoPA collegato alla pratica  
+✅ Vuoi avere tutte le tue pratiche in corso **centralizzate** su GeoTecSUE
 
-**Esempio tipico**: Hai presentato un Permesso di Costruire via PEC nel 2023. Ora i lavori sono terminati e devi inviare la comunicazione di Fine Lavori. Importando la pratica su GeoTecSUE, potrai creare e inviare la comunicazione direttamente dal portale.
+**Esempio tipico**: Hai presentato un Permesso di Costruire via PEC nel 2023. Ora i lavori sono terminati e devi inviare la comunicazione di Fine Lavori. Se l'Ente ha attivato la possibilità, puoi importare la pratica su GeoTecSUE, quindi creare e inviare la comunicazione direttamente dal portale.
 
 {: .note }
 > Non è obbligatorio importare le pratiche pregresse. Se non devi più operare su di esse (comunicazioni, integrazioni, pagamenti), puoi lasciarle gestite tramite i canali originali.
@@ -48,7 +48,7 @@ Il sistema di importazione si basa su una sincronizzazione tra **GeoTecSUE** e i
 2. Il sistema utilizza il tuo **codice fiscale** come chiave di ricerca
 3. GeoTecSUE interroga il gestionale dell'Ente cercando pratiche in cui tu risulti come **professionista principale**
 4. Le pratiche trovate vengono mostrate e puoi selezionarle per l'importazione
-5. Una volta importate, appaiono nel tuo elenco istanze come le altre pratiche
+5. Una volta importate, appaiono nel tuo elenco istanze nella lista delle pratiche importate
 
 {: .note }
 > Il codice fiscale deve corrispondere esattamente a quello registrato come professionista principale nel gestionale dell'Ente. Anche una piccola discrepanza impedisce il recupero della pratica.
@@ -112,14 +112,16 @@ Clicca sulla pratica per selezionarla.
 
 ### Passo 4: Confermare l'importazione
 
-Dopo aver selezionato la pratica, clicca sul pulsante **Importa** (o equivalente).
+Dopo aver selezionato la pratica, clicca sul pulsante **Importa**.
+In base ad un'impostazione dell'Ente, l'importazione può essere immediatamente confermata oppure deve essere avallata dall'Ente.
+Se l'importazione non richiede una conferma da parte dell'ente, l'importazione è immediatamente esecutiva. Nel caso in cui sia richiesta una conferma da parte dell'Ente, l'Ente potrebbe non concedere l'importazione della pratica (comunicandone anche la motivazione).
 
-Il sistema:
+Una volta confermata l'importazione, il sistema:
 1. Recupera i dati dal gestionale
 2. Crea l'istanza su GeoTecSUE
 3. Ti reindirizza al dettaglio della pratica importata
 
-La pratica appare ora nel tuo **elenco istanze** insieme a tutte le altre pratiche gestite su GeoTecSUE.
+La pratica appare ora nel tuo **elenco istanze** nella lista delle pratiche importate.
 
 ## Cosa puoi fare con le pratiche importate
 
@@ -127,21 +129,14 @@ Una volta importata, la pratica pregressa diventa completamente operativa su Geo
 
 ### Inviare comunicazioni
 
-Puoi creare e trasmettere comunicazioni collegate alla pratica:
-
-- **Inizio Lavori**
-- **Fine Lavori**  
-- **Variante in Corso d'Opera**
-- **Sospensione Lavori**
-- **Ripresa Lavori**
-- Altre comunicazioni previste dal procedimento
+Puoi creare e trasmettere comunicazioni collegate alla pratica previste dal procedimento (ad esempio **Inizio Lavori**, **Fine Lavori**...) oppure integrazioni spontanee (se previste), effettuare pagamenti con PagoPA e rispondere ad eventuali richieste di integrazioni.
 
 Per inviare una comunicazione:
 1. Accedi al [dettaglio della pratica](dettaglio-istanza.html)
 2. Nella sezione "Comunicazioni", clicca su **Nuova Comunicazione**
 3. Compila i dati richiesti
 4. Carica gli allegati
-5. Firma e invia
+5. Firma (se richiesto) ed invia
 
 ### Rispondere a richieste di integrazione
 
@@ -154,10 +149,10 @@ Se l'Ente ha aperto una richiesta di integrazione sulla pratica importata:
 
 ### Effettuare pagamenti PagoPA
 
-Se la pratica prevede pagamenti (oneri, diritti, sanzioni):
+Se l'Ente ha richiesto dei pagamenti (oneri, diritti, sanzioni):
 
 1. Accedi al dettaglio della pratica
-2. Nella sezione "Pagamenti", genera il codice IUV
+2. Nella sezione "Pagamenti", individua il codice IUV
 3. Procedi con il pagamento tramite PagoPA
 
 ### Consultare lo stato e la documentazione
@@ -180,9 +175,8 @@ Se la pratica che cerchi non appare nell'elenco, le cause possibili sono:
 #### 1. Pratica non presente nel gestionale dell'Ente
 
 **Possibili motivi**:
-- La pratica è stata presentata ma non ancora protocollata/registrata dall'Ente
-- La pratica è stata presentata a un altro Ente
-- La pratica è stata archiviata o eliminata dal gestionale
+- La pratica è stata presentata in un periodo in cui l'Ente non aveva ancora in uso il gestionale
+- La pratica non è stata caricata dall'Ente sul proprio gestionale
 
 **Soluzione**:
 1. Verifica di aver presentato effettivamente la pratica a questo Ente
@@ -198,7 +192,7 @@ L'Ente verificherà la presenza della pratica nel gestionale e, se necessario, p
 #### 2. Codice fiscale del professionista non corrisponde
 
 **Possibili motivi**:
-- Nel gestionale dell'Ente non sei registrato come **professionista principale**
+- Nel gestionale dell'Ente, per quella pratica, non sei registrato come **professionista principale** (magari compari come **direttore lavori**...)
 - Il codice fiscale è stato inserito erroneamente nel gestionale
 - La pratica è intestata a un altro professionista
 - Nella pratica originale non era indicato alcun professionista principale
@@ -211,7 +205,7 @@ L'Ente verificherà la presenza della pratica nel gestionale e, se necessario, p
    - Numero pratica
    - Copia della documentazione che attesta il tuo ruolo
 
-L'Ente provvederà alla correzione nel gestionale, dopodiché potrai importare la pratica.
+L'Ente provvederà alla valutazione della tua richiesta: potrebbe anche essere necessaria una **voltura** da un altro professionista.
 
 #### 3. Pratica già importata in precedenza
 
@@ -249,7 +243,7 @@ Se stai subentrando a un altro professionista nella gestione della pratica (es. 
 4. Una volta completata la voltura, potrai importare la pratica
 
 {: .note }
-> **Cos'è la voltura**: È la procedura amministrativa con cui si trasferisce la titolarità professionale di una pratica da un tecnico a un altro. Richiede sempre l'autorizzazione dell'Ente e la volontà del titolare dell'istanza.
+> **Cos'è la voltura**: È la procedura amministrativa con cui si trasferisce la titolarità professionale di una pratica da un tecnico a un altro. Richiede sempre l'autorizzazione dell'Ente e la volontà del titolare dell'istanza (oltre all'accordo tra professionista entrante ed uscente)
 
 {: .warning }
 > **Importante**: Non puoi importare pratiche di cui non sei il professionista principale. Tentare di importare pratiche altrui senza voltura formale costituisce un accesso non autorizzato.
@@ -259,13 +253,9 @@ Se stai subentrando a un altro professionista nella gestione della pratica (es. 
 Se riscontri errori tecnici durante l'importazione:
 
 **Soluzione**:
-1. Riprova dopo qualche minuto (potrebbe essere un problema temporaneo di connessione)
-2. Svuota la cache del browser e riprova
-3. Prova con un browser diverso
-4. Se il problema persiste, contatta l'assistenza tecnica fornendo:
+1.Potrebbe esserci un riferimento non corretto al gestionale dell'Ente. In questo caso, contatta l'assistenza tecnica fornendo:
    - Numero della pratica che stai cercando di importare
    - Messaggio di errore visualizzato (se presente)
-   - Screenshot dell'errore
 
 ## Domande frequenti
 
@@ -276,7 +266,7 @@ Se riscontri errori tecnici durante l'importazione:
 Importa una pratica pregressa solo se:
 - Devi inviare comunicazioni (Inizio/Fine Lavori, Varianti)
 - Devi rispondere a richieste di integrazione
-- Devi effettuare pagamenti
+- Vuoi effettuare pagamenti
 - Vuoi avere tutto centralizzato su GeoTecSUE per comodità
 
 Se la pratica è conclusa e non richiede ulteriori azioni, non c'è bisogno di importarla.
@@ -302,7 +292,6 @@ Se hai bisogno di consultare gli allegati originali, devi richiederli all'Ente a
 Se riscontri errori nei dati importati:
 1. Contatta l'Ente
 2. L'Ente verifica e corregge i dati nel gestionale
-3. Puoi re-importare la pratica con i dati corretti
 
 Puoi invece aggiungere nuove informazioni tramite:
 - Comunicazioni (che possono contenere varianti)
@@ -310,9 +299,8 @@ Puoi invece aggiungere nuove informazioni tramite:
 
 ### Quanto tempo ci vuole per importare una pratica?
 
-L'importazione è **istantanea**. Una volta cliccato il pulsante "Importa", il sistema recupera i dati dal gestionale in pochi secondi.
-
-Se riscontri tempi di attesa lunghi, potrebbe esserci un problema tecnico. Vedi la sezione [Risoluzione problemi](#risoluzione-problemi).
+Se l'Ente non vuole **confermare** l'operazione, allora l'importazione è **istantanea**. Una volta cliccato il pulsante "Importa", il sistema recupera i dati dal gestionale in pochi secondi.
+Se l'Ente vuole **confermare** l'operazione, allora l'importazione potrebbe non essere istantanea e non è nemmeno detto che vada a buon fine: l'Ente potrebbe rilevare un difetto e non consentire l'importazione (ad esempio: si sta cercando di importare una pratica SUAP sul portale GeoTecSUE).
 
 ### Posso importare pratiche di altri Enti?
 
