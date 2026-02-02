@@ -159,21 +159,13 @@ Il portale utilizza messaggi colorati per comunicare lo stato delle operazioni:
 
 ### Campi obbligatori
 
-I campi obbligatori sono contrassegnati da un **asterisco rosso (*)** accanto all'etichetta. Tutti i campi obbligatori devono essere compilati prima di poter salvare o trasmettere l'istanza.
-
-### Validazione in tempo reale
-
-Alcuni campi vengono validati mentre compili:
-- **Bordo rosso**: Il valore inserito non è valido
-- **Messaggio sotto il campo**: Spiegazione dell'errore e come correggerlo
+I campi obbligatori hanno uno sfondo giallo e devono essere compilati prima di poter validare e trasmettere l'istanza.
 
 ### Badge di stato
 
-Le istanze nell'elenco mostrano un badge colorato che indica lo stato attuale:
-- **Grigio**: In compilazione
-- **Blu**: Inviata/Protocollata
-- **Verde**: Registrata/Esecutiva
-- **Arancione**: Richiesta integrazioni
+Le istanze nell'elenco delle pratiche inviate mostrano un badge colorato che indica uno stato *particolare* e che merita attenzione:
+- **Verde**: Esecutiva
+- **Giallo**: Richiesta integrazioni
 - **Rosso**: Archiviata/Diniego
 
 ## Consigli per l'utilizzo
