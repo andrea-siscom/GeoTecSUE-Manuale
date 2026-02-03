@@ -59,6 +59,8 @@ Questa sezione visualizza tutte le istanze salvate ma **non ancora inviate** all
 | **Titolare** | - | - | Cognome e nome del titolare (se già indicato) |
 | **Stato Pratica** | - | - | Stato attuale ([vedi ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)) |
 | **Genera PDF** | Pulsante | Blu | Genera il PDF dell'istanza (appare solo se pratica Completata) |
+| **P7M** | Caricamento | Giallo | Consente il caricamento del file firmato digitalmente |
+| **Invio** | Pulsante | Verde | Se la pratica è pronta per l'invio, è presente il pulsante "Invia" per trasmettere l'istanza
 
 **\* Il pulsante "Gestione soggetti" è**:
 - **Blu** se non hai ancora aggiunto collaboratori
