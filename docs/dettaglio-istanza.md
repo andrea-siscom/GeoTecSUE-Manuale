@@ -2,296 +2,960 @@
 title: Visualizzare il dettaglio di una pratica
 nav_order: 40
 parent: Le mie istanze
+description: Guida completa alla pagina di dettaglio delle pratiche inviate e importate - sezioni, azioni disponibili e gestione comunicazioni e integrazioni
+keywords: [dettaglio pratica, visualizza pratica, comunicazioni, integrazioni, pagamenti PagoPA, ricevute, archiviazione, allegati, tracciabilità]
 ---
 
 # Visualizzare il dettaglio di una pratica
 
-Cliccando il pulsante verde a fianco di un'istanza inviata oppure importata, si entra all'interno della sezione di *dettaglio* dell'istanza.
-Si entra in questo dettaglio nel caso in cui la tipologia di pratica **non** sia la *Notifica Preliminare* (è prevista apposita sezione nell'appendice).
-La pagina è strutturata con una serie di sezioni che possono essere presenti o meno a seconda dello stato della pratica, del tipo di pratica, ecc...
+Questa sezione spiega come consultare il dettaglio completo di una pratica inviata o importata, con tutte le informazioni, i documenti e le azioni disponibili.
 
-## Titolo
+## Accedere al dettaglio
 
-Qui viene indicata la **tipologia della pratica** e il numero (**chiave**) della pratica stessa. Nella parte di destra viene evidenziato lo **stato della pratica** ([vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza)).
-Nel caso in cui il professionista abbia indicato che la pratica è una *variante* e ne abbia indicato i riferimenti su **GeoTecSUE** in questa sezione viene inserito il *link* diretto alla variante (apre il dettaglio dell'istanza).
+Per visualizzare il dettaglio di una pratica:
 
-## Comunicazione di ente variato
+1. Vai all'[elenco istanze](elenco-istanze.html)
+2. Nella sezione **Pratiche inviate** o **Pratiche importate**
+3. Clicca sul pulsante **verde** (lente di ingrandimento) a fianco della pratica
 
-Nel caso in cui l'Ente abbia cessato di esistere (Unione sciolta, Ente che ha aderito ad un'Unione...) il sistema inserisce un messaggio di errore in cui si segnala che l'Ente non è più attivo, dando (eventuale) indicazione del nuovo Ente in cui è confluito.
+Il sistema apre la pagina di dettaglio con tutte le informazioni e le azioni disponibili.
 
-## Bottoni di menu
+{: .note }
+> Questa guida si applica a tutte le pratiche **tranne** la Notifica Preliminare (specifica del Piemonte), che ha un dettaglio dedicato descritto nell'[appendice](../appendici/notifica-preliminare-piemonte.html).
 
-Sono presenti fino a 4 bottoni, che possono essere attivati a seconda dello stato della pratica e del tipo di soggetto che sta accedendo.
+## Panoramica della pagina
 
-### Bottone Ritorna
+La pagina di dettaglio è organizzata in sezioni che appaiono in base a:
+- **Stato della pratica** (alcune sezioni appaiono solo in determinati stati)
+- **Tipo di pratica** (pratiche standard vs importate)
+- **Configurazione dell'Ente** (funzionalità abilitate o meno)
+- **Ruolo del professionista** (principale, amministratore, utente modifica)
 
-Cliccando il bottone *Ritorna*, il **GeoTecSUE** riporta alla pagina dalla quale si proviene (in linea di massima l'*elenco delle istanze*, ma potrebbe essere anche un'altra pagina).
+Le sezioni principali sono:
+- Intestazione con tipo, numero e stato
+- Azioni disponibili (pulsanti)
+- Gestione integrazioni e comunicazioni
+- Pagamenti PagoPA
+- Dati della pratica e documenti
+- Ricevute e tracciabilità
 
-### Bottone Richiedi Archiviazione
+## Intestazione pratica
 
-Nel caso in cui il soggetto che sta consultando la pratica sia il *professionista principale* oppure un soggetto condivisore che abbia il ruolo di *amministratore* il bottone sarà visibile nel caso in cui lo stato della pratica lo consenta: è possibile *richiedere archiviazione* di una pratica solo nel caso in cui si trovi in stato *registrata*, *esecutiva*, *verificata* (anche se non usato) e *richiesta integrazioni*.
-Cliccando questo bottone, il **GeoTecSUE** predispone la pratica di **Richiesta Archivazione** dell'istanza. Si rimanda alla sezione di compilazione delle istanze in quanto è analoga alla compilazione di un qualsiasi tipo di pratica.
+### Tipologia e numero pratica
 
-### Bottone Scarica l'archivio della pratica
+Nella parte superiore della pagina vengono mostrati:
 
-Il bottone è presente nel caso in cui si tratti di una pratica **non** importata, è sempre attivo e consente di scaricare (come file *.zip*) l'archivio della pratica. In particolare i file che vengono inseriti all'interno dell'archivio sono:
-- Il documento dell'istanza (in formato *pdf* e, se previsto, anche la versione *firmata digitalmente*)
-- Gli allegati *principali* della pratica se non ancora scaduti
-- Le ricevute prodotte (sia per l'istanza principale che per le comunicazioni e le integrazioni)
-- I documenti che l'Ente ha prodotto per la pratica (non hanno scadenza)
-- Le integrazioni (solo se già protocollate e non ancora scadute)
-- I documenti dell'istanza delle comunicazioni associate (se presenti, in formato *pdf* e, se previsto, anche la versione *firmata digitalmente*)
-- Gli allegati delle (eventuali) comunicazioni associate se non ancora scaduti
-- Il file *xml* della *tracciabilità* della pratica
-- Un eventuale file di testo contenente gli errori rilevati
+**A sinistra**:
+- **Tipo di pratica**: es. "SCIA", "Permesso di Costruire", "Autorizzazione Paesaggistica"
+- **Chiave univoca**: Il codice identificativo a 19 cifre della pratica
 
-### Bottone Gestione Soggetti
+**A destra**:
+- **Stato attuale**: Badge colorato con lo stato della pratica (vedi [ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza))
 
-Il bottone è visibile nel caso in cui il soggetto che sta consultando la pratica si il *professionista principale* oppure un soggetto condivisore che abbia il ruolo di *amministratore*.
-Cliccando questo bottone, il **GeoTecSUE** consente la gestione dei *soggetti compilatori* (andando ad aggiungere oppure ad eliminare un soggetto).
+### Riferimento a variante
 
-## Comunicazione di stato
+Se durante la compilazione hai indicato che la pratica è una **variante** di una pratica precedente, in questa sezione appare un link diretto alla pratica originale.
 
-Nel caso in cui la pratica si trovi in stato *inviata*, *protocollata* o *invio integrazioni*, il sistema comunica che non è possibile *interagire* con la pratica fino a quando lo stato non sarà *registrata*.
+Cliccando il link si apre il dettaglio della pratica variata.
+
+{: .note }
+> Questo collegamento è disponibile solo per pratiche standard. Le pratiche importate non mostrano riferimenti a varianti.
+
+## Avviso: Ente non più attivo
+
+Nel caso in cui l'Ente presso cui hai presentato la pratica abbia cessato di esistere (es. Unione sciolta, Comune confluito in altra Unione), il sistema mostra un **messaggio di avviso** che indica:
+
+- L'Ente non è più attivo
+- Eventuale indicazione del nuovo Ente in cui è confluito
+
+{: .warning }
+> Se l'Ente è variato, alcune funzionalità potrebbero non essere disponibili (es. nuove comunicazioni, integrazioni spontanee).
+
+## Azioni disponibili
+
+Nella parte superiore della pagina sono presenti fino a **4 pulsanti** per compiere azioni sulla pratica. La visibilità di ciascun pulsante dipende dallo stato della pratica e dal tuo ruolo.
+
+### Ritorna
+
+**Sempre disponibile**
+
+Cliccando questo pulsante torni alla pagina da cui provieni (solitamente l'[elenco istanze](elenco-istanze.html)).
+
+### Richiedi Archiviazione
+
+**Disponibile per**:
+- Professionista principale
+- Soggetti compilatori con ruolo **Amministratore**
+
+**Disponibile se la pratica è in stato**:
+- Registrata
+- Esecutiva
+- Verificata (anche se raramente usato)
+- Richiesta Integrazioni
+
+**Cosa fa**: Avvia una nuova istanza di tipo "Richiesta Archiviazione" collegata alla pratica corrente. La compilazione è analoga a quella di qualsiasi altra pratica.
+
+**Quando usarlo**:
+- La pratica non è più necessaria
+- I lavori non verranno eseguiti
+- Vuoi chiudere formalmente la pratica
+
+{: .note }
+> La richiesta di archiviazione viene valutata dall'Ente, che può accettarla o respingerla. Non archivia automaticamente la pratica.
+
+### Scarica l'archivio della pratica
+
+**Disponibile per**: Pratiche **standard** (non importate)
+
+**Sempre attivo** (per pratiche standard)
+
+**Cosa fa**: Scarica un file **ZIP** contenente tutta la documentazione della pratica:
+
+✅ **Documenti principali**:
+- PDF dell'istanza (non firmato)
+- PDF firmato digitalmente (se previsto)
+
+✅ **Allegati**:
+- Allegati principali della pratica (se non scaduti)
+- Allegati delle comunicazioni associate (se non scaduti)
+- Integrazioni protocollate (se non scadute)
+
+✅ **Ricevute**:
+- Ricevute generate dal sistema (invio, protocollo, registrazione)
+- Ricevute di comunicazioni e integrazioni
+
+✅ **Documenti dell'Ente**:
+- Tutti i documenti prodotti dall'Ente (senza scadenza)
+
+✅ **Altri file**:
+- File XML della tracciabilità
+- Eventuale file di testo con errori rilevati
+
+{: .warning }
+> **Importante**: Gli allegati sono disponibili solo se non ancora scaduti (6 mesi dalla registrazione). I documenti dell'Ente non scadono mai.
+
+{: .note }
+> Questa funzionalità **non è disponibile** per le pratiche importate, che non hanno un archivio completo disponibile su GeoTecSUE.
+
+### Gestione Soggetti
+
+**Disponibile per**:
+- Professionista principale
+- Soggetti compilatori con ruolo **Amministratore**
+
+**Cosa fa**: Apre la schermata per gestire i [soggetti compilatori](../docs/nozioni-di-base.html#soggetti-compilatori-aggiuntivi) della pratica:
+- Aggiungere nuovi collaboratori
+- Rimuovere collaboratori esistenti
+- Modificare i ruoli (Amministratore/Utente Modifica)
+
+## Avviso: Stati che bloccano le interazioni
+
+Quando la pratica si trova in determinati stati, il sistema mostra un **messaggio di avviso** che indica l'impossibilità di interagire con la pratica fino al cambio di stato.
+
+**Stati che bloccano le interazioni**:
+- **Inviata**: In attesa di protocollazione da parte dell'Ente
+- **Protocollata**: In attesa di registrazione
+- **Invio Integrazioni**: Integrazioni trasmesse, in attesa di presa in carico
+
+{: .note }
+> Non puoi inviare comunicazioni o integrazioni spontanee finché la pratica non passa allo stato **Registrata**.
 
 ## Motivazione di archiviazione
 
-Nel caso in cui la pratica sia stata *archiviata*, il sistema presenta questa sezione contenente anche il motivo dell'archiviazione (prodotto dall'Ente).
+Se la pratica è stata **archiviata** dall'Ente (o su tua richiesta accettata), questa sezione mostra:
+
+- **Motivo dell'archiviazione**: Testo descrittivo prodotto dall'Ente che spiega le ragioni dell'archiviazione
+
+Esempi di motivi:
+- "Pratica presentata per errore"
+- "Documentazione non conforme e non integrabile"
+- "Richiesta archiviazione accettata su richiesta del professionista"
+- "Pratica presentata allo sportello errato (SUAP invece di SUE)"
 
 ## Richiesta integrazioni attiva
 
-Se è presente una *richiesta integrazioni attiva* da parte dell'Ente allora verrà mostrata questa sezione in cui vengono evidenziati i seguenti dati:
-- *Data Richiesta*: data in cui l'Ente ha effettuato la richiesta di integrazione
-- *Descrizione*: la descrizione della richiesta di integrazioni (prodotta dall'Ente)
-- *Firma necessaria*: nel caso in cui sia presente una spunta verde, allora è necessario caricare solo documenti firmati digitalmente. Se presente una croce rossa, non è necessario caricare documenti firmati digitalmente
-- *Dimensione massima del file*: indica la dimensione massima (espressa in *mega byte*) del singolo file
-Successivamente, viene proposta la lista dei documenti che vengono richiesti. Per ogni documento è presente la sezione di caricamento del file.
-Se un file è già stato caricato, il sistema lo evidenzia e ne consente il *download* oppure la cancellazione.
-Se l'Ente lo prevede, è possibile caricare anche altri file oltre a quelli richiesti.
+Se l'Ente ha aperto una **richiesta di integrazione documentale**, questa sezione mostra tutti i dettagli e permette di caricare i documenti richiesti.
+
+### Informazioni generali
+
+La sezione mostra:
+
+| Campo | Descrizione |
+|-------|-------------|
+| **Data Richiesta** | Data in cui l'Ente ha aperto la richiesta |
+| **Descrizione** | Testo descrittivo dell'Ente che spiega cosa integrare |
+| **Firma necessaria** | ✅ Spunta verde = documenti devono essere firmati digitalmente<br>❌ Croce rossa = firma non obbligatoria |
+| **Dimensione massima file** | Limite in MB per singolo file |
+
+### Documenti richiesti
+
+Sotto le informazioni generali appare l'elenco dei documenti specifici richiesti dall'Ente.
+
+Per ogni documento:
+- **Nome documento**: es. "Relazione tecnica integrativa", "Elaborato grafico modificato"
+- **Stato caricamento**: Indica se il file è già stato caricato o meno
+- **Sezione di upload**: Pulsante per selezionare e caricare il file
+
+### Caricare un documento
+
+1. Clicca su **Sfoglia** o **Scegli file** accanto al documento richiesto
+2. Seleziona il file dal tuo computer
+3. Se richiesta firma digitale, carica il file **.p7m**
+4. Il sistema valida dimensione e formato
+5. Il file viene caricato e appare nell'elenco
+
+### File già caricati
+
+Se hai già caricato file, per ciascuno puoi:
+- **Scaricare** il file (pulsante verde) per verificarlo
+- **Eliminare** il file (pulsante rosso) se devi sostituirlo
+
+### Documenti aggiuntivi
+
+Se l'Ente lo consente, puoi caricare **documenti aggiuntivi** oltre a quelli esplicitamente richiesti.
+
+Apparirà un'apposita sezione "Altri documenti" dove potrai aggiungere file liberi con una descrizione.
+
+### Inviare l'integrazione
+
+Una volta caricati tutti i documenti obbligatori:
+
+1. Verifica che tutti i file richiesti siano presenti
+2. Clicca sul pulsante **Invia integrazione**
+3. Il sistema valida i file e li trasmette all'Ente
+4. Ricevi la ricevuta di invio dell'integrazione
+
+{: .warning }
+> Dopo l'invio non potrai più modificare i file caricati. Verifica accuratamente prima di trasmettere.
 
 ## Pagamenti aperti (PagoPA)
 
-Se sono presenti dei pagamenti *aperti* (prodotti dall'Ente oppure pagamenti facoltativi legati alla pratica), in questa sezione vengono mostrati.
-Nel caso in cui ci siano uno (o più) pagamenti *facoltativi* legati alla pratica dei quali **non è** ancora stato creato il *codice IUV*, verrà mostrata una tabella contenente i seguenti dati:
-- *Descrizione Pagamento*: la descrizione del tipo di pagamento previsto (ad esempio "DIRITTI DI SEGRETERIA", "OBLAZIONE O SANZIONE IN SANATORIA"...)
-- *Importo (€)*: l'importo da versare (può essere valorizzato oppure *da valorizzare*)
-- Pulsante *Creazione IUV*: consente la creazione dello *IUV* (previa completamente dei dati)
-Nel caso in cui uno (o più) pagamenti siano già stati creati (oppure generati dall'Ente), saranno presenti nella tabella contenente i seguenti dati:
-- *Descrizione Pagamento*: la descrizione del tipo di pagamento previsto (ad esempio "DIRITTI DI SEGRETERIA", "OBLAZIONE O SANZIONE IN SANATORIA"...)
-- *Rata*: se il pagamento è da effettuarsi in un'unica soluzione, sarà valorizzato con 1. Se invece il pagamento è suddiviso in più rate, allora ci sarà il progressivo
-- *Scadenza*: indica la data di scadenza dello *IUV*
-- *Importo (€)*: l'importo da versare (può essere valorizzato oppure *da valorizzare*)
-- *Stato*: indica lo stato in cui si trova il pagamento (vedere l'appendice degli [Stati PagoPA](appendici/pagopa-stati))
-- Pulsante *dettaglio* (colore azzurro): consente di visualizzare i dati relativi allo *IUV* emesso (nel caso sia *scaduto*, ne viene data evidenza)
-- Pulsante *aggiorna* (colore arancione): nel caso in cui lo *IUV* non sia scaduto, è possibile, mediante questo pulsante, aggiornarne lo stato del pagamento
+Questa sezione mostra i pagamenti in sospeso legati alla pratica, sia quelli generati dall'Ente che quelli facoltativi disponibili.
 
-## Comunicazioni verso l'ente
+### Pagamenti da creare (senza IUV)
 
-Si suddivide in due sezioni:
-- *Nuova Comunicazione*: è possibile trasmettere una nuova comunicazione collegata alla pratica nel caso in cui la pratica non si trovi in stato **archiviata**, **diniego**, **inviata**, **protocollata**, **rifiutata**, **richiesta archiviazione** oppure in **revoca delegato**. Se la pratica si trova in **richiesta integrazioni** o **invio integrazioni** la possibilità di inviare una comunicazione dipende da una configurazione dell'Ente (che consentirebbe la trasmissione della comunicazione anche in fase di richiesta integrazioni). Non è possibile inoltre creare una nuova comunicazione nel caso in cui l'Ente sia *variato* (quindi sia passato ad un'unione ecc...)
-- *Lista Comunicazioni in fase di compilazione*: nel caso in cui si sia precedentemente avviata una nuova comunicazione, viene inserita in questa lista. Se nel frattempo la pratica cambiasse il suo stato, questa sezione segue le regole della *Nuova Comunicazione* in termini di visibilità. Nel caso in cui il professionista avvii una comunicazione e successivamente l'Ente richieda delle integrazioni (supponendo che l'Ente non consenta la trasmissione delle comunicazioni in fase di richiesta integrazioni), la comunicazione verrà *sospesa* (non visibile) fino a che lo stato della pratica ne consetirà nuovamente la visibilità.
+Se esistono **pagamenti facoltativi** per cui non hai ancora generato il codice IUV, appaiono in una tabella:
+
+| Colonna | Descrizione |
+|---------|-------------|
+| **Descrizione Pagamento** | Tipo di pagamento (es. "Diritti di Segreteria", "Oblazione Sanzione") |
+| **Importo (€)** | Cifra da versare (può essere già valorizzata o da definire) |
+| **Creazione IUV** | Pulsante per generare il codice di pagamento |
+
+**Procedura**:
+1. Compila eventuali campi richiesti (es. importo se da valorizzare)
+2. Clicca **Creazione IUV**
+3. Il sistema genera il codice IUV PagoPA
+4. Il pagamento si sposta nella tabella "Pagamenti già creati"
+
+### Pagamenti già creati (con IUV)
+
+I pagamenti per cui è già stato generato lo IUV (dall'Ente o da te) appaiono in questa tabella:
+
+| Colonna | Descrizione |
+|---------|-------------|
+| **Descrizione Pagamento** | Tipo di pagamento |
+| **Rata** | Numero rata (1 se unica soluzione, 1/2/3... se dilazionato) |
+| **Scadenza** | Data entro cui pagare |
+| **Importo (€)** | Cifra da versare |
+| **Stato** | Stato del pagamento (vedi [Stati PagoPA](../appendici/pagopa-stati.html)) |
+| **Dettaglio** | Pulsante azzurro per vedere i dati dello IUV |
+| **Aggiorna** | Pulsante arancione per verificare l'avvenuto pagamento |
+
+### Visualizzare i dettagli dello IUV
+
+Cliccando il pulsante **Dettaglio** (azzurro) vedi:
+- Codice IUV generato
+- Scadenza
+- Importo
+- Eventuale avviso di scadenza (se lo IUV è scaduto)
+
+Se lo IUV è scaduto, dovrai generarne uno nuovo.
+
+### Aggiornare lo stato del pagamento
+
+Dopo aver pagato tramite PagoPA:
+
+1. Clicca il pulsante **Aggiorna** (arancione)
+2. Il sistema interroga PagoPA
+3. Se il pagamento è stato ricevuto, lo stato cambia in "Pagato"
+
+{: .note }
+> L'aggiornamento può richiedere alcuni minuti dopo l'effettivo pagamento. Se lo stato non cambia immediatamente, riprova dopo qualche minuto.
+
+{: .note }
+> Per la spiegazione dettagliata di tutti gli stati possibili, consulta [Appendice: Stati PagoPA](../appendici/pagopa-stati.html).
+
+## Comunicazioni verso l'Ente
+
+Questa sezione ti permette di inviare **comunicazioni strutturate** collegate alla pratica (es. Inizio Lavori, Fine Lavori, Varianti).
+
+La sezione si divide in due parti:
+1. **Nuova Comunicazione**: Crea e invia una nuova comunicazione
+2. **Comunicazioni in compilazione**: Elenco di comunicazioni salvate ma non ancora inviate
+
+### Quando puoi inviare comunicazioni
+
+Puoi creare nuove comunicazioni **solo se**:
+
+✅ La pratica è in stato **Registrata** o successivi (tranne quelli bloccanti)
+
+❌ **Non puoi** se la pratica è in stato:
+- Archiviata
+- Diniego
+- Inviata
+- Protocollata
+- Rifiutata
+- Richiesta Archiviazione
+- Revoca Delegato
+
+❌ **Non puoi** se l'Ente è variato (confluito in altra amministrazione)
+
+**Caso particolare**: Se la pratica è in **Richiesta Integrazioni** o **Invio Integrazioni**, la possibilità di inviare comunicazioni dipende dalla configurazione dell'Ente (alcuni Enti lo consentono, altri no).
 
 ### Nuova Comunicazione
 
-In base alla regione e alle impostazioni dell'Ente è possibile selezionare una comunicazione associata alla pratica dalla tendina *Seleziona il tipo di Comunicazione*.
-Nel caso in cui una comunicazione che il professionista ritiene necessaria per la pratica non sia presente nella tendina è opportuno fare segnalazione all'Ente che, nel caso in cui la segnalazione fosse corretta, può intervenire aggiungendo la comunicazione alla lista delle possibili per quella pratica.
-Selezionata la comunicazione di interesse, cliccando sul bottone *Nuova* è possibile avviarne la compilazione-
+#### Selezionare il tipo di comunicazione
 
-### Lista Comunicazioni in fase di compilazione
+Dal menu a discesa **"Seleziona il tipo di Comunicazione"**, scegli la comunicazione che devi inviare.
 
-La tabella rispecchia quella vista per le pratiche in compilazione ([vedi](elenco-istanze.html#pratiche-in-fase-di-compilazione)) ed ha le medesime funzionalità.
+Le comunicazioni disponibili dipendono da:
+- Regione in cui opera l'Ente
+- Tipo di pratica
+- Configurazione specifica dell'Ente
+
+**Esempi di comunicazioni tipiche**:
+- Inizio Lavori
+- Fine Lavori
+- Sospensione Lavori
+- Ripresa Lavori
+- Variante in Corso d'Opera
+- Proroga Termine Inizio/Fine Lavori
+
+{: .note }
+> Se la comunicazione che cerchi non è presente nel menu, contatta l'Ente segnalando quale comunicazione ti serve. L'Ente può abilitarla se effettivamente applicabile alla tua pratica.
+
+#### Avviare la compilazione
+
+1. Seleziona la comunicazione dal menu
+2. Clicca sul pulsante **Nuova**
+3. Il sistema crea una nuova comunicazione collegata alla pratica
+4. Vieni reindirizzato alla schermata di compilazione
+
+La compilazione di una comunicazione è analoga a quella di una pratica normale.
+
+### Comunicazioni in compilazione
+
+Se hai avviato comunicazioni ma non ancora trasmesse, appaiono in questa lista con le stesse funzionalità dell'[elenco pratiche in compilazione](elenco-istanze.html#pratiche-in-fase-di-compilazione):
+
+- **Modifica** (pulsante giallo): Prosegui la compilazione
+- **Cancella** (pulsante rosso): Elimina la comunicazione
+- **Gestione soggetti** (pulsante blu/verde): Condividi con collaboratori
+- **PDF** e **P7M**: Scarica documenti generati
+- **Genera PDF**: Genera il PDF se completata
+
+### Comunicazioni sospese
+
+Se avvii una comunicazione e successivamente la pratica cambia stato in uno dei **stati bloccanti** (es. l'Ente richiede integrazioni), la comunicazione viene **sospesa** e non sarà più visibile in questa lista.
+
+La comunicazione riapparirà automaticamente quando la pratica tornerà in uno stato compatibile (es. Registrata dopo aver inviato le integrazioni).
+
+{: .note }
+> Le comunicazioni sospese non vengono eliminate, solo temporaneamente nascoste. Recupereranno visibilità al cambio di stato della pratica.
 
 ## Invio documentazione all'Ente (integrazioni spontanee)
 
-Se l'Ente consente la trasmissione delle integrazioni spontanee, questa sezione viene mostrata nel caso in cui l'Ente non sia variato e lo stato della pratica non si trovi in **archiviata**, **diniego**, **inviata**, **protocollata**, **rifiutata**, **richiesta archiviazione** oppure in **revoca delegato**. Se la pratica si trova in **richiesta integrazioni** o **invio integrazioni** la possibilità di inviare una comunicazione dipende da una configurazione dell'Ente (che consentirebbe la trasmissione della comunicazione anche in fase di richiesta integrazioni).
-Quando viene attivato un *Nuovo Invio* il sistema si predispone per caricare uno (o più) file, che devono rispettare le caratteristiche previste (se necessitano di firma, dimensione massima, così come visto per la [*richiesta di integrazioni*](#richiesta-integrazioni-attiva)).
-All'atto del caricamento viene sempre richiesta obbligatoriamente una *descrizione file* ed ovviamente il file da caricare.
-Una volta caricato il file, viene mostrata una tabella in cui vengono riepilogati i dati del file caricato con la possibilità di *eliminarlo* (🗑️ rosso) e *scaricarlo* (🔍 verde).
-Se il caricamento del file è andato a buon fine, il sistema proporrà il pulsante *Invia documenti*. Cliccando questo pulsante l'integrazione spontanea verrà inviata all'Ente.
+Le **integrazioni spontanee** ti permettono di inviare documenti aggiuntivi all'Ente di tua iniziativa, senza che ci sia una richiesta formale.
+
+### Disponibilità della funzione
+
+Le integrazioni spontanee sono disponibili **solo se**:
+
+✅ L'Ente ha **abilitato** questa funzionalità  
+✅ L'Ente **non è variato**  
+✅ La pratica **non è** in stato bloccante (vedi lista in "Comunicazioni")
+
+{: .note }
+> Non tutti gli Enti consentono le integrazioni spontanee. Se non vedi questa sezione, significa che l'Ente ha disabilitato la funzionalità.
+
+### Caricare documenti
+
+1. Clicca su **Nuovo Invio**
+2. Il sistema mostra le caratteristiche richieste:
+   - Firma digitale necessaria (sì/no)
+   - Dimensione massima file
+
+Per ogni file da caricare:
+
+1. **Descrizione file** (obbligatorio): Inserisci una descrizione chiara (es. "Relazione geologica aggiuntiva", "Documentazione fotografica stato dei luoghi")
+2. **Scegli file**: Seleziona il file dal computer
+3. Clicca **Carica**
+
+Il file viene aggiunto alla lista e puoi:
+- **Eliminarlo** (pulsante rosso) se hai sbagliato
+- **Scaricarlo** (pulsante verde) per verificarlo
+
+### Inviare l'integrazione
+
+Dopo aver caricato tutti i file desiderati:
+
+1. Verifica l'elenco dei file caricati
+2. Clicca sul pulsante **Invia documenti**
+3. L'integrazione spontanea viene trasmessa all'Ente
+4. Ricevi la ricevuta di invio
+
+{: .warning }
+> Dopo l'invio non potrai più modificare o aggiungere file a questa integrazione. Per inviare altra documentazione dovrai creare un nuovo invio.
 
 ## Dati Generali della Pratica
 
-Nel caso di pratica **non** importata in questa sezione vengono riepilogati tutti i dati generali della pratica, così come sono stati inseriti dal professionista. In particolare:
-- *Numero pratica*: chiave univoca della pratica (19 numeri)
-- *Anno*: anno in cui è stata **creata** la pratica sul portale
-- *Stato*: indica lo stato della pratica ([vedi](nozioni-di-base#il-ciclo-di-vita-di-unistanza))
-- *Tipo*: indica la tipologia di pratica
-- *Descrizione Intervento*: viene mostrata la descrizione dell'intervento così come indicato all'interno dell'istanza. Se nell'istanza non è prevista una sezione per la descrizione/oggetto dell'intervento, il campo risulterà vuoto
-- *Data Registrazione*: indica data e ora in cui la pratica è stata creata. Questa informazione è utile per sapere se una certa istanza è stata creata prima di un aggiornamento normativo
-- *Data Ultima Modifica*: indica data e ora di ultima modifica prima della trasmissione
-- *Data Invio": indica data e ora della trasmissione dell'istanza all'Ente
-- *Documento istanza (non firmato)*: consente di scaricare il file *pdf* dell'istanza
-- *Documento istanza (firmato digitalmente)*: consente di scaricare il file *firmato digitalmente* dell'istanza (se previsto)
+Questa sezione riepiloga tutte le informazioni principali della pratica.
 
-Sono poi presenti altre tre sezioni:
-- *Dati Titolare Originale*
-- *Localizzazione dell'intervento*
-- *Documentazione allegata alla pratica*
+### Informazioni di sistema
 
-### Dati Titolare Originale
+| Campo | Descrizione |
+|-------|-------------|
+| **Numero pratica** | Chiave univoca a 19 cifre |
+| **Anno** | Anno di creazione della pratica su GeoTecSUE |
+| **Stato** | Stato attuale (vedi [ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)) |
+| **Tipo** | Tipologia di pratica |
+| **Descrizione Intervento** | Oggetto dell'intervento come inserito in compilazione |
 
-In questa sezione vengono riepilogati i dati (principali) del titolare originale: *cognome*, *nome*, *codice fiscale*, *data di nascita*, *luogo di nascita* e *residenza*.
-Nel caso in cui al titolare sia stata associata una *ditta*, *società*, *ente*... allora verrà mostrata un'apposita sezione (*Dati della Ditta/Società/Ente/Altro*) contenente: *denominazione* (ragione sociale), *Partita IVA*, *Sede*, *E-mail* e *PEC*.
-Nel caso in cui siano stati indicati dei *co-intestatari* allora verrà mostrata la sezione *Altri Titolari* contenente una tabella in cui ogni riga corrisponderà ad un co-intestatario. I dati presenti in tabella sono: *cognome*, *nome*, *codice fiscale* e *data di nascita*.
-Nel caso sia stata operata una *voltura* del titolare principale, allora verrà mostrata la sezione *Dati Titolari (dopo voltura)* contenente una tabella in cui ogni riga corrisponderà ad un nuovo soggetto. I dati presenti in tabella sono *cognome*, *nome*, *codice fiscale*, *Data Richiesta* (della voltura), *Data Conferma* (della voltura) e *Ref. PagoPA*, contenente un bottone (attivo oppure disattivo) che servirà a definire oppure rimuovere il soggetto come **referente dei pagamenti PagoPA**.
+### Date significative
 
-### Localizzazione dell'intervento
+| Campo | Descrizione |
+|-------|-------------|
+| **Data Registrazione** | Data e ora di creazione su GeoTecSUE (utile per verificare se la pratica è stata creata prima/dopo aggiornamenti normativi) |
+| **Data Ultima Modifica** | Data e ora dell'ultima modifica prima della trasmissione |
+| **Data Invio** | Data e ora di trasmissione all'Ente |
 
-In questa sezione vengono riepilogati i dati (principali) relativi all'*indirizzo* (con numero civico) e *comune* (nel caso di Multi-Ente). Vengo anche mostrati i *riferimenti catastali* (fabbricati e terreni) ove presenti.
+### Documenti scaricabili
 
-### Documentazione allegata alla pratica
+- **Documento istanza (non firmato)**: Scarica il PDF generato dal sistema
+- **Documento istanza (firmato digitalmente)**: Scarica il PDF firmato (se previsto)
 
-In questa sezione vengono indicati tutti gli allegati che sono stati presentati contestualmente alla pratica. Per ogni allegato viene fornita la *data di inserimento*, la *descrizione*, la *data di scadenza* ([vedi](nozioni-di-base#un-sistema-di-transito-non-di-archiviazione)) e l'eventuale pulsante verde di visualizzazione dell'allegato se non ancora scaduto.
+### Sezioni aggiuntive
+
+Sotto i dati generali appaiono tre sezioni dedicate:
+
+1. [Dati Titolare Originale](#dati-titolare-originale)
+2. [Localizzazione dell'intervento](#localizzazione-dellintervento)
+3. [Documentazione allegata alla pratica](#documentazione-allegata-alla-pratica)
+
+## Dati Titolare Originale
+
+### Anagrafica principale
+
+Questa sezione mostra i dati del **titolare originale** della pratica:
+
+- Cognome e Nome
+- Codice Fiscale
+- Data di nascita
+- Luogo di nascita
+- Residenza (indirizzo completo)
+
+### Ditta/Società/Ente associata
+
+Se al titolare è associata una persona giuridica, appare una sottosezione con:
+
+- **Denominazione** (Ragione sociale)
+- **Partita IVA**
+- **Sede** (indirizzo completo)
+- **Email**
+- **PEC**
+
+### Co-intestatari
+
+Se la pratica ha **co-intestatari** (altri titolari oltre al principale), appaiono in una tabella:
+
+| Cognome | Nome | Codice Fiscale | Data di nascita |
+|---------|------|----------------|-----------------|
+| Rossi | Mario | RSSMRA... | 01/01/1980 |
+| Bianchi | Anna | BNCNNA... | 15/05/1975 |
+
+### Voltura del titolare
+
+Se è stata effettuata una **voltura** (cambio di titolare), appare la sezione **"Dati Titolari (dopo voltura)"** con una tabella:
+
+| Cognome | Nome | Codice Fiscale | Data Richiesta | Data Conferma | Ref. PagoPA |
+|---------|------|----------------|----------------|---------------|-------------|
+| Verdi | Luigi | VRDLGU... | 10/03/2025 | 15/03/2025 | [Pulsante] |
+
+**Ref. PagoPA**: Pulsante per definire o rimuovere il soggetto come **referente dei pagamenti PagoPA** (attivo/disattivo).
+
+{: .note }
+> La voltura trasferisce la titolarità della pratica a un altro soggetto. Richiede l'autorizzazione dell'Ente e deve essere richiesta formalmente.
+
+## Localizzazione dell'intervento
+
+Questa sezione riepiloga dove si trova l'intervento oggetto della pratica:
+
+### Indirizzo
+
+- **Via/Piazza** e numero civico
+- **Comune** (mostrato se l'Ente è multi-comune)
+- **CAP**
+- **Provincia**
+
+### Riferimenti catastali
+
+Se indicati in fase di compilazione, vengono mostrati i dati catastali:
+
+**Fabbricati**:
+- Foglio
+- Particella (Mappale)
+- Subalterno
+
+**Terreni**:
+- Foglio
+- Particella (Mappale)
+
+{: .note }
+> Questa sezione **non è disponibile** per le pratiche importate, che hanno visibilità limitata sui dati di localizzazione.
+
+## Documentazione allegata alla pratica
+
+Questa sezione mostra tutti gli **allegati** caricati contestualmente alla pratica al momento dell'invio.
+
+Per ogni allegato:
+
+| Campo | Descrizione |
+|-------|-------------|
+| **Data Inserimento** | Quando è stato caricato |
+| **Descrizione** | Nome/descrizione dell'allegato |
+| **Disponibile fino al** | Data di scadenza ([retention 6 mesi](../docs/nozioni-di-base.html#un-sistema-di-transito-non-di-archiviazione)) |
+| **Visualizza** | Pulsante verde per scaricare (se non scaduto) |
+
+{: .warning }
+> Gli allegati scadono dopo **6 mesi dalla registrazione**. Scarica e conserva localmente tutti i documenti importanti prima della scadenza.
+
+{: .note }
+> Questa sezione **non è disponibile** per le pratiche importate. Gli allegati originali restano archiviati dall'Ente secondo il canale di presentazione iniziale (PEC, cartaceo, altro portale).
 
 ## Dati dell'Ente
 
-In questa sezione sono presenti le seguenti informazioni:
-- *Numero Protocollo*
-- *Data Protocollo*
-- *Numero Pratica* se già in stato *Registrata*
-- *Data Registrazione* se già in stato *Registrata*
-- *Responsabile del Procedimento* se l'Ente lo ha indicato
-- *Responsabile del Servizio* se l'Ente lo ha indicato
-- *Data Assegnazione* se l'Ente ha indicato almeno un responsabile
-  
-Possono quindi essere presenti altre cinque sezioni nel caso in cui l'Ente abbia effettuato determinate operazioni:
-- *Dati verifica pratica*
-- *Dati provvedimento*
-- *Comunicazioni*
-- *Storico richieste integrazioni*
-- *Agibilità*
+Questa sezione mostra le informazioni inserite dall'Ente durante la lavorazione della pratica.
 
-### Dati verifica pratica
+### Informazioni base
 
-Questa sezione non è utilizzata in quanto lo stato *Verificata* non viene trasmesso su portale GeoTecSUE ([vedi](ciclo-vita-dettagliato#verificata))
+| Campo | Descrizione |
+|-------|-------------|
+| **Numero Protocollo** | Numero assegnato alla protocollazione |
+| **Data Protocollo** | Data di protocollazione |
+| **Numero Pratica** | Numero di registrazione (se già in stato Registrata) |
+| **Data Registrazione** | Data di presa in carico dall'Ufficio Tecnico |
+| **Responsabile del Procedimento** | Nome del RUP (se indicato dall'Ente) |
+| **Responsabile del Servizio** | Nome del responsabile di servizio (se indicato) |
+| **Data Assegnazione** | Data di assegnazione ai responsabili |
 
-### Dati provvedimento
+### Sezioni aggiuntive
 
-Nel caso in cui l'Ente abbia rilasciato un *provvedimento* (ad esempio il rilascio di un Permesso di Costruire oppure l'Autorizzazione Paesaggistica) viene indicato in questa sezione il *Numero Provvedimento* e la *Data Provvedimento*.
-Se associato al provvedimento l'Ente ha anche emesso uno (o più) documenti, nella tabella sottostante veiene mostrato (con *Data Emissione*, *Descrzione*, *Data Lettura* e possibilità di visualizzarlo.
+Sotto le informazioni base possono apparire fino a 5 sezioni dedicate (se l'Ente ha compiuto determinate azioni):
 
-### Comunicazioni
+1. [Dati verifica pratica](#dati-verifica-pratica)
+2. [Dati provvedimento](#dati-provvedimento)
+3. [Comunicazioni](#comunicazioni-dellente)
+4. [Storico richieste integrazioni](#storico-richieste-integrazioni)
+5. [Agibilità](#agibilità)
 
-Nel caso in cui l'Ente abbia trasmesso della documentazione (ad esempio, una richiesta di integrazioni oppure l'avvio del procedimento, ecc...) in questa sezione viene tenuta traccia.
-La tabella presenta i seguenti dati:
-- *Tipo Documento*: può essere *documento*, *parare*, *rilascio provvedimento*
-- *Data Emissione*: data in cui l'Ente ha emesso il documento
-- *Descrizione*: descrizione dettagliata del documento emesso
-- *Data Lettura*: data in cui il professionista ha scaricato il documento
-- Pulsante di visualizzazione dell'allegato: consente il download del documento per poterne prendere visione
+## Dati verifica pratica
 
 {: .note }
-> I documenti prodotti dall'Ente, a differenza di quelli prodotti dal professionista, **non hanno data di scadenza** e quindi saranno sempre presenti sul GeoTecSUE (vale sia per i documenti presenti nella sezione "Comunicazioni" che nella sezione "Dati provvedimento").
+> Questa sezione **non è utilizzata** in quanto lo stato **Verificata** non viene trasmesso su GeoTecSUE. Vedi [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html#verificata) per maggiori informazioni.
 
-### Storico richieste integrazioni
+## Dati provvedimento
 
-Nel caso in cui l'Ente abbia richiesto una (o più) integrazioni e tale richiesta sia stata soddisfatta, verrà inserita nella lista dello storico richieste integrazioni.
-I dati che vengono riportati sono i seguenti:
-- *Numero Pratica*: la chiave (19 cifre) della pratica di richiesta di integrazioni
-- *Data Richiesta*: data in cui l'Ente ha effettuato la richiesta
-- *Data Invio*: data in cui la risposta all'integrazione è stata trasmessa all'Ente
-- *Data Protocollo*: se la risposta all'integrazione è già stata protocollata, viene inserita qui la data di protocollo
-- *Numero Protocollo*: se la risposta all'integrazione è già stata protocollata, viene inserita qui il numero di protocollo
-- *Data Accettazione*: se la risposta all'integrazione è già stata registrata all'interno della pratica da parte dell'Ente, qui viene inserita la data
+Se l'Ente ha rilasciato un **provvedimento** (es. Permesso di Costruire, Autorizzazione Paesaggistica), questa sezione mostra:
 
-Vengono anche riportati tutti i documenti che sono stati allegati alla risposta della richiesta di integrazioni:
-- *Data Accettazione*: se la risposta all'integrazione è già stata registrata all'interno della pratica da parte dell'Ente, qui viene inserita la data
-- *Allegato*: nome dell'allegato che è stato inserito
-- *Disponibile fino al*: indica la *data di scadenza* dell'allegato
-- Pulsante di visualizzazione dell'allegato: se disponibile, consente il download del documento per poterne prendere visione
+- **Numero Provvedimento**: Numero dell'atto rilasciato
+- **Data Provvedimento**: Data di emissione del provvedimento
 
-### Agibilità
+### Documenti del provvedimento
 
-Questa sezione è diventata *obsoleta* con l'introduzione della *Segnalazione Certificata di Agibilità* che è andata a sostituire la *Richiesta di Agibilità* e la *Comunicazione di Agibilità*.
-Precedentemente, venivano inseriti i dati relativi alla richiesta di agibilità e al rilascio della stessa.
+Se l'Ente ha allegato documenti al provvedimento, appaiono in una tabella:
+
+| Data Emissione | Descrizione | Data Lettura | Visualizza |
+|----------------|-------------|--------------|------------|
+| 15/01/2025 | Permesso di Costruire n. 123 | 16/01/2025 | [Pulsante verde] |
+| 15/01/2025 | Elaborati grafici timbrati | - | [Pulsante verde] |
+
+- **Data Lettura**: Quando hai scaricato il documento (vuota se non ancora scaricato)
+- **Visualizza**: Pulsante verde per scaricare il documento
+
+{: .note }
+> I documenti prodotti dall'Ente **non hanno scadenza** e restano sempre disponibili su GeoTecSUE, a differenza degli allegati del professionista che scadono dopo 6 mesi.
+
+## Comunicazioni dell'Ente
+
+Se l'Ente ha trasmesso documentazione (es. richieste di integrazione, pareri, avvio del procedimento), questa sezione tiene traccia di tutti i documenti inviati.
+
+### Tabella comunicazioni
+
+| Tipo Documento | Data Emissione | Descrizione | Data Lettura | Visualizza |
+|----------------|----------------|-------------|--------------|------------|
+| Documento | 10/01/2025 | Avvio del procedimento | 11/01/2025 | [Verde] |
+| Parere | 20/01/2025 | Parere AUSL favorevole | - | [Verde] |
+| Rilascio provvedimento | 30/01/2025 | Permesso di Costruire | 31/01/2025 | [Verde] |
+
+**Tipo Documento**:
+- **Documento**: Comunicazione generica
+- **Parere**: Parere di enti terzi
+- **Rilascio provvedimento**: Provvedimento finale
+
+**Data Lettura**: Indica quando hai scaricato il documento (vuota se non ancora visualizzato)
+
+{: .note }
+> I documenti dell'Ente **non scadono mai** e rimangono sempre scaricabili, sia qui che nella sezione "Dati provvedimento".
+
+## Storico richieste integrazioni
+
+Se l'Ente ha richiesto integrazioni documentali nel corso dell'istruttoria e tu hai risposto, questa sezione mostra lo **storico completo** di tutte le richieste concluse.
+
+### Dati della richiesta
+
+Per ogni richiesta di integrazione completata:
+
+| Campo | Descrizione |
+|-------|-------------|
+| **Numero Pratica** | Chiave a 19 cifre della richiesta di integrazione |
+| **Data Richiesta** | Quando l'Ente ha aperto la richiesta |
+| **Data Invio** | Quando hai trasmesso la risposta |
+| **Data Protocollo** | Data di protocollazione della risposta |
+| **Numero Protocollo** | Numero di protocollo assegnato |
+| **Data Accettazione** | Data in cui l'Ente ha registrato l'integrazione nella pratica |
+
+### Documenti dell'integrazione
+
+Sotto ogni richiesta appare l'elenco degli allegati che hai inviato in risposta:
+
+| Data Accettazione | Allegato | Disponibile fino al | Visualizza |
+|-------------------|----------|---------------------|------------|
+| 25/01/2025 | Relazione tecnica integrativa.pdf | 25/07/2025 | [Verde] |
+| 25/01/2025 | Elaborato grafico modificato.pdf | 25/07/2025 | [Verde] |
+
+{: .warning }
+> Gli allegati delle integrazioni seguono la stessa regola di **retention** degli allegati principali: scadono dopo 6 mesi dalla data di accettazione.
+
+## Agibilità
+
+{: .note }
+> Questa sezione è **obsoleta** e non viene più utilizzata. Con l'introduzione della **Segnalazione Certificata di Agibilità** (SCA), le vecchie "Richiesta di Agibilità" e "Comunicazione di Agibilità" non sono più presenti. Se vedi questa sezione, si riferisce a pratiche molto vecchie.
 
 ## Comunicazioni Inviate collegate alla Pratica
 
-Se per la pratica in oggetto sono state trasmesse delle *comunicazioni strutturate* (ad esempio Fine Lavori, Inizio Lavori o anche Documentazione Integrativa Spontanea), in questa sezione ne verrà mostrato lo storico.
-In particolare:
-- *Tipo di comunicazione*: la tipologia di comunicazione trasmessa (Fine Lavori, Inizio Lavori, Invio documentazione libera...)
-- *Numero Pratica*: la chiave (19 cifre) della comunicazione
-- *Data Invio*: data in cui la comunicazione è stata trasmessa all'Ente
-- *Stato*: lo stato della comunicazione
-- *Data Protocollo*: se la comunicazione è già stata protocollata, viene indicata la data di protocollo
-- *Numero Protocollo*: se la comunicazione è già stata protocollata, viene indicato il numero di protocollo
+Se hai trasmesso **comunicazioni strutturate** legate alla pratica (es. Inizio Lavori, Fine Lavori, Varianti), questa sezione mostra lo storico completo.
 
-Vengono anche riportati tutti i documenti che sono stati allegati alla comunicazione:
-- *Data Inserimento*: data in cui è stato inserito l'allegato
-- *Allegato*: nome dell'allegato che è stato inserito
-- *Disponibile fino al*: indica la *data di scadenza* dell'allegato
-- Pulsante di visualizzazione dell'allegato: se disponibile, consente il download del documento per poterne prendere visione
+### Tabella comunicazioni
+
+| Tipo | Numero Pratica | Data Invio | Stato | Data Protocollo | Numero Protocollo |
+|------|----------------|------------|-------|-----------------|-------------------|
+| Inizio Lavori | 1234567890123456789 | 05/02/2025 | Protocollata | 06/02/2025 | 1234/2025 |
+| Fine Lavori | 9876543210987654321 | 20/03/2025 | Inviata | - | - |
+
+**Campi**:
+- **Tipo di comunicazione**: Tipologia (Inizio Lavori, Fine Lavori, ecc.)
+- **Numero Pratica**: Chiave univoca della comunicazione
+- **Data Invio**: Quando hai trasmesso la comunicazione
+- **Stato**: Stato attuale della comunicazione
+- **Data/Numero Protocollo**: Se già protocollata
+
+### Allegati delle comunicazioni
+
+Sotto ogni comunicazione appare l'elenco degli allegati trasmessi:
+
+| Data Inserimento | Allegato | Disponibile fino al | Visualizza |
+|------------------|----------|---------------------|------------|
+| 05/02/2025 | Comunicazione Inizio Lavori.pdf | 05/08/2025 | [Verde] |
+| 05/02/2025 | Piano Sicurezza e Coordinamento.pdf | 05/08/2025 | [Verde] |
+
+{: .warning }
+> Gli allegati delle comunicazioni scadono dopo **6 mesi dalla data di inserimento**. Conserva copie locali di tutti i documenti importanti.
 
 ## Ricevute
 
-In questa sezione vengono mostrate tutte le ricevute che sono state prodotte automaticamente dal portale GeoTecSUE per la pratica principale e per le (eventuali) comunicazioni ed integrazioni successive.
-Per la pratica principale, a seconda dello stato in cui essa si trova, possono essere presenti le seguenti ricevute:
-- *Ricevuta di invio*: prodotta dopo pochi istanti dalla trasmissione della pratica
-- *Ricevuta di protocollazione*: prodotta dopo pochi istanti dalla protocollazione della pratica
-- *Ricevuta di registrazione*: prodotta dopo pochi istanti dalla registrazione della pratica all'Ufficio Tecnico
+Questa sezione mostra tutte le **ricevute** generate automaticamente da GeoTecSUE per la pratica principale e per eventuali comunicazioni e integrazioni.
 
-Se la ricevuta è presente, è sempre possibile **rigenerarla**, cliccando sul pulsante giallo di aggiornamento: questa operazione può essere utile nel caso in cui l'Ente, successivamente ad una registrazione, debba fare una modifica al numero di pratica o al tipo. Aggiornando la ricevuta, il GeoTecSUE rilegge nuovamente i dati dell'Ente e corregge i dati sul *pdf*.
-Le ricevute, così come i documenti prodotti dall'Ente, non vengono mai cancellate e quindi sono sempre scaricabili (cliccando sul pulsante verde).
+### Ricevute della pratica principale
 
-Nel caso in cui per la pratica in oggetto siano state presentate delle comunicazioni o integrazioni, viene proposta un'ulteriore sezione dove è possibile scaricare la ricevuta di invio e di protocollazione per la comunicazione o integrazione trasmessa.
-Non viene rilasciata una ricevuta di registrazione (non viene assegnato un numero di pratica, ma eredita quello della pratica principale).
+A seconda dello stato raggiunto dalla pratica, sono disponibili:
+
+| Ricevuta | Quando viene generata | Azioni |
+|----------|----------------------|--------|
+| **Ricevuta di invio** | Pochi istanti dopo la trasmissione | Scarica / Rigenera |
+| **Ricevuta di protocollazione** | Dopo la protocollazione da parte dell'Ente | Scarica / Rigenera |
+| **Ricevuta di registrazione** | Dopo la registrazione all'Ufficio Tecnico | Scarica / Rigenera |
+
+### Rigenerare le ricevute
+
+Ogni ricevuta ha un pulsante **giallo di aggiornamento** che permette di rigenerarla.
+
+**Quando è utile rigenerare**:
+- L'Ente ha corretto il numero di pratica dopo la registrazione
+- L'Ente ha modificato il tipo di pratica
+- Vuoi avere una ricevuta aggiornata con i dati più recenti
+
+Il sistema rilegge i dati dal gestionale dell'Ente e genera un nuovo PDF aggiornato.
+
+{: .note }
+> Le ricevute, come i documenti dell'Ente, **non scadono mai** e sono sempre scaricabili.
+
+### Ricevute di comunicazioni e integrazioni
+
+Se hai inviato comunicazioni o integrazioni, appare una sezione aggiuntiva con le ricevute di:
+
+- **Invio** della comunicazione/integrazione
+- **Protocollazione** della comunicazione/integrazione
+
+{: .note }
+> Le comunicazioni e integrazioni **non** hanno ricevuta di registrazione perché ereditano il numero di pratica della pratica principale.
 
 ## Pagamenti completati (PagoPA)
 
-Se per la pratica (o per le comunicazioni collegate) sono stati effettuati dei pagamenti con *PagoPA*, in questa sezione vengono mostrati:
-- *Descrizione pagamento*: la descrizione del tipo di pagamento previsto (ad esempio "DIRITTI DI SEGRETERIA", "OBLAZIONE O SANZIONE IN SANATORIA"...)
-- *Data Richiesta IUV*: data in cui è stato richiesto ed emesso lo IUV
-- *Data Pagamento IUV*: data in cui è stato effettuato il pagamento
-- *Importo (€)*: l'importo versato
-- *Stato*: indica lo stato in cui si trova il pagamento (vedere l'appendice degli [Stati PagoPA](appendici/pagopa-stati))
+Se hai effettuato pagamenti tramite **PagoPA** per la pratica o per comunicazioni collegate, questa sezione mostra lo storico completo.
+
+### Tabella pagamenti
+
+| Descrizione | Data Richiesta IUV | Data Pagamento | Importo (€) | Stato |
+|-------------|-------------------|----------------|-------------|-------|
+| Diritti di Segreteria | 05/01/2025 | 06/01/2025 | 50,00 | Pagato |
+| Oneri Urbanizzazione | 05/01/2025 | 10/01/2025 | 1.500,00 | Pagato |
+
+**Campi**:
+- **Descrizione pagamento**: Tipo di pagamento effettuato
+- **Data Richiesta IUV**: Quando è stato generato il codice IUV
+- **Data Pagamento IUV**: Quando hai effettivamente pagato
+- **Importo**: Cifra versata
+- **Stato**: Stato finale (vedi [Stati PagoPA](../appendici/pagopa-stati.html))
 
 ## Tracciabilità
 
-In questa sezione vengono riassunti tutti i passaggi fondamentali della pratica, dalla sua creazione fino all'eventuale conclusione. Vengono inclusi sia i passi effettuati dal professionista che quelli effettuati dall'Ente, in ordine rigorosamente cronologico (dal più vecchio al più recente).
-Nella *tracciabilità* vengono quindi indicati passi quali: 
-- *Invio pratica all'Ente*
-- *Pratica Protocollata con Numero 9999*
-- *Invio documentazione all'Ente: ...*
-- *Pubblicazione documento ...*
-- *Generazione IUV 9999 per ... dell'importo di 999 Euro*
+Questa sezione mostra la **cronologia completa** di tutti gli eventi significativi della pratica, dal momento della creazione fino allo stato attuale.
+
+### Cosa viene tracciato
+
+La tracciabilità include **tutte le azioni** compiute sia dal professionista che dall'Ente, in ordine cronologico (dal più vecchio al più recente):
+
+**Azioni del professionista**:
+- Invio pratica all'Ente
+- Invio documentazione integrativa
+- Generazione IUV per pagamenti
+- Trasmissione comunicazioni
+
+**Azioni dell'Ente**:
+- Pratica protocollata con Numero X
+- Pratica registrata con Numero Y
+- Pubblicazione documento Z
+- Richiesta integrazioni aperta
+- Provvedimento rilasciato
+
+**Esempio di tracciabilità**:
+```
+10/01/2025 10:30 - Invio pratica all'Ente
+10/01/2025 14:15 - Pratica Protocollata con Numero 1234/2025
+15/01/2025 09:00 - Pratica Registrata con Numero 567/2025
+20/01/2025 11:30 - Richiesta integrazioni aperta
+25/01/2025 16:00 - Invio documentazione all'Ente: Relazione tecnica integrativa
+26/01/2025 10:00 - Pubblicazione documento: Parere favorevole AUSL
+30/01/2025 15:30 - Generazione IUV 123456789 per Diritti di Segreteria dell'importo di 50 Euro
+05/02/2025 14:00 - Rilascio provvedimento: Permesso di Costruire n. 123
+```
+
+{: .note }
+> La tracciabilità è utile per avere una visione d'insieme dell'iter della pratica e verificare quando sono avvenuti eventi specifici.
 
 ## Interoperabilità Regione Lombardia
 
-Questa sezione riguarda *esclusivamente* gli Enti della Regione Lombardia che stanno operando in *interoperabilità*.
-In questa sezione vengono riepilogate tutte le operazioni di dialogo tra il sistema GeoTecSUE e Regione Lombardia, in particolare:
-- *Fase di Aggiornamento*: indica la fase prevista da Regione Lombardia (Primo Aggiornamento, Integrazioni, Aggiornamento Finale)
-- *Cod. Pratica R.L.*: indica il codice unvoco che è stato assegnato alla pratica da parte di GeoTecSUE (composto dal *codice fiscale*-*data trasmissione*-*ora trasmissione*)
-- *ID R.L.*: indica il codice identificativo assegnato da Regione Lombardia
-- *ID Int. R.L.*: nel caso in cui la trasmissione sia relativa ad un'integrazione, in questo campo è presente l'identificativo dell'integrazione assegnato da Regione Lombardia
-- *Proc. R.L.*: indica il tipo di procedimento di Regione Lombardia
-- *Data Trasmissione*: indica la data di trasmissione a Regione Lombardia
+{: .note }
+> Questa sezione riguarda **esclusivamente** gli Enti della Regione Lombardia che operano in **interoperabilità** con il sistema regionale.
+
+Se l'Ente lombardo ha attivato l'interoperabilità, questa sezione mostra tutte le operazioni di dialogo tra GeoTecSUE e il sistema di Regione Lombardia.
+
+### Tabella trasmissioni
+
+| Fase Aggiornamento | Cod. Pratica R.L. | ID R.L. | ID Int. R.L. | Proc. R.L. | Data Trasmissione |
+|-------------------|-------------------|---------|--------------|------------|-------------------|
+| Primo Aggiornamento | RSSMRA80A01F205X-20250110-103045 | 12345 | - | SCIA | 10/01/2025 10:30 |
+| Integrazioni | RSSMRA80A01F205X-20250110-103045 | 12345 | 67890 | SCIA | 25/01/2025 16:00 |
+
+**Campi**:
+- **Fase di Aggiornamento**: Primo Aggiornamento, Integrazioni, Aggiornamento Finale
+- **Cod. Pratica R.L.**: Codice generato da GeoTecSUE (formato: CodiceFiscale-Data-Ora)
+- **ID R.L.**: Identificativo assegnato da Regione Lombardia
+- **ID Int. R.L.**: Identificativo integrazione (se la trasmissione riguarda un'integrazione)
+- **Proc. R.L.**: Tipo di procedimento secondo nomenclatura regionale
+- **Data Trasmissione**: Quando è avvenuto lo scambio dati
+
+{: .note }
+> Se non vedi questa sezione e operi in Lombardia, significa che l'Ente non ha attivato l'interoperabilità con Regione Lombardia.
+
+---
 
 # Differenze per pratiche importate
 
-Le pratiche importate hanno un dettaglio molto simile a quello delle pratiche "classiche".
+Le pratiche importate (presentate prima dell'attivazione di GeoTecSUE) hanno un dettaglio molto simile a quello delle pratiche standard, con alcune differenze descritte di seguito.
 
 ## Sezione aggiuntiva: Dati Importazione della Pratica
 
-In questa sezione sono presenti i seguenti dati:
-- *Data Importazione*: data e ora in cui è stata fatta l'importazione della pratica
-- *Numero Pratica*: numero della pratica come presente su gestionale
-- *Numero Protocollo*: numero del protocollo come presente sul gestionale
-- *Data Protocollo*: data del protocollo come presente sul gestionale
-- *Tipo Pratica*: tipologia di pratica come presente sul gestionale
-- *Qualificazione Intervento*: qualificazione dell'intervento come presente sul gestionale
-- *Oggetto Intervento*: descrizione dell'intervento come presente sul gestionale
-- *Titolare*: nome e cognome del titolare della pratica
-- *Codice Fiscale*: codice fiscale del titolare della pratica
-Nel caso in cui il gestionale trasmetta i dati del portale di riferimento sul quale la pratica è stata presentata, è presente anche una sezione contenente:
-- *Portale*: nome del portale di riferimento
-- *Tipo Istanza*: tipologia di istanza del portale di riferimento
-- *Numero Istanza*: numero istanza del portale di riferimento
+Le pratiche importate mostrano una sezione dedicata ai **dati di importazione** non presente nelle pratiche standard.
+
+### Informazioni dall'importazione
+
+| Campo | Descrizione |
+|-------|-------------|
+| **Data Importazione** | Data e ora in cui hai importato la pratica su GeoTecSUE |
+| **Numero Pratica** | Numero pratica come registrato nel gestionale dell'Ente |
+| **Numero Protocollo** | Numero di protocollo originale |
+| **Data Protocollo** | Data di protocollazione originale |
+| **Tipo Pratica** | Tipologia come registrata nel gestionale |
+| **Qualificazione Intervento** | Qualificazione come registrata nel gestionale |
+| **Oggetto Intervento** | Descrizione dell'intervento originale |
+| **Titolare** | Nome e cognome del titolare |
+| **Codice Fiscale** | Codice fiscale del titolare |
+
+### Dati del portale di origine (se disponibili)
+
+Se il gestionale trasmette informazioni sul portale attraverso cui la pratica fu presentata, appare anche:
+
+| Campo | Descrizione |
+|-------|-------------|
+| **Portale** | Nome del portale di riferimento (es. nome del vecchio portale) |
+| **Tipo Istanza** | Tipologia secondo nomenclatura del portale originale |
+| **Numero Istanza** | Numero identificativo sul portale originale |
+
+{: .note }
+> Questi dati sono utili per rintracciare la pratica nei sistemi precedenti o nelle comunicazioni con l'Ente che fanno riferimento al vecchio portale.
 
 ## Funzionalità non disponibili
 
-❌ **Non disponibile**: Riferimenti a varianti
-❌ **Non disponibile**: Scarica archivio completo
-❌ **Parzialmente disponibile**: Dati Generali della Pratica (non è presente la sezione della *localizzazione dell'intervento* e degli *allegati*)
+Le pratiche importate hanno alcune **limitazioni** rispetto alle pratiche standard:
+
+### Completamente assenti
+
+❌ **Riferimenti a varianti**: Non è possibile vedere se la pratica importata è variante di un'altra
+
+❌ **Scarica archivio completo**: Non è disponibile il download del file ZIP con tutta la documentazione
+
+❌ **Comunicazioni verso l'Ente**: Non puoi inviare nuove comunicazioni (es. Inizio/Fine Lavori)
+
+❌ **Integrazioni spontanee**: Non puoi inviare documentazione aggiuntiva di tua iniziativa
+
+❌ **Pagamenti PagoPA**: Non puoi generare codici IUV o effettuare pagamenti
+
+❌ **Interoperabilità Regione Lombardia**: Non è gestita per pratiche pregresse
+
+### Parzialmente disponibili
+
+⚠️ **Dati Generali della Pratica**: Versione semplificata che mostra solo le informazioni base
+
+**Mancano**:
+- Sezione "Localizzazione dell'intervento"
+- Sezione "Documentazione allegata alla pratica"
+
+**Disponibili**:
+- Informazioni di sistema (numero, anno, stato, tipo)
+- Date significative (importazione, protocollo originale)
+- Dati del titolare originale
+
+### Funzionalità disponibili
+
+Nonostante le limitazioni, sulle pratiche importate puoi comunque:
+
+✅ **Visualizzare** tutti i dati generali disponibili  
+✅ **Consultare ricevute** generate dal sistema  
+✅ **Gestire soggetti compilatori** per condividere la visibilità  
+✅ **Richiedere archiviazione** se la pratica non serve più  
+✅ **Consultare la tracciabilità** delle operazioni  
+✅ **Rispondere a richieste di integrazione** se l'Ente le apre
 
 {: .note }
-> Le limitazioni dipendono dal fatto che la pratica è stata presentata fuori da GeoTecSUE e il sistema ha visibilità parziale sui dati originali.
+> Le limitazioni dipendono dal fatto che la pratica è stata presentata fuori da GeoTecSUE. Il sistema ha visibilità parziale sui dati originali, che restano archiviati dall'Ente secondo il canale di presentazione iniziale (PEC, cartaceo, altro portale).
+
+## Perché importare una pratica pregressa
+
+Anche con le limitazioni, importare una pratica può essere utile per:
+
+✅ **Centralizzare** tutte le tue pratiche in un unico portale  
+✅ **Rispondere a integrazioni** richieste dall'Ente dopo l'importazione  
+✅ **Consultare lo stato** aggiornato della pratica  
+✅ **Scaricare ricevute** e documenti dell'Ente  
+✅ **Avere visibilità** sulle pratiche in corso anche se presentate prima di GeoTecSUE
+
+Per maggiori informazioni sull'importazione, consulta [Importazione pratiche pregresse](importazione-pratiche-pregresse.html).
+
+---
+
+## Domande frequenti
+
+### Posso modificare i dati di una pratica già inviata?
+
+**No**, i dati di una pratica trasmessa **non sono modificabili**. 
+
+Se devi correggere errori o aggiornare informazioni:
+- Invia una **Comunicazione** (es. Variante in Corso d'Opera)
+- Rispondi a una **richiesta di integrazione** se l'Ente ne apre una
+- Invia **integrazioni spontanee** se l'Ente le consente
+
+### Come faccio a sapere se devo pagare qualcosa?
+
+Controlla la sezione **"Pagamenti aperti"**. Se è presente, mostra tutti i pagamenti in sospeso.
+
+Se non vedi questa sezione, non ci sono pagamenti aperti per la pratica.
+
+### Cosa devo fare quando vedo "Richiesta Integrazioni" nello stato?
+
+1. Vai alla sezione **"Richiesta integrazioni attiva"**
+2. Leggi attentamente cosa richiede l'Ente
+3. Carica tutti i documenti obbligatori
+4. Clicca **Invia integrazione**
+
+Non aspettare troppo: le integrazioni hanno spesso termini da rispettare.
+
+### Le ricevute hanno una scadenza?
+
+**No**, le ricevute **non scadono mai** e restano sempre disponibili per il download.
+
+Lo stesso vale per i **documenti prodotti dall'Ente** (pareri, provvedimenti, comunicazioni).
+
+### Quanto tempo ho prima che scadano gli allegati?
+
+Gli allegati caricati dal professionista (tuoi documenti) scadono **6 mesi dalla data di registrazione** della pratica.
+
+Dopo la scadenza non potrai più scaricarli da GeoTecSUE. Conserva sempre copie locali.
+
+### Posso delegare un collega a gestire la pratica?
+
+**Sì**, usa il pulsante **Gestione Soggetti** per aggiungere collaboratori.
+
+Puoi assegnare due ruoli:
+- **Amministratore**: Controllo completo (tranne gestione soggetti)
+- **Utente Modifica**: Può modificare dati e aggiungere allegati ma non inviare
+
+Vedi [Soggetti compilatori](../docs/nozioni-di-base.html#soggetti-compilatori-aggiuntivi) per maggiori dettagli.
+
+### Come faccio a scaricare tutta la documentazione in una volta?
+
+Clicca sul pulsante **Scarica l'archivio della pratica** (se disponibile).
+
+Riceverai un file ZIP con tutti i documenti, allegati e ricevute.
+
+{: .warning }
+> Questa funzione **non è disponibile** per le pratiche importate.
+
+### Cosa significa "Ente variato"?
+
+Significa che l'Ente presso cui hai presentato la pratica ha cessato di esistere (es. Comune confluito in Unione, Unione sciolta).
+
+Se l'Ente è variato:
+- Non puoi inviare nuove comunicazioni
+- Non puoi inviare integrazioni spontanee
+- Puoi solo consultare i dati e rispondere a eventuali richieste formali
+
+## Prossimi passi
+
+- [Consultare l'elenco delle istanze](elenco-istanze.html)
+- [Creare una nuova istanza](creazione-nuova-istanza.html)
+- [Importare pratiche pregresse](importazione-pratiche-pregresse.html)
+
+---
+
+**Hai bisogno di aiuto?** Consulta la sezione [Domande frequenti](../appendici/faq.html) o contatta l'assistenza dell'Ente.
