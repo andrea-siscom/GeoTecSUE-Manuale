@@ -27,6 +27,9 @@ Istanze già trasmesse all'Ente (da "Inviata" in poi). Sono in lavorazione dall'
 ### 3. Pratiche importate
 Istanze presentate **prima dell'attivazione di GeoTecSUE** (via PEC, cartaceo o altri portali) e recuperate dal gestionale dell'Ente.
 
+{: .note}
+> Se nel menu "Le mie istanze" trovi la voce "Gestione Istanze non presenti su GeoTecSUE" allora significa che l'Ente ha abilitato la funzione e pertanto potrai importare delle pratiche pregresse. Se la voce di menu non è presente significa che l'Ente non ha abilitato la funzione
+
 **Quando consultarla**: Per gestire pratiche pregresse, inviare comunicazioni su lavori in corso o rispondere a integrazioni.
 
 {: .note }
