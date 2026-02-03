@@ -9,6 +9,7 @@ keywords: [importazione, pratiche pregresse, gestionale, pratiche storiche, comu
 # Importazione pratiche pregresse
 
 Questa sezione spiega come importare su **GeoTecSUE** le pratiche presentate **prima dell'attivazione del portale**, per poterle gestire e inviare comunicazioni o integrazioni.
+Non tutti gli Enti attivano questa funzione: se l'Ente ha attivato la funzione, allora nel menu **Le mie istanze** comparirà la voce **Gestione Istanze non presenti su GeoTecSUE**. Se non trovi questa voce, l'Ente non ha attivato la funzione.
 
 ## Cosa sono le pratiche pregresse
 
@@ -85,7 +86,7 @@ Quando importi una pratica pregressa, GeoTecSUE recupera dal gestionale dell'Ent
 ### Passo 1: Accedere alla funzione di importazione
 
 1. Nel menu principale, clicca su **Le mie istanze**
-2. Nel sottomenu, seleziona **Gestione Istanze precedenti non presenti su GeoTecSUE**
+2. Nel sottomenu, seleziona **Gestione Istanze non presenti su GeoTecSUE**
 
 Il sistema apre la pagina di ricerca delle pratiche pregresse.
 
