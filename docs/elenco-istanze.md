@@ -1,12 +1,12 @@
 ---
-title: Elenco istanze
+title: Consultare l'elenco delle pratiche
 nav_order: 30
 parent: Le mie istanze
 description: Come consultare e gestire gli elenchi delle pratiche in compilazione, inviate e importate su GeoTecSUE
 keywords: [elenco istanze, lista pratiche, compilazione, inviate, importate, filtri, ricerca, ordinamento, stati]
 ---
 
-# Elenco istanze
+# Consultare l'elenco delle pratiche
 
 Questa sezione spiega come consultare e gestire i tuoi elenchi di pratiche su **GeoTecSUE**. Il portale organizza le istanze in tre liste separate in base al loro stato di avanzamento.
 
