@@ -126,6 +126,7 @@ Questa sezione visualizza tutte le istanze **trasmesse all'Ente**, indipendentem
 - **Protocollate** (protocollate ma non ancora registrate)
 - **Registrate** (prese in carico dall'Ente)
 - **In richiesta integrazioni** (l'Ente ha chiesto documenti aggiuntivi)
+- **In invio integrazioni** (le integrazioni sono in attesa di essere registrate)
 - **Esecutive** (provvedimento rilasciato)
 - **Archiviate** o in **Diniego** (concluse negativamente)
 
@@ -138,7 +139,7 @@ Questa sezione visualizza tutte le istanze **trasmesse all'Ente**, indipendentem
 | **Tipo** | - | - | Tipologia di pratica trasmessa |
 | **Data Invio** | - | - | Data di trasmissione all'Ente |
 | **Titolare** | - | - | Cognome e nome del titolare |
-| **Stato Pratica** | - | Badge colorato | Stato attuale con indicatore visivo |
+| **Stato Pratica** | - | - | Stato attuale (da Inviata in poi) ([vedi ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)) |
 | **Descrizione Intervento** | - | - | Oggetto dell'intervento (passa il mouse per testo completo) |
 | **Dettaglio** | Lente | Verde | Accedi al [dettaglio completo](dettaglio-istanza.html) della pratica |
 
@@ -199,7 +200,7 @@ Per trovare rapidamente una pratica specifica, usa il pannello filtri che ti per
 | **Stato della pratica** | Stato attuale | Filtra per stato (es. solo Registrate o solo Esecutive) |
 | **Tipo Condivisione** | Ruolo | Filtra per [ruolo](../docs/nozioni-di-base.html#soggetti-compilatori-aggiuntivi): Professionista Principale, Amministratore, Utente Modifica |
 | **Includi pratiche nascoste** | Checkbox | Spunta per visualizzare anche le pratiche nascoste |
-| **Comune** | Selezione Comune | Solo per Enti multi-comune (Unioni, Comunità Montane) |
+| **Comune** | Selezione Comune | Solo per Enti multi-comune (Unioni, Comunità...) |
 | **Titolare** | Testo libero | Cerca per nome/cognome del titolare |
 | **Chiave della pratica** | Codice 19 cifre | Cerca per codice univoco dell'istanza |
 
@@ -211,7 +212,7 @@ Per trovare rapidamente una pratica specifica, usa il pannello filtri che ti per
 4. Il sistema aggiorna l'elenco mostrando solo le pratiche che corrispondono
 
 {: .note }
-> I menu a discesa mostrano solo le opzioni effettivamente presenti nelle tue pratiche. Se non vedi una tipologia, significa che non hai mai inviato quella pratica.
+> I menu a discesa mostrano solo le opzioni effettivamente presenti nelle tue pratiche. Se non vedi una tipologia, significa che non hai mai inviato quella tipologia di pratica.
 
 #### Esempi pratici di filtro
 
@@ -236,7 +237,7 @@ Per trovare rapidamente una pratica specifica, usa il pannello filtri che ti per
 - Risultato: La singola pratica con quel codice
 
 {: .note }
-> Per rimuovere i filtri e vedere di nuovo tutte le pratiche, svuota i campi e clicca nuovamente "Filtra i risultati".
+> Per rimuovere i filtri e vedere di nuovo tutte le pratiche, puoi cliccare il bottone "Cancella i filtri" ed operare nuovamente la ricerca.
 
 ### Azioni disponibili
 
@@ -253,7 +254,7 @@ Per azioni più complesse (inviare comunicazioni, caricare integrazioni, effettu
 
 ### Cosa mostra
 
-Questa sezione visualizza le istanze **importate dal gestionale dell'Ente**, ossia pratiche presentate prima dell'attivazione di GeoTecSUE tramite altri canali (PEC, cartaceo, altri portali).
+Questa sezione visualizza le istanze **importate dal gestionale dell'Ente**, ossia pratiche presentate prima dell'attivazione di GeoTecSUE tramite altri canali (PEC, cartaceo, altri portali) ed importate via importazione.
 
 Per maggiori dettagli sull'importazione, consulta [Importazione pratiche pregresse](importazione-pratiche-pregresse.html).
 
@@ -265,7 +266,7 @@ Per maggiori dettagli sull'importazione, consulta [Importazione pratiche pregres
 | **Data Importazione** | Data in cui hai importato la pratica su GeoTecSUE |
 | **Data Protocollo** | Data di protocollazione originale della pratica |
 | **Titolare** | Cognome e nome del titolare |
-| **Stato Pratica** | Stato attuale con badge colorato |
+| **Stato Pratica** | Stato attuale ([vedi ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)) |
 | **Descrizione Intervento** | Oggetto dell'intervento (passa il mouse per testo completo) |
 | **Dettaglio** | Pulsante verde per accedere al [dettaglio completo](dettaglio-istanza.html) |
 
@@ -305,8 +306,8 @@ Stesso comportamento delle altre liste:
 | **Alla data di protocollo** | Data protocollo finale |
 | **Dalla data di importazione** | Data importazione iniziale (quando l'hai importata su GeoTecSUE) |
 | **Alla data di importazione** | Data importazione finale |
-| **Tipo di pratica** | Tipologia come registrata nel gestionale |
-| **Stato della pratica** | Stato attuale (da Registrata in poi) |
+| **Tipo di pratica** | Tipologia come registrata nel gestionale (potrebbe differire dalle tipologie GeoTecSUE) |
+| **Stato della pratica** | Stato attuale (da Registrata in poi) ([vedi ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)) |
 | **Titolare** | Cerca per nome/cognome del titolare |
 
 {: .note }
@@ -364,15 +365,6 @@ I colori ti aiutano a identificare rapidamente le priorità:
 
 ## Domande frequenti
 
-### Posso esportare l'elenco delle pratiche in Excel?
-
-**No**, al momento non è possibile esportare gli elenchi in formato Excel o CSV. 
-
-Per conservare un elenco delle tue pratiche:
-- Usa la funzione "Stampa" del browser per salvare come PDF
-- Prendi nota manualmente delle pratiche di tuo interesse
-- Consulta il dettaglio di ciascuna pratica per scaricare ricevute e documenti
-
 ### Come faccio a vedere solo le pratiche che richiedono la mia attenzione?
 
 Usa i filtri:
@@ -425,4 +417,4 @@ Per lavorare su più pratiche devi:
 - [Importare pratiche pregresse](importazione-pratiche-pregresse.html)
 
 ---
-**Hai bisogno di aiuto?** Consulta la sezione [Interfaccia e convenzioni](../docs/interfaccia-e-convenzioni.html) per capire meglio i pulsanti e le icone, o contatta l'assistenza dell'Ente.
+**Hai bisogno di aiuto?** Consulta la sezione [Interfaccia e convenzioni](../docs/interfaccia-e-convenzioni.html) per capire meglio i pulsanti e le icone, oppure contatta l'assistenza tecnica.
