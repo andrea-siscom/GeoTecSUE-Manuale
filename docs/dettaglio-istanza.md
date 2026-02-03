@@ -50,7 +50,7 @@ Nella parte superiore della pagina vengono mostrati:
 - **Chiave univoca**: Il codice identificativo a 19 cifre della pratica
 
 **A destra**:
-- **Stato attuale**: Badge colorato con lo stato della pratica (vedi [ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza))
+- **Stato attuale**: stato della pratica (vedi [ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza))
 
 ### Riferimento a variante
 
@@ -69,7 +69,7 @@ Nel caso in cui l'Ente presso cui hai presentato la pratica abbia cessato di esi
 - Eventuale indicazione del nuovo Ente in cui è confluito
 
 {: .warning }
-> Se l'Ente è variato, alcune funzionalità potrebbero non essere disponibili (es. nuove comunicazioni, integrazioni spontanee).
+> Se l'Ente è variato, le funzionalità di interazione non sono disponibili (es. nuove comunicazioni, integrazioni spontanee).
 
 ## Azioni disponibili
 
@@ -90,15 +90,14 @@ Cliccando questo pulsante torni alla pagina da cui provieni (solitamente l'[elen
 **Disponibile se la pratica è in stato**:
 - Registrata
 - Esecutiva
-- Verificata (anche se raramente usato)
+- Verificata (anche se lo stato non è utilizzato)
 - Richiesta Integrazioni
 
 **Cosa fa**: Avvia una nuova istanza di tipo "Richiesta Archiviazione" collegata alla pratica corrente. La compilazione è analoga a quella di qualsiasi altra pratica.
 
 **Quando usarlo**:
-- La pratica non è più necessaria
-- I lavori non verranno eseguiti
-- Vuoi chiudere formalmente la pratica
+- La proprietà non intende proseguire con l'istanza
+- Non è possibile fornire le integrazioni richieste
 
 {: .note }
 > La richiesta di archiviazione viene valutata dall'Ente, che può accettarla o respingerla. Non archivia automaticamente la pratica.
@@ -122,7 +121,7 @@ Cliccando questo pulsante torni alla pagina da cui provieni (solitamente l'[elen
 
 ✅ **Ricevute**:
 - Ricevute generate dal sistema (invio, protocollo, registrazione)
-- Ricevute di comunicazioni e integrazioni
+- Ricevute di comunicazioni e integrazioni (invio, protocollo)
 
 ✅ **Documenti dell'Ente**:
 - Tutti i documenti prodotti dall'Ente (senza scadenza)
@@ -288,7 +287,7 @@ Dopo aver pagato tramite PagoPA:
 
 ## Comunicazioni verso l'Ente
 
-Questa sezione ti permette di inviare **comunicazioni strutturate** collegate alla pratica (es. Inizio Lavori, Fine Lavori, Varianti).
+Questa sezione ti permette di inviare **comunicazioni strutturate** collegate alla pratica (es. Inizio Lavori, Fine Lavori...).
 
 La sezione si divide in due parti:
 1. **Nuova Comunicazione**: Crea e invia una nuova comunicazione
@@ -327,10 +326,7 @@ Le comunicazioni disponibili dipendono da:
 **Esempi di comunicazioni tipiche**:
 - Inizio Lavori
 - Fine Lavori
-- Sospensione Lavori
-- Ripresa Lavori
-- Variante in Corso d'Opera
-- Proroga Termine Inizio/Fine Lavori
+- Segnalazione Certificata di Agibilità
 
 {: .note }
 > Se la comunicazione che cerchi non è presente nel menu, contatta l'Ente segnalando quale comunicazione ti serve. L'Ente può abilitarla se effettivamente applicabile alla tua pratica.
@@ -494,8 +490,6 @@ Questa sezione riepiloga dove si trova l'intervento oggetto della pratica:
 
 - **Via/Piazza** e numero civico
 - **Comune** (mostrato se l'Ente è multi-comune)
-- **CAP**
-- **Provincia**
 
 ### Riferimenti catastali
 
@@ -544,7 +538,7 @@ Questa sezione mostra le informazioni inserite dall'Ente durante la lavorazione 
 | **Data Protocollo** | Data di protocollazione |
 | **Numero Pratica** | Numero di registrazione (se già in stato Registrata) |
 | **Data Registrazione** | Data di presa in carico dall'Ufficio Tecnico |
-| **Responsabile del Procedimento** | Nome del RUP (se indicato dall'Ente) |
+| **Responsabile del Procedimento** | Nome del responsabile del procedimento (se indicato dall'Ente) |
 | **Responsabile del Servizio** | Nome del responsabile di servizio (se indicato) |
 | **Data Assegnazione** | Data di assegnazione ai responsabili |
 
@@ -758,6 +752,17 @@ La tracciabilità include **tutte le azioni** compiute sia dal professionista ch
 26/01/2025 10:00 - Pubblicazione documento: Parere favorevole AUSL
 30/01/2025 15:30 - Generazione IUV 123456789 per Diritti di Segreteria dell'importo di 50 Euro
 05/02/2025 14:00 - Rilascio provvedimento: Permesso di Costruire n. 123
+
+04/03/2025 09:33:13	Invio pratica all'Ente
+04/03/2025 09:39:15  Pratica Protocollata con Numero 1234/2025
+05/03/2025 10:01:19  Pratica Registrata con Numero 567/2025
+09/03/2025 15:30:18  Generazione IUV 123456789 per Diritti di Segreteria dell'importo di 50 Euro
+12/03/2025 19:05:57	Invio comunicazione all'Ente: Invio documentazione libera
+13/03/2025 10:12:29	[Comunicazione - Invio documentazione libera]: Comunicazione Protocollata con Numero 2763
+13/03/2025 10:16:24	[Comunicazione - Invio documentazione libera]: Comunicazione Registrata in Pratica Numero 2022/12/1
+26/03/2025 10:00:44  Pubblicazione documento: Parere favorevole AUSL
+28/03/2025 15:48:04	ROSSI MARIO ha aggiunto VERDI IRENE alla gestione della pratica con ruolo: Amministratore
+
 ```
 
 {: .note }
@@ -891,7 +896,7 @@ Per maggiori informazioni sull'importazione, consulta [Importazione pratiche pre
 **No**, i dati di una pratica trasmessa **non sono modificabili**. 
 
 Se devi correggere errori o aggiornare informazioni:
-- Invia una **Comunicazione** (es. Variante in Corso d'Opera)
+- Invia una **Comunicazione** (es. Voltura Professionisti / Imprese)
 - Rispondi a una **richiesta di integrazione** se l'Ente ne apre una
 - Invia **integrazioni spontanee** se l'Ente le consente
 
@@ -909,6 +914,7 @@ Se non vedi questa sezione, non ci sono pagamenti aperti per la pratica.
 4. Clicca **Invia integrazione**
 
 Non aspettare troppo: le integrazioni hanno spesso termini da rispettare.
+Molto spesso la richiesta di integrazioni è "accompagnata" da un documento: consulta il documento per avere il dettaglio della richiesta.
 
 ### Le ricevute hanno una scadenza?
 
