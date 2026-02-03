@@ -114,6 +114,8 @@ Da questa lista puoi:
 {: .warning }
 > **Attenzione**: La cancellazione è **definitiva e irreversibile**. Il sistema ti chiederà conferma prima di procedere.
 
+Se il bottone di cancellazione della pratica non è attivo, probabilmente è dovuto al fatto che per quella pratica è stato generato uno (o più) IUV e pertanto finché non vengono eliminati gli IUV non è possibile procedere con la cancellazione.
+
 ## Pratiche inviate
 
 ### Cosa mostra
