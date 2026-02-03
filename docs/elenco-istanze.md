@@ -22,7 +22,7 @@ Istanze che stai ancora preparando e non hai ancora inviato all'Ente. Puoi modif
 ### 2. Pratiche inviate
 Istanze già trasmesse all'Ente (da "Inviata" in poi). Sono in lavorazione dall'Ente o già concluse.
 
-**Quando consultarla**: Per monitorare lo stato delle pratiche, inviare comunicazioni, rispondere a richieste di integrazione o scaricare ricevute.
+**Quando consultarla**: Per monitorare lo stato delle pratiche, inviare comunicazioni, rispondere a richieste di integrazione, scaricare documentazione (inviata dall'Ente) oppure le ricevute prodotte.
 
 ### 3. Pratiche importate
 Istanze presentate **prima dell'attivazione di GeoTecSUE** (via PEC, cartaceo o altri portali) e recuperate dal gestionale dell'Ente.
