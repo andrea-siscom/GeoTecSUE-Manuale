@@ -1,6 +1,6 @@
 ---
 title: Importazione pratiche pregresse
-nav_order: 20
+nav_order: 30
 parent: Le mie istanze
 description: Come importare su GeoTecSUE le pratiche presentate prima dell'attivazione del portale per inviare comunicazioni e integrazioni
 keywords: [importazione, pratiche pregresse, gestionale, pratiche storiche, comunicazioni, fine lavori, integrazioni, recupero pratiche]
