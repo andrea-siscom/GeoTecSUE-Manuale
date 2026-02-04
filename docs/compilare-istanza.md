@@ -67,6 +67,7 @@ In questa sezione sono presenti:
 - Documenti obbligatori richiesti
 - Documenti liberi
 - Documenti facoltativi
+
 Non è possibile completare la pratica se non sono stati inseriti *almeno* tutti i documenti obbligatori.
 In base alle impostazioni previste dall'Ente, i documenti possono essere richiesti con (o senza) firma digitale e al massimo di una certa dimensione. Per ogni documento richiesto si può allegare uno (o più) documenti che devono soddisfare le caratteristiche richieste.
 
