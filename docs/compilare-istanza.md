@@ -1,6 +1,6 @@
 ---
 title: Compilare un'istanza
-nav_order: 10
+nav_order: 20
 parent: Le mie istanze
 ---
 
