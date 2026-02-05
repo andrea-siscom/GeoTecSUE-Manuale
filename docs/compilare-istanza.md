@@ -13,9 +13,9 @@ Questa sezione spiega come compilare un'istanza edilizia su **GeoTecSUE**, dall'
 ## Quando usi questa guida
 
 Accedi alla schermata di compilazione quando:
-- [Crei una nuova istanza](creazione-nuova-istanza.html) (pulsante "Nuova")
-- [Duplichi una pratica esistente](creazione-nuova-istanza.html#metodo-2-duplicare-una-pratica-esistente)
-- Avvii una nuova comunicazione dal [dettaglio di una pratica](visualizzare-dettaglio-pratica.html#comunicazioni-verso-lente)
+- [Crei una nuova istanza](nuova-istanza.html) (pulsante "Nuova")
+- [Duplichi una pratica esistente](nuova-istanza.html#metodo-2-duplicare-una-pratica-esistente)
+- Avvii una nuova comunicazione dal [dettaglio di una pratica](dettaglio-istanza.html#comunicazioni-verso-lente)
 - Riprendi una pratica salvata in compilazione
 
 ## Panoramica della compilazione
