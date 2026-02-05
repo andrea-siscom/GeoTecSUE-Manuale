@@ -699,7 +699,7 @@ Tutti i file caricati per lo stesso documento verranno considerati come un unico
 Dopo aver compilato l'istanza:
 
 - [Consultare l'elenco delle istanze](elenco-istanze.html)
-- [Visualizzare il dettaglio della pratica](visualizzare-dettaglio-pratica.html)
+- [Visualizzare il dettaglio della pratica](dettaglio-istanza.html)
 - [Comprendere il ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza)
 
 ---
@@ -707,4 +707,4 @@ Dopo aver compilato l'istanza:
 **Hai bisogno di aiuto durante la compilazione?** 
 - Consulta [Interfaccia e convenzioni](../docs/interfaccia-e-convenzioni.html) per capire i pulsanti
 - Verifica [Nozioni di base](../docs/nozioni-di-base.html) per concetti fondamentali
-- Contatta l'assistenza dell'Ente in caso di dubbi specifici sulla pratica
+- Contatta l'assistenza tecnica in caso di dubbi specifici sulla pratica
