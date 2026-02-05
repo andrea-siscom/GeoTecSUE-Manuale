@@ -283,7 +283,7 @@ Dopo aver pagato tramite PagoPA:
 > L'aggiornamento può richiedere alcuni minuti dopo l'effettivo pagamento. Se lo stato non cambia immediatamente, riprova dopo qualche minuto.
 
 {: .note }
-> Per la spiegazione dettagliata di tutti gli stati possibili, consulta [Appendice: Stati PagoPA](../appendici/pagopa-stati.html).
+> Per la spiegazione dettagliata di tutti gli stati possibili, consulta [Appendice: Stati PagoPA](appendici/pagopa-stati.html).
 
 ## Comunicazioni verso l'Ente
 
