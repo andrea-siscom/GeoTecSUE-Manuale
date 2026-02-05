@@ -303,4 +303,4 @@ Prima di procedere con l'uso operativo di GeoTecSUE, assicurati di aver compreso
 
 - Consulta [Interfaccia e convenzioni](interfaccia-e-convenzioni.html) per familiarizzare con l'interfaccia
 - Leggi [Creazione di una nuova istanza](nuova-istanza.html) per iniziare a lavorare
-- Per stati particolari, vedi [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html)
+- Per stati particolari, vedi [Appendice: Ciclo di vita dettagliato](appendici/ciclo-vita-dettagliato.html)
