@@ -555,7 +555,7 @@ Sotto le informazioni base possono apparire fino a 5 sezioni dedicate (se l'Ente
 ## Dati verifica pratica
 
 {: .note }
-> Questa sezione **non è utilizzata** in quanto lo stato **Verificata** non viene trasmesso su GeoTecSUE. Vedi [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html#verificata) per maggiori informazioni.
+> Questa sezione **non è utilizzata** in quanto lo stato **Verificata** non viene trasmesso su GeoTecSUE. Vedi [Appendice: Ciclo di vita dettagliato](appendici/ciclo-vita-dettagliato.html#verificata) per maggiori informazioni.
 
 ## Dati provvedimento
 
@@ -719,7 +719,7 @@ Se hai effettuato pagamenti tramite **PagoPA** per la pratica o per comunicazion
 - **Data Richiesta IUV**: Quando è stato generato il codice IUV
 - **Data Pagamento IUV**: Quando hai effettivamente pagato
 - **Importo**: Cifra versata
-- **Stato**: Stato finale (vedi [Stati PagoPA](../appendici/pagopa-stati.html))
+- **Stato**: Stato finale (vedi [Stati PagoPA](appendici/pagopa-stati.html))
 
 ## Tracciabilità
 
@@ -885,7 +885,7 @@ Anche con le limitazioni, importare una pratica può essere utile per:
 ✅ **Scaricare ricevute** e documenti dell'Ente  
 ✅ **Avere visibilità** sulle pratiche in corso anche se presentate prima di GeoTecSUE
 
-Per maggiori informazioni sull'importazione, consulta [Importazione pratiche pregresse](importazione-pratiche-pregresse.html).
+Per maggiori informazioni sull'importazione, consulta [Importazione pratiche pregresse](non-presenti-geotecsue.html).
 
 ---
 
@@ -959,9 +959,9 @@ Se l'Ente è variato:
 ## Prossimi passi
 
 - [Consultare l'elenco delle istanze](elenco-istanze.html)
-- [Creare una nuova istanza](creazione-nuova-istanza.html)
-- [Importare pratiche pregresse](importazione-pratiche-pregresse.html)
+- [Creare una nuova istanza](nuova-istanza.html)
+- [Importare pratiche pregresse](non-presenti-geotecsue.html)
 
 ---
 
-**Hai bisogno di aiuto?** Consulta la sezione [Domande frequenti](../appendici/faq.html) o contatta l'assistenza dell'Ente.
+**Hai bisogno di aiuto?** Contatta l'assistenza tecnica.
