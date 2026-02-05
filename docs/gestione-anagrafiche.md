@@ -1,5 +1,5 @@
 ---
-title: Creazione di una nuova istanza
+title: Gestione delle anagrafiche
 nav_order: 10
 parent: Gestione anagrafiche e strumenti
 ---
