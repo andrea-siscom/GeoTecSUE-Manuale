@@ -21,7 +21,7 @@ Per visualizzare il dettaglio di una pratica:
 Il sistema apre la pagina di dettaglio con tutte le informazioni e le azioni disponibili.
 
 {: .note }
-> Questa guida si applica a tutte le pratiche **tranne** la Notifica Preliminare (specifica del Piemonte), che ha un dettaglio dedicato descritto nell'[appendice](../appendici/notifica-preliminare-piemonte.html).
+> Questa guida si applica a tutte le pratiche **tranne** la Notifica Preliminare (specifica del Piemonte), che ha un dettaglio leggermente personalizzato.
 
 ## Panoramica della pagina
 
