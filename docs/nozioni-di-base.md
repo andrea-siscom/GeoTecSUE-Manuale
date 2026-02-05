@@ -169,7 +169,7 @@ L'Ente ha espresso parere negativo dopo l'istruttoria. Come per l'archiviazione,
 Si verifica quando il titolare della pratica contesta l'operato del professionista originale e revoca formalmente l'incarico. Il professionista può visualizzare la pratica ma non può più operare.
 
 {: .warning }
-> Per stati meno frequenti o specifici di alcune Regioni (es. stati SPRESALWEB per il Piemonte, stato "Verificata", "Rifiutata"), consulta la sezione [Appendice: Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html).
+> Per stati meno frequenti o specifici di alcune Regioni (es. stati SPRESALWEB per il Piemonte, stato "Verificata", "Rifiutata"), consulta la sezione [Appendice: Ciclo di vita dettagliato](appendici/ciclo-vita-dettagliato.html).
 
 ## Diagramma del ciclo di vita
 
