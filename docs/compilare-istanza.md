@@ -578,7 +578,7 @@ Se lo stato è **"Pagamento eseguito"**, puoi procedere con la validazione dell'
 {: .warning }
 > L'aggiornamento dello stato può richiedere alcuni minuti. Se non vedi subito il cambiamento, attendi e riprova.
 
-Per i dettagli su tutti gli stati PagoPA, consulta [Appendice: Stati PagoPA](../appendici/pagopa-stati.html).
+Per i dettagli su tutti gli stati PagoPA, consulta [Appendice: Stati PagoPA](appendici/pagopa-stati.html).
 
 ---
 
