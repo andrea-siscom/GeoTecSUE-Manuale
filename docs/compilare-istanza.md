@@ -124,7 +124,7 @@ Nella parte superiore della pagina trovi i pulsanti per gestire l'istanza.
 
 **Dove torna**:
 - All'[elenco istanze](elenco-istanze.html) (se sei arrivato da lì)
-- Al [dettaglio della pratica](visualizzare-dettaglio-pratica.html) (se stai compilando una comunicazione)
+- Al [dettaglio della pratica](dettaglio-istanza.html) (se stai compilando una comunicazione)
 
 {: .warning }
 > Prima di cliccare "Ritorna", assicurati di aver salvato. I dati non salvati andranno persi.
