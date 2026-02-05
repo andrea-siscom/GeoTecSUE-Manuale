@@ -413,8 +413,8 @@ Per lavorare su più pratiche devi:
 ## Prossimi passi
 
 - [Visualizzare il dettaglio di una pratica](dettaglio-istanza.html)
-- [Creare una nuova istanza](creazione-nuova-istanza.html)
-- [Importare pratiche pregresse](importazione-pratiche-pregresse.html)
+- [Creare una nuova istanza](nuova-istanza.html)
+- [Importare pratiche pregresse](non-presenti-geotecsue.html)
 
 ---
-**Hai bisogno di aiuto?** Consulta la sezione [Interfaccia e convenzioni](../docs/interfaccia-e-convenzioni.html) per capire meglio i pulsanti e le icone, oppure contatta l'assistenza tecnica.
+**Hai bisogno di aiuto?** Consulta la sezione [Interfaccia e convenzioni](interfaccia-e-convenzioni.html) per capire meglio i pulsanti e le icone, oppure contatta l'assistenza tecnica.
