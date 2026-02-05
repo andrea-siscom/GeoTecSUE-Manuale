@@ -44,6 +44,10 @@ Puoi:
 - [Consultare l'elenco delle pratiche](/GeoTecSUE-Manuale/elenco-istanze)
 - [Dettaglio istanza](/GeoTecSUE-Manuale/elenco-istanze)
 
+### Gestione anagrafiche e strumenti
+- [Gestione anagrafiche](/GeoTecSUE-Manuale/docs/gestione-anagrafiche)
+- [Autocompilazione modelli](/GeoTecSUE-Manuale/docs/autocompilazione-modelli)
+
 ### Appendici
 - [Ciclo di vita dettagliato](/GeoTecSUE-Manuale/docs/appendici/ciclo-vita-dettagliato)
 - [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
