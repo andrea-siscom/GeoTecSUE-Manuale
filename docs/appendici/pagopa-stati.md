@@ -23,7 +23,7 @@ Gli stati derivano dal **sistema PagoPA** e vengono rappresentati nel portale tr
 
 ## Dove vedi gli stati
 
-Gli stati PagoPA appaiono in due sezioni del [dettaglio pratica](../docs/visualizzare-dettaglio-pratica.html):
+Gli stati PagoPA appaiono in due sezioni del [dettaglio pratica](../dettaglio-istanza.html):
 
 1. **Pagamenti aperti**: Pagamenti in attesa o in corso
 2. **Pagamenti completati**: Pagamenti conclusi (eseguiti o falliti)
@@ -329,7 +329,7 @@ Verifica sempre con l'Ente prima di procedere.
 
 ## Prossimi passi
 
-- [Visualizzare il dettaglio di una pratica](../docs/visualizzare-dettaglio-pratica.html#pagamenti-aperti-pagopa) (sezione Pagamenti)
+- [Visualizzare il dettaglio di una pratica](../dettaglio-istanza.html#pagamenti-aperti-pagopa) (sezione Pagamenti)
 - [Ciclo di vita dettagliato](ciclo-vita-dettagliato.html)
 
 ---
