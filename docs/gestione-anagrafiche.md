@@ -438,7 +438,7 @@ Dopo aver popolato le anagrafiche:
 
 - [Compilare un'istanza](compilare-istanza.html) usando l'autocompilazione
 - [Autocompilazione modelli](autocompilazione-modelli.html) per generare documenti precompilati
-- [Creare una nuova istanza](creazione-nuova-istanza.html) velocemente
+- [Creare una nuova istanza](nuova-istanza.html) velocemente
 
 ---
 
