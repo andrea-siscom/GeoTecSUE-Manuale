@@ -58,7 +58,7 @@ Questi stati si verificano quando la pratica è sotto il tuo controllo, prima de
 **Cosa puoi fare**:
 - Proseguire la compilazione
 - Salvare e riprendere in seguito (nessun limite di tempo)
-- Condividere con [soggetti compilatori](../docs/nozioni-di-base.html#soggetti-compilatori-aggiuntivi)
+- Condividere con [soggetti compilatori](../nozioni-di-base.html#soggetti-compilatori-aggiuntivi)
 - Cancellare l'istanza se non serve più
 
 **Stato successivo**:
@@ -321,7 +321,7 @@ Questi stati rappresentano la conclusione del procedimento amministrativo. Se ra
 - ❌ Modificare alcun dato
 - ❌ Riaprire la pratica
 
-**Visibilità**: La pratica rimane visibile nel tuo [elenco istanze](../docs/elenco-istanze.html) ma non è più operativa.
+**Visibilità**: La pratica rimane visibile nel tuo [elenco istanze](../elenco-istanze.html) ma non è più operativa.
 
 {: .warning }
 > L'archiviazione è **definitiva**. Se hai bisogno di ripresentare la pratica, dovrai creare una nuova istanza.
@@ -530,10 +530,10 @@ Questi stati esistono ancora tecnicamente ma sono **sconsigliati**, **in disuso*
 
 ## Prossimi passi
 
-- [Ciclo di vita semplificato](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza) (nozioni di base)
-- [Visualizzare il dettaglio di una pratica](../docs/visualizzare-dettaglio-pratica.html)
+- [Ciclo di vita semplificato](../nozioni-di-base.html#ciclo-di-vita-di-unistanza) (nozioni di base)
+- [Visualizzare il dettaglio di una pratica](../dettaglio-istanze.html)
 - [Stati PagoPA](pagopa-stati.html) (appendice)
 
 ---
 
-**Hai bisogno di chiarimenti?** Consulta la sezione [Domande frequenti](faq.html) o contatta l'assistenza dell'Ente.
+**Hai bisogno di chiarimenti?** Contatta l'assistenza tecnica.
