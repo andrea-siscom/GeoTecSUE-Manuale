@@ -321,9 +321,7 @@ Dopo aver importato una pratica pregressa:
 
 - [Visualizzare il dettaglio della pratica](dettaglio-istanza.html)
 - [Consultare l'elenco delle istanze](elenco-istanze.html)
-- Inviare comunicazioni (es. Fine Lavori)
-- Rispondere a richieste di integrazione
 
 ---
 
-**Hai bisogno di aiuto?** Contatta l'assistenza dell'Ente fornendo il numero di protocollo o registrazione della pratica che vuoi importare.
+**Hai bisogno di aiuto?** Contatta l'Ente fornendo il numero di protocollo o registrazione della pratica che vuoi importare.
