@@ -263,11 +263,10 @@ Dopo aver creato la nuova istanza:
 - **Se hai duplicato**: Verifica i dati precompilati, completa i campi mancanti e carica gli allegati
 
 Per continuare:
-- [Compilare i dati dell'istanza](#) (sezione in preparazione)
-- [Caricare allegati](#) (sezione in preparazione)
+- [Compilare i dati dell'istanza](compilare-istanza.html)
 - [Consultare l'elenco delle istanze](elenco-istanze.html)
 - [Visualizzare il dettaglio di una pratica](dettaglio-istanza.html)
 
 ---
 
-**Hai bisogno di aiuto?** Consulta la sezione [Domande frequenti](../appendici/faq.html) o contatta l'assistenza dell'Ente.
+**Hai bisogno di aiuto?** Contatta l'assistenza tecnica.
