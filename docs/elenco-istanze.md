@@ -256,7 +256,7 @@ Per azioni più complesse (inviare comunicazioni, caricare integrazioni, effettu
 
 Questa sezione visualizza le istanze **importate dal gestionale dell'Ente**, ossia pratiche presentate prima dell'attivazione di GeoTecSUE tramite altri canali (PEC, cartaceo, altri portali) ed importate via importazione.
 
-Per maggiori dettagli sull'importazione, consulta [Importazione pratiche pregresse](importazione-pratiche-pregresse.html).
+Per maggiori dettagli sull'importazione, consulta [Importazione pratiche pregresse](non-presenti-geotecsue.html).
 
 ### Colonne dell'elenco
 
