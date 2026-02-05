@@ -531,7 +531,7 @@ Questi stati esistono ancora tecnicamente ma sono **sconsigliati**, **in disuso*
 ## Prossimi passi
 
 - [Ciclo di vita semplificato](../nozioni-di-base.html#ciclo-di-vita-di-unistanza) (nozioni di base)
-- [Visualizzare il dettaglio di una pratica](../dettaglio-istanze.html)
+- [Visualizzare il dettaglio di una pratica](../dettaglio-istanza.html)
 - [Stati PagoPA](pagopa-stati.html) (appendice)
 
 ---
