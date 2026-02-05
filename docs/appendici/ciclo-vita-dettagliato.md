@@ -11,7 +11,7 @@ keywords: [stati pratica, ciclo di vita, inviata, protocollata, registrata, esec
 Questa appendice descrive **tutti gli stati possibili** durante il ciclo di vita di un'istanza su **GeoTecSUE**, inclusi stati specifici regionali, stati deprecati e casistiche particolari.
 
 {: .note }
-> Per una panoramica semplificata degli stati principali, consulta [Nozioni di base - Ciclo di vita](../docs/nozioni-di-base.html#ciclo-di-vita-di-unistanza).
+> Per una panoramica semplificata degli stati principali, consulta [Nozioni di base - Ciclo di vita](../nozioni-di-base.html#ciclo-di-vita-di-unistanza).
 
 ## Organizzazione degli stati
 
