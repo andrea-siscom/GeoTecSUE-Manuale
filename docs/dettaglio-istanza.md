@@ -257,7 +257,7 @@ I pagamenti per cui è già stato generato lo IUV (dall'Ente o da te) appaiono i
 | **Rata** | Numero rata (1 se unica soluzione, 1/2/3... se dilazionato) |
 | **Scadenza** | Data entro cui pagare |
 | **Importo (€)** | Cifra da versare |
-| **Stato** | Stato del pagamento (vedi [Stati PagoPA](../appendici/pagopa-stati.html)) |
+| **Stato** | Stato del pagamento (vedi [Stati PagoPA](appendici/pagopa-stati.html)) |
 | **Dettaglio** | Pulsante azzurro per vedere i dati dello IUV |
 | **Aggiorna** | Pulsante arancione per verificare l'avvenuto pagamento |
 
