@@ -95,7 +95,7 @@ La Notifica Preliminare ha **stati dedicati** diversi dalle pratiche normali:
 | **Inviata SPRESALWEB (via MUDE)** | Trasmessa a MUDE, in attesa di protocollazione |
 | **Protocollata SPRESALWEB** | Protocollata dallo SPRESAL (stato finale) |
 
-Per i dettagli su questi stati, consulta [Ciclo di vita dettagliato](../appendici/ciclo-vita-dettagliato.html#stati-regionali-specifici-piemonte).
+Per i dettagli su questi stati, consulta [Ciclo di vita dettagliato](appendici/ciclo-vita-dettagliato.html#stati-regionali-specifici-piemonte).
 
 ---
 
