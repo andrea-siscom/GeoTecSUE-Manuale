@@ -49,6 +49,10 @@ Puoi:
 - [Gestione anagrafiche](/GeoTecSUE-Manuale/docs/gestione-anagrafiche)
 - [Autocompilazione modelli](/GeoTecSUE-Manuale/docs/autocompilazione-modelli)
 
+### Assistenza e risoluzione problemi
+- [Assistenza tecnica](/GeoTecSUE-Manuale/docs/assistenza-tecnica)
+- Troubleshooting
+
 ### Appendici
 - [Ciclo di vita dettagliato](/GeoTecSUE-Manuale/docs/appendici/ciclo-vita-dettagliato)
 - [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
