@@ -392,7 +392,7 @@ In linea di massima **no**, la Notifica Preliminare **non prevede pagamenti** (m
 
 ### Posso duplicare una Notifica Preliminare?
 
-**Sì**, puoi [duplicare](creazione-nuova-istanza.html#metodo-2-duplicare-una-pratica-esistente) una notifica precedente per riutilizzare i dati (coordinatori, imprese, ecc.).
+**Sì**, puoi [duplicare](nuova-istanza.html#metodo-2-duplicazione-da-pratica-esistente) una notifica precedente per riutilizzare i dati (coordinatori, imprese, ecc.).
 
 Attenzione: Se devi fare un **aggiornamento formale**, usa la procedura con "Aggiornamento" spuntato.
 
@@ -430,4 +430,4 @@ Dopo aver inviato la Notifica Preliminare:
 ---
 
 **Hai bisogno di aiuto specifico sulla Notifica Preliminare?**  
-Contatta l'assistenza tecnica fornendo il numero istanza MUDE (22 cifre).
+Contatta l'assistenza tecnica fornendo il numero istanza MUDE (22 cifre) nel caso in cui tu abbia già trasmesso l'istanza oppure indicando la chiave (numero pratica) GeoTecSUE di 19 cifre.
