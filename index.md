@@ -51,7 +51,8 @@ Puoi:
 
 ### Assistenza e risoluzione problemi
 - [Assistenza tecnica](/GeoTecSUE-Manuale/docs/assistenza-tecnica)
-- Troubleshooting
+- [Troubleshooting](/GeoTecSUE-Manuale/docs/troubleshooting)
+- [FAQ](/GeoTecSUE-Manuale/docs/faq)
 
 ### Appendici
 - [Ciclo di vita dettagliato](/GeoTecSUE-Manuale/docs/appendici/ciclo-vita-dettagliato)
