@@ -1,8 +1,8 @@
 title: Manuale GeoTecSUE
 description: Guida operativa per professionisti all'utilizzo del portale GeoTecSUE
 
-url: "https://andrea-siscom.github.io"
-baseurl: "/GeoTecSUE-Manuale"
+url: "https://geotecsue.github.io"
+baseurl: "/manuale"
 
 remote_theme: pmarsceill/just-the-docs
 
