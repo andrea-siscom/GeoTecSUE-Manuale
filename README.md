@@ -31,13 +31,30 @@ Puoi:
 ## Indice dei contenuti
 
 ### Introduzione
-- [Accesso al portale e gestione del profilo](docs/accesso-e-profilo)
-- [Nozioni di base](docs/nozioni-di-base)
-- [Interfaccia e convenzioni](docs/interfaccia-e-convenzioni)
+- [Accesso al portale e gestione del profilo](/GeoTecSUE-Manuale/docs/accesso-e-profilo)
+- [Nozioni di base](/GeoTecSUE-Manuale/docs/nozioni-di-base)
+- [Interfaccia e convenzioni](/GeoTecSUE-Manuale/docs/interfaccia-e-convenzioni)
 
-### Gestione delle pratiche
-- [Creazione di una nuova istanza](docs/nuova-istanza)
-- [Compilare un'istanza](docs/compilare-istanza)
+### Le mie istanze
+- [Creazione di una nuova istanza](/GeoTecSUE-Manuale/docs/nuova-istanza)
+- [Compilare un'istanza](/GeoTecSUE-Manuale/docs/compilare-istanza)
+- [Importazione pratiche pregresse](/GeoTecSUE-Manuale/docs/non-presenti-geotecsue)
+- [Consultare l'elenco delle pratiche](/GeoTecSUE-Manuale/docs/elenco-istanze)
+- [Dettaglio istanza](/GeoTecSUE-Manuale/docs/dettaglio-istanza)
+- [Notifica Preliminare (Piemonte)](/GeoTecSUE-Manuale/docs/notifica-preliminare)
+
+### Gestione anagrafiche e strumenti
+- [Gestione anagrafiche](/GeoTecSUE-Manuale/docs/gestione-anagrafiche)
+- [Autocompilazione modelli](/GeoTecSUE-Manuale/docs/autocompilazione-modelli)
+
+### Assistenza e risoluzione problemi
+- [Assistenza tecnica](/GeoTecSUE-Manuale/docs/assistenza-tecnica)
+- [Troubleshooting](/GeoTecSUE-Manuale/docs/troubleshooting)
+- [FAQ](/GeoTecSUE-Manuale/docs/faq)
+
+### Appendici
+- [Ciclo di vita dettagliato](/GeoTecSUE-Manuale/docs/appendici/ciclo-vita-dettagliato)
+- [Stati PagoPA](/GeoTecSUE-Manuale/docs/appendici/pagopa-stati)
 
 ---
 
