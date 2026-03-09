@@ -31,12 +31,13 @@ Puoi:
 ## Indice dei contenuti
 
 ### Introduzione
-- [Accesso al portale e gestione del profilo](docs/accesso-e-profilo.md)
-- [Nozioni di base](docs/nozioni-di-base.md)
+- [Accesso al portale e gestione del profilo](docs/accesso-e-profilo)
+- [Nozioni di base](docs/nozioni-di-base)
+- [Interfaccia e convenzioni](docs/interfaccia-e-convenzioni)
 
 ### Gestione delle pratiche
-- [Creazione di una nuova istanza](docs/nuova-istanza.md)
-- [Gestione Istanze non presenti su GeoTecSUE](docs/non-presenti-geotecsue.md)
+- [Creazione di una nuova istanza](docs/nuova-istanza)
+- [Compilare un'istanza](docs/compilare-istanza)
 
 ---
 
