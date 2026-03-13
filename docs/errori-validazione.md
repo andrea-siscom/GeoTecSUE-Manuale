@@ -120,6 +120,8 @@ Questi errori possono apparire in **qualsiasi tipo di pratica**. Sono controlli 
 
 {: .warning }
 > **IMPORTANTE**: CAP errato è una delle cause principali del blocco IUV PagoPA! Se lo IUV non si genera, verifica il CAP.
+
+{: .warning }
 > **IMPORTANTE**: il CAP è sempre riferito ad un codice nazionale italiano. Se si deve inserire un CAP estero, è necessario che tale valore sia di 5 cifre.
 Se ad esempio il CAP è di sole 3 cifre, si può fare un'aggiunta di due zeri iniziali per portarlo a 5 cifre. Oppure si può inserire un CAP del tipo "00000"
 
@@ -152,6 +154,8 @@ Se ad esempio il CAP è di sole 3 cifre, si può fare un'aggiunta di due zeri in
 
 {: .warning }
 > **IMPORTANTE**: CAP errato è una delle cause principali del blocco IUV PagoPA! Se lo IUV non si genera, verifica il CAP.
+
+{: .warning }
 > **IMPORTANTE**: il CAP è sempre riferito ad un codice nazionale italiano. Se si deve inserire un CAP estero, è necessario che tale valore sia di 5 cifre.
 Se ad esempio il CAP è di sole 3 cifre, si può fare un'aggiunta di due zeri iniziali per portarlo a 5 cifre. Oppure si può inserire un CAP del tipo "00000"
 
