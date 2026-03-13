@@ -79,11 +79,7 @@ Questi errori possono apparire in **qualsiasi tipo di pratica**:
 
 ### 2. Errori specifici per pratica
 
-Ogni tipo di pratica ha validazioni specifiche:
-- CILA → [Errori CILA](errori-validazione-cila.html)
-- SCIA → [Errori SCIA](errori-validazione-scia.html)
-- Permesso di Costruire → [Errori PdC](errori-validazione-pdc.html)
-- Altre pratiche → Vedi [Indice completo](#indice-pratiche)
+Ogni tipo di pratica ha validazioni specifiche: nei prossimi rilasci del manuale ci saranno sezioni apposite.
 
 ---
 
@@ -691,28 +687,8 @@ Se ad esempio il CAP è di sole 3 cifre, si può fare un'aggiunta di due zeri in
 
 ## Indice pratiche
 
-Di seguito l'elenco completo delle pratiche con guide specifiche agli errori:
-
-### CILA (Comunicazione Inizio Lavori Asseverata)
-- [Errori di validazione CILA](errori-validazione-cila.html) - Include tutte le varianti regionali
-
-### SCIA (Segnalazione Certificata Inizio Attività)
-- [Errori di validazione SCIA](errori-validazione-scia.html) - Include tutte le varianti regionali
-
-### Permesso di Costruire
-- [Errori di validazione PdC](errori-validazione-pdc.html) - Include tutte le varianti regionali
-
-### CIL (Comunicazione Inizio Lavori)
-- [Errori di validazione CIL](errori-validazione-cil.html) - Include tutte le varianti regionali
-
-### DIA (Denuncia Inizio Attività)
-- [Errori di validazione DIA](errori-validazione-dia.html) - Include tutte le varianti regionali
-
-### Denuncia Sismica
-- [Errori di validazione Denuncia Sismica](errori-validazione-denuncia-sismica.html) - Tutte le varianti regionali
-
 {: .note }
-> Altre pratiche specifiche (autorizzazioni, certificati, comunicazioni) saranno aggiunte progressivamente.
+> Le pratiche saranno aggiunte progressivamente.
 
 ---
 
